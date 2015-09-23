@@ -24,3 +24,5 @@ Robotics
 * [A Gentle Introduction to ROS](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros)
   ([online](https://cse.sc.edu/~jokane/agitr/))
 * [Learning ROS for Robotics Programming](https://www.goodreads.com/book/show/18643014-learning-ros-for-robotics-programming)
+* [Learning Robotics Using Python](https://www.goodreads.com/book/show/25671129-learning-robotics-using-python)
+* [Programming Robots with ROS](https://www.goodreads.com/book/show/25801530-programming-robots-with-ros)
