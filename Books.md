@@ -11,6 +11,9 @@ Inspiration
   * [Daemon](https://www.goodreads.com/book/show/12308790-daemon)
   * [Freedom™](https://www.goodreads.com/book/show/11231211-freedom-tm)
   * [Kill Decision](https://www.goodreads.com/book/show/15740433-kill-decision)
+* A.E. van Vogt
+  * [The Weapon Makers](https://www.goodreads.com/book/show/525006.The_Weapon_Makers)
+  * [The Weapon Shops of Isher](https://www.goodreads.com/book/show/358902.The_Weapon_Shops_of_Isher)
 
 Programming
 -----------
