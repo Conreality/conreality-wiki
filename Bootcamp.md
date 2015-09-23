@@ -1,3 +1,5 @@
+1. Read the [[books|Books]] under the header *Inspiration*.
+
 Courses
 -------
 
