@@ -1,0 +1,26 @@
+Fiction
+-------
+
+* Ramez Naam
+  * [Nexus](https://www.goodreads.com/book/show/24968342-nexus)
+  * [Crux](https://www.goodreads.com/book/show/24968626-crux)
+  * [Apex](https://www.goodreads.com/book/show/22449929-apex)
+* Neal Stephenson
+  * [The Diamond Age](https://www.goodreads.com/book/show/15719945-the-diamond-age)
+* Daniel Suarez
+  * [Daemon](https://www.goodreads.com/book/show/12308790-daemon)
+  * [Freedom™](https://www.goodreads.com/book/show/11231211-freedom-tm)
+  * [Kill Decision](https://www.goodreads.com/book/show/15740433-kill-decision)
+
+Programming
+-----------
+
+* [Real World OCaml](https://www.goodreads.com/book/show/19260108-real-world-ocaml)
+  ([online](https://realworldocaml.org/))
+
+Robotics
+--------
+
+* [A Gentle Introduction to ROS](https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros)
+  ([online](https://cse.sc.edu/~jokane/agitr/))
+* [Learning ROS for Robotics Programming](https://www.goodreads.com/book/show/18643014-learning-ros-for-robotics-programming)
