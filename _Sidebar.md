@@ -18,6 +18,7 @@
     * [[Drones]]
     * [[Sensors]]
   * **Software**
+    * [[Libraries]]
     * [[Tools]]
   * [[Videos]]
 * **Deployment & Evangelism**
