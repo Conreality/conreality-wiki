@@ -1,4 +1,15 @@
 * [[Home]]
+* **Installation & Usage**
+  * [[Dependencies]]
+  * [[Installation]]
+  * [[Packaging]]
+* **Community & Evangelism**
+  * [[Marketing]]
+  * [[Roadmap]]
+* **Quality Assurance**
+  * [[Coding Conventions]]
+  * [[Test Suite]]
+  * [[Release Procedure]]
 * **Research & Development**
   * [[Architecture]]
   * [[Command & Control]]
@@ -25,6 +36,3 @@
     * [[Tools]]
   * [[Tutorials]]
   * [[Videos]]
-* **Deployment & Evangelism**
-  * [[Marketing]]
-  * [[Roadmap]]
