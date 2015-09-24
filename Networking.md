@@ -10,7 +10,8 @@ IPv6 and IPsec.
 Requirements
 ------------
 
-* In a [[swarm||Swarming]], any node must be reachable in `log(N)` hops.
+* In a [[swarm||Swarming]], any node must be reachable in no more than `log(N)` hops.
+* Every (most?) node in a swarm must be capable of forwarding traffic to other nodes, i.e. a router.
 
 Mesh Networking
 ---------------
