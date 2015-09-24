@@ -44,7 +44,7 @@ Ball bullet.
 ##### blowback
 
 ##### Boyd Cycle
-aka the **OODA Loop**.
+See [[OODA Loop]].
 
 ##### C++
 a widely-used systems programming language.
@@ -197,7 +197,7 @@ the Open Dynamics Engine physics engine.
 ##### ontology
 
 ##### OODA Loop
-see *Boyd Cycle*.
+See [[OODA Loop]]. Also known as the **Boyd Cycle**.
 
 ##### OpenCV
 a computer vision software library.
