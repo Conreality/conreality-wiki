@@ -28,6 +28,8 @@ Mesh Networking
 * [Babel](https://en.wikipedia.org/wiki/Babel_(protocol))
 * [HWMP](https://en.wikipedia.org/wiki/Hybrid_Wireless_Mesh_Protocol) (mandated/defined in 802.11s)
 
+* [Speed-Aware Routing for UAV Ad-Hoc Networks](http://infoscience.epfl.ch/record/189798/files/GLOBECOM-2013-Stefano.pdf) (paper, PDF, compares OLSR and Babel, presents extensions to OLSR)
+
 Lag Compensation
 ----------------
 
