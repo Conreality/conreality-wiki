@@ -6,4 +6,5 @@ Messaging
 Simulation
 ----------
 
-* [Gazebo](http://gazebosim.org)
+* [Gazebo](http://gazebosim.org) -- Robotics simulator
+* [ns-3](https://www.nsnam.org/) -- Network simulator
