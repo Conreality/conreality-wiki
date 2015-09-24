@@ -22,9 +22,10 @@ Mesh Networking
 
 ### Routing Protocols
 
-* http://p2pfoundation.net/Optimized_Link_State_Protocol
-* https://en.wikipedia.org/wiki/B.A.T.M.A.N.
-* https://en.wikipedia.org/wiki/Babel_(protocol)
+* [OLSR](http://p2pfoundation.net/Optimized_Link_State_Protocol)
+* [B.A.T.M.A.N.](https://en.wikipedia.org/wiki/B.A.T.M.A.N.)
+* [Babel](https://en.wikipedia.org/wiki/Babel_(protocol))
+* [HWMP](https://en.wikipedia.org/wiki/Hybrid_Wireless_Mesh_Protocol) (mandated/defined in 802.11s)
 
 Lag Compensation
 ----------------
