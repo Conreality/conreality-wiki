@@ -1,17 +1,17 @@
 Inspiration
 -----------
 
-* Ramez Naam
+* **Ramez Naam**
   * [Nexus](https://www.goodreads.com/book/show/24968342-nexus)
   * [Crux](https://www.goodreads.com/book/show/24968626-crux)
   * [Apex](https://www.goodreads.com/book/show/22449929-apex)
-* Neal Stephenson
+* **Neal Stephenson**
   * [The Diamond Age](https://www.goodreads.com/book/show/15719945-the-diamond-age)
-* Daniel Suarez
+* **Daniel Suarez**
   * [Daemon](https://www.goodreads.com/book/show/12308790-daemon)
   * [Freedom™](https://www.goodreads.com/book/show/11231211-freedom-tm)
   * [Kill Decision](https://www.goodreads.com/book/show/15740433-kill-decision)
-* A.E. van Vogt
+* **A.E. van Vogt**
   * [The Weapon Makers](https://www.goodreads.com/book/show/525006.The_Weapon_Makers)
   * [The Weapon Shops of Isher](https://www.goodreads.com/book/show/358902.The_Weapon_Shops_of_Isher)
 
