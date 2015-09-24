@@ -1,6 +1,8 @@
 Inspiration
 -----------
 
+* **Michael Crichton**
+  * [Prey](https://www.goodreads.com/book/show/83763.Prey) (flocking swarms)
 * **Ramez Naam**
   * [Nexus](https://www.goodreads.com/book/show/24968342-nexus)
   * [Crux](https://www.goodreads.com/book/show/24968626-crux)
@@ -10,7 +12,9 @@ Inspiration
 * **Daniel Suarez**
   * [Daemon](https://www.goodreads.com/book/show/12308790-daemon)
   * [Freedom™](https://www.goodreads.com/book/show/11231211-freedom-tm)
-  * [Kill Decision](https://www.goodreads.com/book/show/15740433-kill-decision)
+  * [Kill Decision](https://www.goodreads.com/book/show/15740433-kill-decision) (insect-derived swarming)
+* **Vernor Vinge**
+  * [A Deepness in the Sky](https://www.goodreads.com/book/show/226004.A_Deepness_in_the_Sky) (Qeng Ho localizers, a smartdust concept)
 * **A.E. van Vogt**
   * [The Weapon Makers](https://www.goodreads.com/book/show/525006.The_Weapon_Makers)
   * [The Weapon Shops of Isher](https://www.goodreads.com/book/show/358902.The_Weapon_Shops_of_Isher)
