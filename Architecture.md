@@ -1,3 +1,5 @@
+This page will describe the software architecture.
+
 Sandboxing
 ----------
 

@@ -1,3 +1,5 @@
+This page describes the networking stack used on drones.
+
 Basic Premises
 --------------
 

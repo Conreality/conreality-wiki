@@ -15,6 +15,9 @@ Airsoft/Auto Electric Gun.
 ##### AEP
 Airsoft/Auto Electric Pistol.
 
+##### agent
+An agent is something that has agency.
+
 ##### AH
 Attitude Hold.
 
@@ -178,6 +181,9 @@ Military Simulation.
 Mid Powered Electric Gun.
 
 ##### multicopter
+
+##### NPC
+[Non-Player Character](https://en.wikipedia.org/wiki/Non-player_character).
 
 ##### OCaml
 a programming language used in the implementation of
