@@ -33,12 +33,12 @@ Robotics
 Miscellaneous
 -------------
 
+* [@bendiken's augmented reality bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=augmented-reality)
+* [@bendiken's computer vision bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-vision)
+* [@bendiken's computer simulation bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-simulation)
+* [@bendiken's computer graphics bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-graphics)
+* [@bendiken's programming bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=programming)
+* [@bendiken's robotics bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=robotics)
+* [@bendiken's secure software bookshelf](https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=secure-software)
 * http://www.realtimerendering.com/books.html#recommended
 * http://wiki.ros.org/Books
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=augmented-reality
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-vision
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-simulation
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-graphics
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=programming
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=robotics
-* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=secure-software
