@@ -29,3 +29,16 @@ Robotics
 * [Learning ROS for Robotics Programming](https://www.goodreads.com/book/show/18643014-learning-ros-for-robotics-programming)
 * [Learning Robotics Using Python](https://www.goodreads.com/book/show/25671129-learning-robotics-using-python)
 * [Programming Robots with ROS](https://www.goodreads.com/book/show/25801530-programming-robots-with-ros)
+
+Miscellaneous
+-------------
+
+* http://www.realtimerendering.com/books.html#recommended
+* http://wiki.ros.org/Books
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=augmented-reality
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-vision
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-simulation
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=computer-graphics
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=programming
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=robotics
+* https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=secure-software
