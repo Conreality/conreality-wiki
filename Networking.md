@@ -17,3 +17,10 @@ Mesh Networking
 
 * http://p2pfoundation.net/Optimized_Link_State_Protocol
 * https://en.wikipedia.org/wiki/Wireless_mesh_network
+
+Lag Compensation
+----------------
+
+* [Lag Compensation Technique in Quake 3](http://www.ra.is/unlagged/)
+  also at [HN](https://news.ycombinator.com/item?id=10034198)
+* [Multiplayer networking resources](https://github.com/nickdesaulniers/nickdesaulniers.github.com/issues/5)
