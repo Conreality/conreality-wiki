@@ -15,8 +15,15 @@ Requirements
 Mesh Networking
 ---------------
 
-* http://p2pfoundation.net/Optimized_Link_State_Protocol
+### Concepts
+
 * https://en.wikipedia.org/wiki/Wireless_mesh_network
+
+### Routing Protocols
+
+* http://p2pfoundation.net/Optimized_Link_State_Protocol
+* https://en.wikipedia.org/wiki/B.A.T.M.A.N.
+* https://en.wikipedia.org/wiki/Babel_(protocol)
 
 Lag Compensation
 ----------------
