@@ -8,10 +8,12 @@
   * [[Networking]]
   * [[Ontology]]
   * [[Physics]]
+  * [[Security]]
   * [[Swarming]]
 * **Resources & Reference**
   * [[Bootcamp]]
   * [[Books]]
+  * [[Courses]]
   * [[Glossary]]
   * [[Papers]]
   * **Hardware**
