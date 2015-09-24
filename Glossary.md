@@ -186,8 +186,8 @@ Mid Powered Electric Gun.
 [Non-Player Character](https://en.wikipedia.org/wiki/Non-player_character).
 
 ##### OCaml
-a programming language used in the implementation of
-Consensus Reality.
+A programming language used in the implementation of
+Consensus Reality. See [[OCaml]].
 
 ##### octocopter
 
