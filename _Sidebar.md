@@ -14,6 +14,7 @@
   * [[Bootcamp]]
   * [[Books]]
   * [[Courses]]
+  * [[Forums]]
   * [[Glossary]]
   * [[Papers]]
   * **Hardware**
@@ -22,6 +23,7 @@
   * **Software**
     * [[Libraries]]
     * [[Tools]]
+  * [[Tutorials]]
   * [[Videos]]
 * **Deployment & Evangelism**
   * [[Marketing]]
