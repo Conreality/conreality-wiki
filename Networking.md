@@ -12,6 +12,7 @@ Requirements
 
 * In a [[swarm||Swarming]], any node must be reachable in no more than `log(N)` hops.
 * Every (most?) node in a swarm must be capable of forwarding traffic to other nodes, i.e. a router.
+* Inter-node and ground station-to-node communication should take advantage of IP multicasting.
 
 Mesh Networking
 ---------------
