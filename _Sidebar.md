@@ -1,7 +1,7 @@
 * [[Home]]
 * **Research & Development**
   * [[Architecture]]
-  * [[Command & Control|Command]]
+  * [[Command & Control]]
   * [[Database]]
   * [[Messaging]]
   * [[Modeling]]
@@ -15,6 +15,7 @@
   * [[Glossary]]
   * [[Papers]]
   * **Hardware**
+    * [[Drones]]
     * [[Sensors]]
   * **Software**
     * [[Tools]]
