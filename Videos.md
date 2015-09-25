@@ -1,3 +1,8 @@
+Miscellaneous
+-------------
+
+* [A compilation of animals attacking drones](https://www.youtube.com/watch?v=9F8sPBsR9Lo)
+
 [[Swarming]]
 ------------
 
