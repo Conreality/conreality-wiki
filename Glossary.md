@@ -30,6 +30,10 @@ Aerial Photography.
 ##### APM
 ArduPilot Mega.
 
+##### augmented reality
+See [Augmented reality](https://en.wikipedia.org/wiki/Augmented_reality) in
+Wikipedia.
+
 ##### autonomous
 
 ##### back spin
