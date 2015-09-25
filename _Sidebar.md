@@ -1,14 +1,12 @@
 * [[Home]]
-* **Installation & Usage**
+* **Installation Guide**
   * [[Dependencies]]
   * [[Installation]]
   * [[Packaging]]
-* **Community & Evangelism**
-  * [[Marketing]]
-  * [[Roadmap]]
 * **Contributor Guide**
   * [[Contribution Guidelines]]
 * **Developer Guide**
+  * [[Roadmap]]
   * [[Project Structure]]
   * [[Naming Conventions]]
   * [[Coding Conventions]]
@@ -31,6 +29,7 @@
   * [[Bootcamp]]
   * [[Books]]
   * [[Courses]]
+  * [[Events]]
   * [[Forums]]
   * [[Glossary]]
   * [[Papers]]
