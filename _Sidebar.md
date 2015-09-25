@@ -1,8 +1,7 @@
 * [[Home]]
 * **Installation Guide**
-  * [[Dependencies]]
+  * [[Prerequisites]]
   * [[Installation]]
-  * [[Packaging]]
 * **Contributor Guide**
   * [[Contribution Guidelines]]
 * **Developer Guide**
@@ -14,6 +13,7 @@
     * [[Test Suite]]
     * [[Static Analysis]]
   * [[Release Procedure]]
+  * [[Packaging]]
 * **Research & Development**
   * [[Architecture]]
   * [[Command & Control]]
