@@ -22,12 +22,14 @@
     * [[Messaging]]
     * [[Networking]]
   * **Components**
-    * [[Server Daemon]]
     * [[Ontology]]
     * [[Physics Engine]]
+    * [[Server Daemon]]
     * [[Targeting System]]
   * **Design Notes**
+    * [[Computer Vision]]
     * [[Modeling]]
+    * [[Motion Planning]]
     * [[Security]]
     * [[Swarming]]
 * **Resources & Reference**
