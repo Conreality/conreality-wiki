@@ -4,6 +4,12 @@ Autopilot
 * [APM on Linux: Porting ArduPilot to Linux](https://www.youtube.com/watch?v=ealH3qP_pBE)
   by [@tridge](https://github.com/tridge) (2014)
 
+UAV Simulation
+--------------
+
+* [Quadrotor outdoor flight demo](https://www.youtube.com/watch?v=9CGIcc0jeuI)
+* [Quadrotor indoor SLAM demo](https://www.youtube.com/watch?v=IJbJbcZVY28)
+
 [[Swarming]]
 ------------
 
