@@ -22,3 +22,8 @@ requirement levels:
     NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
     "OPTIONAL" in this document are to be interpreted as described in
     RFC 2119.
+
+In this wiki, there is no need to capitalize these key words, though;
+instead, use emphasis (`**shall not**`) to set the key word apart from the
+normal flow of text and to indicate that the word is meant to be interpreted
+in this formal sense.
