@@ -4,6 +4,7 @@
   * [[Installation]]
 * **Contributor Guide**
   * [[Contribution Guidelines]]
+  * [[Mailing List]]
 * **Developer Guide**
   * [[Roadmap]]
   * [[Project Structure]]
@@ -16,15 +17,18 @@
   * [[Packaging]]
 * **Research & Development**
   * [[Architecture]]
-  * [[Command & Control]]
-  * [[Database]]
-  * [[Messaging]]
-  * [[Modeling]]
-  * [[Networking]]
-  * [[Ontology]]
-  * [[Physics]]
-  * [[Security]]
-  * [[Swarming]]
+    * [[Command & Control]]
+    * [[Database]]
+    * [[Messaging]]
+    * [[Networking]]
+  * **Components**
+    * [[Daemon]]
+    * [[Ontology]]
+    * [[Physics Engine]]
+  * **Design Notes**
+    * [[Modeling]]
+    * [[Security]]
+    * [[Swarming]]
 * **Resources & Reference**
   * [[Bootcamp]]
   * [[Books]]
