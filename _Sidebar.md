@@ -6,9 +6,15 @@
 * **Community & Evangelism**
   * [[Marketing]]
   * [[Roadmap]]
-* **Quality Assurance**
+* **Contributor Guide**
+  * [[Contribution Guidelines]]
+* **Developer Guide**
+  * [[Project Structure]]
+  * [[Naming Conventions]]
   * [[Coding Conventions]]
-  * [[Test Suite]]
+  * **Quality Assurance**
+    * [[Test Suite]]
+    * [[Static Analysis]]
   * [[Release Procedure]]
 * **Research & Development**
   * [[Architecture]]
