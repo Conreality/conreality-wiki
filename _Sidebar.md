@@ -22,9 +22,10 @@
     * [[Messaging]]
     * [[Networking]]
   * **Components**
-    * [[Daemon]]
+    * [[Server Daemon]]
     * [[Ontology]]
     * [[Physics Engine]]
+    * [[Targeting System]]
   * **Design Notes**
     * [[Modeling]]
     * [[Security]]
@@ -32,6 +33,7 @@
 * **Resources & Reference**
   * [[Bootcamp]]
   * [[Books]]
+  * [[Concepts]]
   * [[Courses]]
   * [[Events]]
   * [[Forums]]
@@ -39,6 +41,7 @@
   * [[Papers]]
   * **Hardware**
     * [[Drones]]
+    * [[Peripherals]]
     * [[Sensors]]
   * **Software**
     * [[Libraries]]
