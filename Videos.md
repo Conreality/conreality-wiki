@@ -15,6 +15,11 @@ UAV Autopilot
 * [APM on Linux: Porting ArduPilot to Linux](https://www.youtube.com/watch?v=ealH3qP_pBE)
   by [@tridge](https://github.com/tridge) (2014)
 
+UAV Navigation
+--------------
+
+* [TUM Computer Vision Group's channel on YouTube](https://www.youtube.com/user/cvprtum/videos)
+
 UAV Simulation
 --------------
 
