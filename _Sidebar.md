@@ -40,6 +40,7 @@
   * [[Events]]
   * [[Forums]]
   * [[Glossary]]
+  * [[News]]
   * [[Papers]]
   * **Hardware**
     * [[Drones]]
