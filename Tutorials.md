@@ -4,6 +4,7 @@ ROS & Robotics
 * [ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
 * [A Gentle Introduction to ROS](https://cse.sc.edu/~jokane/agitr/)
   by [@jokane](https://github.com/jokane)
+* [Why You Want to Use ROS 2](http://www.osrfoundation.org/wordpress2/wp-content/uploads/2015/04/ROSCON-2014-Why-you-want-to-use-ROS-2.pdf)
 
 Semantics & Linked Data
 -----------------------
