@@ -1,5 +1,5 @@
-This page collects upcoming events where the team can present the project
-and/or meet likeminded developers and users.
+*This page collects upcoming events where the team can present the project
+and/or meet likeminded developers and users.*
 
 2016
 ----

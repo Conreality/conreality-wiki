@@ -1,4 +1,4 @@
-This page will collect information about swarming research and algorithms.
+*This page will collect information about swarming research and algorithms.*
 
 Examples
 --------

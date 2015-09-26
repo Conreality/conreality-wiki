@@ -1,4 +1,4 @@
-This page will describe the software architecture.
+*This page will describe the software architecture.*
 
 Sandboxing
 ----------
