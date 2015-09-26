@@ -34,20 +34,21 @@
     * [[Swarming]]
 * **Resources & Reference**
   * [[Bootcamp]]
-  * [[Books]]
   * [[Concepts]]
   * [[Courses]]
   * [[Events]]
   * [[Forums]]
   * [[Glossary]]
-  * [[News]]
-  * [[Papers]]
   * **Hardware**
     * [[Drones]]
     * [[Peripherals]]
     * [[Sensors]]
+  * **Media**
+    * [[Books]]
+    * [[News]]
+    * [[Papers]]
+    * [[Videos]]
   * **Software**
     * [[Libraries]]
     * [[Tools]]
   * [[Tutorials]]
-  * [[Videos]]
