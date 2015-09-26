@@ -2,6 +2,7 @@ Miscellaneous
 -------------
 
 * [A compilation of animals attacking drones](https://www.youtube.com/watch?v=9F8sPBsR9Lo)
+* [Stephen Wolfram's introduction to the Wolfram Language](http://www.youtube.com/watch?v=_P9HqHVPeik)
 
 [[Swarming]]
 ------------
