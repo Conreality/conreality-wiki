@@ -44,6 +44,7 @@
     * [[Peripherals]]
     * [[Sensors]]
   * **Media**
+    * [[Blogs]]
     * [[Books]]
     * [[News]]
     * [[Papers]]
