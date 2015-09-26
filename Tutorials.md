@@ -1,7 +1,7 @@
 ROS & Robotics
 --------------
 
-* [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+* [ROS tutorials](http://wiki.ros.org/ROS/Tutorials)
 * [A Gentle Introduction to ROS](https://cse.sc.edu/~jokane/agitr/)
   by [@jokane](https://github.com/jokane)
 
@@ -17,5 +17,6 @@ Semantics & Linked Data
 UAV Simulation
 --------------
 
+* [Gazebo tutorials](http://gazebosim.org/tutorials)
 * [Quadrotor outdoor flight demo](http://wiki.ros.org/hector_quadrotor/Tutorials/Quadrotor%20outdoor%20flight%20demo)
 * [Quadrotor indoor SLAM demo](http://wiki.ros.org/hector_quadrotor/Tutorials/Quadrotor%20indoor%20SLAM%20demo)
