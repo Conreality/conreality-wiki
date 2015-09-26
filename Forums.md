@@ -11,7 +11,8 @@ Blogs
 Mailing Lists
 -------------
 
-* http://lists.ros.org/mailman/listinfo/ros-users
+* [ROS users](http://lists.ros.org/mailman/listinfo/ros-users)
+* [ROS2 SIG](https://groups.google.com/forum/#!forum/ros-sig-ng-ros)
 
 Q&A
 ---
