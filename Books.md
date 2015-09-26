@@ -19,6 +19,12 @@ Inspiration
   * [The Weapon Makers](https://www.goodreads.com/book/show/525006.The_Weapon_Makers)
   * [The Weapon Shops of Isher](https://www.goodreads.com/book/show/358902.The_Weapon_Shops_of_Isher)
 
+Physics
+-------
+
+* [Game Physics Engine Development](https://www.goodreads.com/book/show/19169920-game-physics-engine-development)
+  (2007)
+
 Programming
 -----------
 
