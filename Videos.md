@@ -1,3 +1,8 @@
+Augmented Reality
+-----------------
+
+* [Sight: Contact lenses with augmented reality](https://www.youtube.com/watch?v=GJKwHAvR4uI)
+
 Miscellaneous
 -------------
 
