@@ -3,7 +3,7 @@ Consensus Reality
 
 *"Don't panic, it's just a game."*
 
-**Consensus Reality** is an
+**Consensus Reality** (aka **Conreality**) is an
 [augmented-reality](https://github.com/conreality/consensus/wiki/Glossary#augmented-reality)
 game currently in an early design and planning phase.
 
