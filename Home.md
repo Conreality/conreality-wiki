@@ -16,3 +16,13 @@ Development Team
 
 * [@bendiken](https://github.com/bendiken)
 * [@mikegogulski](https://github.com/mikegogulski)
+
+[[IRC Channel]]
+---------------
+
+`#conreality` on Freenode.
+
+[[Mailing List]]
+----------------
+
+https://groups.google.com/d/forum/conreality
