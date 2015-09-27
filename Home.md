@@ -37,6 +37,7 @@ Find this project at:
 [Open Hub](https://www.openhub.net/p/conreality),
 [SourceForge](https://sourceforge.net/projects/conreality/),
 [Travis CI](https://travis-ci.org/conreality/consensus),
+[Facebook](https://www.facebook.com/conreality),
 [Twitter](https://twitter.com/ConrealityGame),
 [Tumblr](http://conreality.tumblr.com/), and
 [Reddit](https://www.reddit.com/r/Conreality/).
