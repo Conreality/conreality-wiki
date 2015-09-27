@@ -1,13 +1,13 @@
 The Consensus Reality ontology describes the simulation concepts in the form
 of a machine-readable,
-[RDFS](https://github.com/bendiken/consensus/wiki/Glossary#rdfs) and
-[OWL](https://github.com/bendiken/consensus/wiki/Glossary#owl)-compatible
+[RDFS](https://github.com/conreality/consensus/wiki/Glossary#rdfs) and
+[OWL](https://github.com/conreality/consensus/wiki/Glossary#owl)-compatible
 ontology.
 
 Master File
 -----------
 
-The [master file](https://github.com/bendiken/consensus/blob/master/etc/rdf/ontology.ttl)
+The [master file](https://github.com/conreality/consensus/blob/master/etc/rdf/ontology.ttl)
 for the ontology is maintained under revision control at GitHub.
 
 RDF Downloads
@@ -23,7 +23,7 @@ SPARQL Endpoint
 
 There is also a public [SPARQL endpoint](http://dydra.com/consensus/ontology/sparql)
 available to enable querying the ontology with
-[SPARQL](https://github.com/bendiken/consensus/wiki/Glossary#sparql).
+[SPARQL](https://github.com/conreality/consensus/wiki/Glossary#sparql).
 
 Prefixes
 --------
