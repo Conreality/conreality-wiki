@@ -26,3 +26,23 @@ Development Team
 ----------------
 
 https://groups.google.com/d/forum/conreality
+
+Elsewhere
+---------
+
+Find this project at:
+[GitHub](https://github.com/conreality/consensus),
+[Bitbucket](https://bitbucket.org/conreality/consensus),
+[Google Groups](https://groups.google.com/d/forum/conreality),
+[Open Hub](https://www.openhub.net/p/conreality),
+[SourceForge](https://sourceforge.net/projects/conreality/),
+[Travis CI](https://travis-ci.org/conreality/consensus),
+[Twitter](https://twitter.com/ConrealityGame),
+[Tumblr](http://conreality.tumblr.com/), and
+[Reddit](https://www.reddit.com/r/Conreality/).
+
+License
+-------
+
+This is free and unencumbered public domain software. For more information,
+see http://unlicense.org/ or the accompanying `UNLICENSE` file.
