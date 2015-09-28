@@ -1,6 +1,7 @@
 **Consensus Reality**
 
 * [[Home]]
+* [[Scenarios]]
 * **Installation Guide**
   * [[Prerequisites]]
   * [[Installation]]
