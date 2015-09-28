@@ -14,5 +14,5 @@ Target Prioritization
 Target Prosecution
 ------------------
 
-See also time on target (TOT) coordination in [[swarm tactics|Swarm
+See also time on target (TOT) coordination in [[swarming tactics|Swarming
 Tactics]].
