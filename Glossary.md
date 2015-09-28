@@ -346,6 +346,10 @@ Transmission Control Protocol over Internet Protocol.
 ##### Tor
 an overlay network.
 
+##### TOT
+See [Time on Target](https://en.wikipedia.org/wiki/Time_On_Target) in
+Wikipedia.
+
 ##### trajectory
 
 ##### tx

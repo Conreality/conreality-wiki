@@ -4,3 +4,8 @@ Examples
 --------
 
 * [Building a rope bridge with quadcopters](https://www.youtube.com/watch?v=CCDIuZUfETc)
+
+See Also
+--------
+
+* [[Swarming Tactics]]
