@@ -9,6 +9,11 @@ Miscellaneous
 * [A compilation of animals attacking drones](https://www.youtube.com/watch?v=9F8sPBsR9Lo)
 * [Stephen Wolfram's introduction to the Wolfram Language](http://www.youtube.com/watch?v=_P9HqHVPeik)
 
+SLAM
+----
+
+* [Monocular SLAM-supported object recognition](https://www.youtube.com/watch?v=m6sStUk3UVk)
+
 [[Swarming]]
 ------------
 
