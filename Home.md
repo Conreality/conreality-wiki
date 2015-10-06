@@ -5,7 +5,8 @@ Consensus Reality
 
 **Consensus Reality** (aka **Conreality**) is an
 [augmented-reality](https://github.com/conreality/consensus/wiki/Glossary#augmented-reality)
-game currently in an early design and planning phase.
+[wargame](https://github.com/conreality/consensus/wiki/Glossary#wargame)
+currently in an early design and planning phase.
 
 There is nothing much to see here unless you're an experienced software
 developer capable of building the system from scratch and figuring things

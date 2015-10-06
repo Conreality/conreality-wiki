@@ -21,6 +21,9 @@ An agent is something that has agency.
 ##### AH
 Attitude Hold.
 
+##### aka, *or* a.k.a.
+also known as.
+
 ##### API
 Application Programming Interface.
 
@@ -374,6 +377,11 @@ Uniform Resource Name.
 
 ##### UUID
 Universally Unique Identifier.
+
+##### wargame
+See [*Kriegsspiel*](https://en.wikipedia.org/wiki/Kriegsspiel_(wargame)),
+[*Wargaming*](https://en.wikipedia.org/wiki/Wargaming), and [*Military
+exercise*](https://en.wikipedia.org/wiki/Military_exercise) in Wikipedia.
 
 ##### waypoint
 
