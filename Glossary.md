@@ -21,6 +21,10 @@ An agent is something that has agency.
 ##### AH
 Attitude Hold.
 
+##### airsoft
+See [*Airsoft*](https://en.wikipedia.org/wiki/Airsoft)
+in Wikipedia.
+
 ##### aka, *or* a.k.a.
 also known as.
 
@@ -34,8 +38,8 @@ Aerial Photography.
 ArduPilot Mega.
 
 ##### augmented reality
-See [Augmented reality](https://en.wikipedia.org/wiki/Augmented_reality) in
-Wikipedia.
+See [*Augmented reality*](https://en.wikipedia.org/wiki/Augmented_reality)
+in Wikipedia.
 
 ##### autonomous
 
@@ -106,6 +110,10 @@ First Person View.
 
 ##### full auto
 
+##### gamemaster
+See [*Gamemaster*](https://en.wikipedia.org/wiki/Gamemaster)
+in Wikipedia.
+
 ##### GBB
 Gas Blow Back.
 
@@ -137,6 +145,10 @@ Hard-Disk Drive.
 
 ##### Hi-Cap
 
+##### HUD
+See [*Heads-up display*](https://en.wikipedia.org/wiki/Head-up_display)
+in Wikipedia.
+
 ##### I2P
 an overlay network.
 
@@ -158,10 +170,18 @@ JavaScript.
 ##### KISS.
 Keep It Simple, Stupid.
 
+##### LARP
+See [*Live action role-playing game*](https://en.wikipedia.org/wiki/Live_action_role-playing_game)
+in Wikipedia.
+
 ##### laser
 
 ##### Linux
 an operating system used on drones and servers.
+
+##### live-action game
+See [*Live-action game*](https://en.wikipedia.org/wiki/Live-action_game)
+in Wikipedia.
 
 ##### LMDB
 a B+tree software library.
@@ -183,6 +203,10 @@ a protocol for communicating with drones.
 
 ##### MILSIM
 Military Simulation.
+
+##### mixed-reality game
+See [*Mixed reality game*](https://en.wikipedia.org/wiki/Mixed_reality_game)
+in Wikipedia.
 
 ##### MPEG
 Mid Powered Electric Gun.
@@ -219,7 +243,19 @@ Web Ontology Language.
 
 ##### pain penalty
 
+##### paintball
+See [*Paintball*](https://en.wikipedia.org/wiki/Paintball)
+in Wikipedia.
+
 ##### payload
+
+##### pervasive game
+See [*Pervasive game*](https://en.wikipedia.org/wiki/Pervasive_game)
+in Wikipedia.
+
+##### Ingress
+See [*Ingress*](https://en.wikipedia.org/wiki/Ingress_(video_game))
+in Wikipedia.
 
 ##### PD
 Public Domain.
@@ -311,6 +347,10 @@ receive.
 
 ##### semi-auto
 
+##### serious game
+See [*Serious game*](https://en.wikipedia.org/wiki/Serious_game)
+in Wikipedia.
+
 ##### servo
 
 ##### SIG
@@ -350,8 +390,8 @@ Transmission Control Protocol over Internet Protocol.
 an overlay network.
 
 ##### TOT
-See [Time on Target](https://en.wikipedia.org/wiki/Time_On_Target) in
-Wikipedia.
+See [*Time on Target*](https://en.wikipedia.org/wiki/Time_On_Target)
+in Wikipedia.
 
 ##### trajectory
 
