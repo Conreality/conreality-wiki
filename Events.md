@@ -8,6 +8,10 @@ and/or meet likeminded developers and users.*
 
 https://fosdem.org/2016/
 
+### Airsoft Meetup (Nurnberg, March 2016)
+
+http://airsoftmeetup.com/
+
 ### PorcFest (New Hampshire, Jun 2016)
 
 http://porcfest.com/
