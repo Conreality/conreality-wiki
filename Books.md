@@ -1,6 +1,8 @@
 Inspiration
 -----------
 
+* **Arthur C. Clarke**
+  * [Superiority](https://en.wikipedia.org/wiki/Superiority_(short_story))
 * **Michael Crichton**
   * [Prey](https://www.goodreads.com/book/show/83763.Prey) (flocking swarms)
 * **Ramez Naam**
