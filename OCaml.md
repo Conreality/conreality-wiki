@@ -1,5 +1,10 @@
 https://ocaml.org
 
+Tutorials & Books
+-----------------
+
+* [Real World OCaml](https://realworldocaml.org/)
+
 Standard Library Extensions
 ---------------------------
 
