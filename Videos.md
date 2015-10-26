@@ -3,6 +3,11 @@ Augmented Reality
 
 * [Sight: Contact lenses with augmented reality](https://www.youtube.com/watch?v=GJKwHAvR4uI)
 
+Drone Combat
+------------
+
+* [Shooting drones with deadmau5 and MKBHD](https://www.youtube.com/watch?v=fHzM7H4Dp28)
+
 Miscellaneous
 -------------
 
