@@ -20,6 +20,8 @@ Inspiration
 * **A.E. van Vogt**
   * [The Weapon Makers](https://www.goodreads.com/book/show/525006.The_Weapon_Makers)
   * [The Weapon Shops of Isher](https://www.goodreads.com/book/show/358902.The_Weapon_Shops_of_Isher)
+* **Unknown**
+  * [Sci-fi story about a global prediction market providing real-time support to a tactical team repelling an alien invasion in Earth orbit](https://www.reddit.com/r/tipofmytongue/comments/3o08bw/tomt_story_scifi_story_about_a_global_prediction/)
 
 Nonfiction
 ----------
