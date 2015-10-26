@@ -21,6 +21,11 @@ Inspiration
   * [The Weapon Makers](https://www.goodreads.com/book/show/525006.The_Weapon_Makers)
   * [The Weapon Shops of Isher](https://www.goodreads.com/book/show/358902.The_Weapon_Shops_of_Isher)
 
+Nonfiction
+----------
+
+* [Wired for War: The Robotics Revolution and Conflict in the 21st Century](https://www.goodreads.com/book/show/6124823-wired-for-war)
+
 Networking
 ----------
 
