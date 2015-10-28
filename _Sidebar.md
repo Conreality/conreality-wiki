@@ -45,6 +45,8 @@
   * **Hardware**
     * [[Drones]]
     * [[Peripherals]]
+    * [[Boards]]
+    * [[Gimbals]]
     * [[Sensors]]
   * **Media**
     * [[Blogs]]
