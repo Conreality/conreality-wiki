@@ -9,6 +9,10 @@ Atomicity, Consistency, Isolation, Durability.
 
 ##### action
 
+##### ADC
+See [*Analog-to-digital converter*](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
+in Wikipedia.
+
 ##### AEG
 Airsoft/Auto Electric Gun.
 
@@ -43,6 +47,8 @@ in Wikipedia.
 
 ##### autonomous
 
+##### AUX
+
 ##### back spin
 
 ##### ballistics
@@ -51,6 +57,13 @@ in Wikipedia.
 
 ##### BB
 Ball bullet.
+
+##### BGC
+brushless gimbal controller.
+
+##### BLDC motor
+See [*Brushless DC electric motor*](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor)
+in Wikipedia.
 
 ##### blowback
 
@@ -71,6 +84,10 @@ Central Processing Unit.
 
 ##### COMSEC
 Communications Security.
+
+##### control theory
+See [*Control theory*](https://en.wikipedia.org/wiki/Control_theory)
+in Wikipedia.
 
 ##### CQB
 Close Quarter Battle.
@@ -130,11 +147,23 @@ Geographic Information System.
 ##### Git
 a revision control management system.
 
+##### GPS
+See [*Global Positioning System*](https://en.wikipedia.org/wiki/Global_Positioning_System)
+in Wikipedia.
+
 ##### Green Gas
 
+##### GUI
+See [*Graphical user interface*](https://en.wikipedia.org/wiki/Graphical_user_interface)
+in Wikipedia.
+
 ##### gyro
+See [*Gyroscope*](https://en.wikipedia.org/wiki/Gyroscope)
+in Wikipedia.
 
 ##### gyroscope
+See [*Gyroscope*](https://en.wikipedia.org/wiki/Gyroscope)
+in Wikipedia.
 
 ##### hexacopter
 
@@ -149,14 +178,25 @@ Hard-Disk Drive.
 See [*Heads-up display*](https://en.wikipedia.org/wiki/Head-up_display)
 in Wikipedia.
 
+##### I2C
+See [*I²C*](https://en.wikipedia.org/wiki/I%C2%B2C)
+in Wikipedia.
+
 ##### I2P
 an overlay network.
 
 ##### IF
 Imitation Firearm.
 
+##### IMU
+See [*Inertial measurement unit*](https://en.wikipedia.org/wiki/Inertial_measurement_unit)
+in Wikipedia.
+
 ##### IP
 Internet Protocol.
+
+##### IR
+infrared.
 
 ##### IRC
 Internet Relay Chat.
@@ -188,6 +228,10 @@ a B+tree software library.
 
 ##### LPEG
 Low Power Electric Guns.
+
+##### LPF
+See [*Low-pass filter*](https://en.wikipedia.org/wiki/Low-pass_filter)
+in Wikipedia.
 
 ##### mag
 magazine.
@@ -263,6 +307,10 @@ Public Domain.
 ##### PDD
 Public Domain Dedication/Declaration.
 
+##### PID controller
+See [*PID controller*](https://en.wikipedia.org/wiki/PID_controller)
+in Wikipedia.
+
 ##### pitch
 
 ##### PIXHAWK
@@ -275,6 +323,10 @@ Point of Aim.
 
 ##### POI
 Point of Interest; or, Point of Impact.
+
+##### PWM
+See [*Pulse-width modulation*](https://en.wikipedia.org/wiki/Pulse-width_modulation)
+in Wikipedia.
 
 ##### PX4
 an autopilot module for drones.
@@ -352,6 +404,8 @@ See [*Serious game*](https://en.wikipedia.org/wiki/Serious_game)
 in Wikipedia.
 
 ##### servo
+See [*https://en.wikipedia.org/wiki/Servomechanism*](https://en.wikipedia.org/wiki/Servomechanism)
+in Wikipedia.
 
 ##### SIG
 Special Interest Group.
@@ -398,8 +452,14 @@ in Wikipedia.
 ##### tx
 transmit.
 
+##### UART
+See [*Universal asynchronous receiver/transmitter*](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter)
+in Wikipedia.
+
 ##### UAV
 Unmanned Aerial/Autonomous Vehicle, aka a drone.
+See [*UAV*](https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle)
+in Wikipedia.
 
 ##### UDP
 User Datagraph Protocol.
@@ -414,6 +474,10 @@ Uniform Resource Locator.
 
 ##### URN
 Uniform Resource Name.
+
+##### USB
+See [*Universal Serial Bus*](https://en.wikipedia.org/wiki/USB)
+in Wikipedia.
 
 ##### UUID
 Universally Unique Identifier.
@@ -434,3 +498,4 @@ Web Graphics Library is a computer graphics standard based on OpenGL.
 a local area wireless computer networking technology.
 
 ##### yaw
+TODO
