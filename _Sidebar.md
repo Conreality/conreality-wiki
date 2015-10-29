@@ -8,6 +8,7 @@
 * **Contributor Guide**
   * [[Contribution Guidelines]]
   * [[Mailing List]]
+  * [[Donations]]
 * **Developer Guide**
   * [[Roadmap]]
   * [[Project Structure]]
