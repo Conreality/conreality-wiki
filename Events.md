@@ -80,3 +80,10 @@ https://fscons.org/2019/
 ### 36C3 (Hamburg, Dec 2019)
 
 https://events.ccc.de/
+
+Miscellaneous
+-------------
+
+### The Functional Club Meetup in Berlin
+
+http://www.meetup.com/thefunclub/
