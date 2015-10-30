@@ -20,6 +20,8 @@
   * [[Release Procedure]]
   * [[Packaging]]
 * **Research & Development**
+  * **Configurations**
+    * [[Laser Turret]]
   * [[Architecture]]
     * [[Command & Control]]
     * [[Database]]
@@ -44,9 +46,12 @@
   * [[Forums]]
   * [[Glossary]]
   * **Hardware**
-    * [[Drones]]
+    * [[Turret Frames]]
+    * [[Drone Kits]]
+    * [[Main Boards]]
     * [[Peripherals]]
-    * [[Boards]]
+      * [[Camera Modules]]
+      * [[Laser Modules]]
     * [[Gimbals]]
     * [[Sensors]]
   * **Media**
