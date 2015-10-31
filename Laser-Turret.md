@@ -1,8 +1,10 @@
 This is a stationary [gun turret](https://en.wikipedia.org/wiki/Gun_turret)
 configuration. It tracks [objects of
 interest](https://groups.google.com/forum/#!topic/conreality/zfCe8upi_t4)
-using a pan/tilt optical camera and and engages them using a directed-energy
+using a pan/tilt optical camera and engages them using a directed-energy
 solution (a laser).
+
+![Laser turret frame](https://cdn.shopify.com/s/files/1/1004/5324/products/1967-02_large.gif)
 
 Components
 ----------
@@ -17,8 +19,12 @@ An initial simple and affordable configuration might look like this:
 Discussions
 -----------
 
-* [Initial focus of our R&D efforts](https://groups.google.com/forum/#!topic/conreality/zfCe8upi_t4)
+Discussions happen on the [[mailing list|Mailing List]]. Some relevant
+threads:
+
+* [Laser turret POC](https://groups.google.com/forum/#!topic/conreality/Niw7hiMYxwc)
 * [Gimbal control and POC hardware](https://groups.google.com/forum/#!topic/conreality/r3QpMyAFzEg)
+* [Initial focus of our R&D efforts](https://groups.google.com/forum/#!topic/conreality/zfCe8upi_t4)
 
 Limitations
 -----------
@@ -31,4 +37,4 @@ Limitations
 Challenges
 ----------
 
-* How to handle the offset between the camera aperture and the laser pointer?
+* How to best handle the offset between the camera aperture and the laser pointer?
