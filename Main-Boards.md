@@ -1,3 +1,7 @@
+These popular and powerful single-board computers (SBCs) are usable as
+development platforms, and in many cases in production as well given their
+improving economy.
+
 [BeagleBoard](https://en.wikipedia.org/wiki/BeagleBoard)
 --------------------------------------------------------
 
@@ -26,3 +30,10 @@ Arduino Due is their only ARM-based board, the others are AVR-based.
 ### Boards
 
 * [Arduino Due](https://www.arduino.cc/en/Main/ArduinoBoardDue)
+
+[Edison](https://en.wikipedia.org/wiki/Intel_Edison)
+----------------------------------------------------
+
+## Boards
+
+* [Intel Edison Kit for Arduino](http://www.intel.com/buy/us/en/product/emergingtechnologies/intel-edison-kit-462187)
