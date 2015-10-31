@@ -38,3 +38,4 @@ Challenges
 ----------
 
 * How to best handle the offset between the camera aperture and the laser pointer?
+  * Find target with camera, range and target with laser, calculate parallax, fire? --Mike
