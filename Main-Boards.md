@@ -3,9 +3,9 @@
 
 ### Boards
 
-* [BeagleBone Black](http://beagleboard.org/black)
+* [[BeagleBone Black]]
 
-* [BeagleBoard-X15](http://beagleboard.org/x15)
+* [[BeagleBoard X15]]
 
 [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
 ----------------------------------------------------------
