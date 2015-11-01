@@ -34,6 +34,7 @@
     * [[Targeting System]]
   * **Design Notes**
     * [[Computer Vision]]
+    * [[Difficulty]]
     * [[Modeling]]
     * [[Motion Planning]]
     * [[Security]]
