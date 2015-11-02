@@ -12,11 +12,15 @@ Available from, e.g.,
 [Farnell](http://de.farnell.com/element14/bbone-black-4g/beaglebone-black-rev-c-cortex/dp/2422228)
 (€46),
 [Conrad](https://www.conrad.de/de/beaglebone-black-mini-pc-rev-c-bb-bblk-000-rev-c-1227430.html)
-(€52).
+(€52),
+[Amazon.de](http://www.amazon.de/BeagleBone-Beagleboard-Black-Cortex-Speicher/dp/B00CO3MZCW)
+(€80).
 
 #### [Adafruit Mini Pan/Tilt Kit](https://www.adafruit.com/products/1967)
 
 Available from, e.g.,
+[Amazon.de](http://www.amazon.de/Mini-Pan-Tilt-Set-Micro-Servos/dp/B00PY3LQ2Y/)
+(€30),
 [Pimoroni](https://shop.pimoroni.de/collections/new-products/products/adafruit-mini-pan-tilt-kit-assembled-with-micro-servos)
 (€21).
 
