@@ -1,9 +1,9 @@
 Computer Vision
 ---------------
 
-* [OpenCV](http://opencv.org)
+* [[OpenCV]]
 
 Messaging
 ---------
 
-* [Robot Operating System (ROS)](http://wiki.ros.org)
+* [[Robot Operating System (ROS)|ROS]]

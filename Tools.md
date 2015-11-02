@@ -1,12 +1,12 @@
 Messaging
 ---------
 
-* [Robot Operating System (ROS)](http://wiki.ros.org)
+* [[Robot Operating System (ROS)|ROS]]
 
 Simulation
 ----------
 
-* [Gazebo](http://gazebosim.org) -- Robotics simulator
+* [[Gazebo]] -- Robotics simulator
 * [ns-3](https://www.nsnam.org/) -- Network simulator
 * [Network simulation for BATMAN](http://www.open-mesh.org/projects/open-mesh/wiki/Emulation)
 * ROS packages:
