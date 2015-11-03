@@ -35,6 +35,7 @@ Find this project at:
 [GitHub](https://github.com/conreality/consensus),
 [Bitbucket](https://bitbucket.org/conreality/consensus),
 [Google Groups](https://groups.google.com/d/forum/conreality),
+[Launchpad](https://launchpad.net/~conreality),
 [Open Hub](https://www.openhub.net/p/conreality),
 [SourceForge](https://sourceforge.net/projects/conreality/),
 [Travis CI](https://travis-ci.org/conreality/consensus),
