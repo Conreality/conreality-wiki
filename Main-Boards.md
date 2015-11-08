@@ -11,12 +11,16 @@ improving economy.
 
 * [[BeagleBoard X15]]
 
-[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi)
-----------------------------------------------------------
+[[Raspberry Pi]]
+----------------
 
 ### Boards
 
 * [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
+
+### Distros
+
+* [Debian](#)
 
 ### Articles
 
@@ -41,6 +45,11 @@ compatility for the Arduino SDK and Arduino sketches and shields.
 ## Boards
 
 * [Intel Edison Kit for Arduino](http://www.intel.com/buy/us/en/product/emergingtechnologies/intel-edison-kit-462187)
+
+## Distros
+
+* [Yocto Linux](#)
+* [Ubilinux](#)
 
 ## Tutorials
 
