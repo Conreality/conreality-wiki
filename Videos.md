@@ -7,6 +7,8 @@ Drone Combat
 ------------
 
 * [Shooting drones with deadmau5 and MKBHD](https://www.youtube.com/watch?v=fHzM7H4Dp28)
+* [Paintball Drone Gunship - a DIY Combat UAV from Game of Drones](https://www.youtube.com/watch?v=vICfKPoCubw)
+* [Drone Torture Test #3: Water Cannons and Splashdowns](https://www.youtube.com/watch?v=XTlwYwi-Uys)
 
 Miscellaneous
 -------------
