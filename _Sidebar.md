@@ -64,4 +64,5 @@
   * **Software**
     * [[Libraries]]
     * [[Tools]]
+    * [[Other Projects]]
   * [[Tutorials]]
