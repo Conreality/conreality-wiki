@@ -15,8 +15,9 @@
   * [[Naming Conventions]]
   * [[Coding Conventions]]
   * **Quality Assurance**
-    * [[Test Suite]]
+    * [[Continuous Integration]]
     * [[Static Analysis]]
+    * [[Test Suite]]
   * [[Release Procedure]]
   * [[Packaging]]
 * **Research & Development**
