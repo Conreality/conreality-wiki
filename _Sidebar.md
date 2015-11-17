@@ -5,6 +5,7 @@
 * **Installation Guide**
   * [[Prerequisites]]
   * [[Installation]]
+* **User Guide**
 * **Contributor Guide**
   * [[Contribution Guidelines]]
   * [[Mailing List]]
