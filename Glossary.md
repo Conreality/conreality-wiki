@@ -9,6 +9,8 @@ Atomicity, Consistency, Isolation, Durability.
 
 ##### action
 
+##### actuator
+
 ##### ADC
 See [*Analog-to-digital converter*](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
 in Wikipedia.
@@ -41,6 +43,8 @@ Aerial Photography.
 ##### APM
 ArduPilot Mega.
 
+##### ARM
+
 ##### augmented reality
 See [*Augmented reality*](https://en.wikipedia.org/wiki/Augmented_reality)
 in Wikipedia.
@@ -48,6 +52,8 @@ in Wikipedia.
 ##### autonomous
 
 ##### AUX
+
+##### AVR
 
 ##### back spin
 
@@ -66,6 +72,8 @@ See [*Brushless DC electric motor*](https://en.wikipedia.org/wiki/Brushless_DC_e
 in Wikipedia.
 
 ##### blowback
+
+##### Bluetooth
 
 ##### Boyd Cycle
 See [[OODA Loop]].
@@ -123,7 +131,8 @@ Foot-Pounds of Energy.
 Feet per Second.
 
 ##### FPV
-First Person View.
+See [*First-person view](https://en.wikipedia.org/wiki/First-person_view_(radio_control))
+in Wikipedia.
 
 ##### full auto
 
@@ -206,6 +215,8 @@ a lossy-compression digital image file format.
 
 ##### JS
 JavaScript.
+
+##### JST connector
 
 ##### KISS.
 Keep It Simple, Stupid.
@@ -324,6 +335,9 @@ Point of Aim.
 ##### POI
 Point of Interest; or, Point of Impact.
 
+##### PRU
+Programmable Real-Time Unit.
+
 ##### PWM
 See [*Pulse-width modulation*](https://en.wikipedia.org/wiki/Pulse-width_modulation)
 in Wikipedia.
@@ -404,7 +418,11 @@ See [*Serious game*](https://en.wikipedia.org/wiki/Serious_game)
 in Wikipedia.
 
 ##### servo
-See [*https://en.wikipedia.org/wiki/Servomechanism*](https://en.wikipedia.org/wiki/Servomechanism)
+See [*Servomechanism*](https://en.wikipedia.org/wiki/Servomechanism)
+in Wikipedia.
+
+##### SBC
+See [*Single-board computer*](https://en.wikipedia.org/wiki/Single-board_computer)
 in Wikipedia.
 
 ##### SIG
@@ -423,6 +441,9 @@ Solid-State Drive.
 
 ##### SOC
 State of Charge.
+
+##### SoC
+System-on-Chip.
 
 ##### speed loader
 
@@ -448,6 +469,8 @@ See [*Time on Target*](https://en.wikipedia.org/wiki/Time_On_Target)
 in Wikipedia.
 
 ##### trajectory
+
+##### TTL
 
 ##### tx
 transmit.
