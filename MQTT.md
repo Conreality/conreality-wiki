@@ -1,3 +1,8 @@
+General description
+-------------------
+
+* https://en.wikipedia.org/wiki/MQTT
+
 Specifications
 --------------
 
