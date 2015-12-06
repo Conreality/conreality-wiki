@@ -20,7 +20,7 @@ Support
 
 Enabling I2C
 ------------
-
+Procedure adapted from http://blog.oscarliang.net/raspberry-pi-arduino-connected-i2c/
 * If it's there, comment out `blacklist spi-bcm2708` in /etc/modprobe.d/raspi-blacklist.conf
 * Ensure that the line `i2c-dev` is present at the end of /etc/modules
 * `$ sudo apt-get install i2c-tools`
