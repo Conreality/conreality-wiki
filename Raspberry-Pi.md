@@ -17,3 +17,34 @@ Servo Control
 
 Support
 -------
+
+Enabling I2C
+------------
+
+* If it's there, comment out `blacklist spi-bcm2708` in /etc/modprobe.d/raspi-blacklist.conf
+* Ensure that the line `i2c-dev` is present at the end of /etc/modules
+* `$ sudo apt-get install i2c-tools`
+* `$ sudo adduser <username> i2c` # Repeat for each non-root user
+* If the I2C kernel module was blacklisted or if `i2c-dev` was not present in /etc/modules:
+  * `$ sudo reboot`
+* `$ ls -l /dev/i2c*`
+
+```
+    crw-rw---- 1 root i2c 89, 1 Nov 22 05:17 /dev/i2c-1
+```
+
+* `$ i2cdetect -y 1`
+
+```
+         0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+    00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+    70: -- -- -- -- -- -- -- --             
+```            
+
+
