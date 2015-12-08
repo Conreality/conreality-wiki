@@ -4,8 +4,8 @@ Consensus Reality
 *"Don't panic, it's just a game."*
 
 **Consensus Reality** (aka **Conreality**) is a live-action
-[augmented-reality](https://github.com/conreality/consensus/wiki/Glossary#augmented-reality),
-tactical [wargame](https://github.com/conreality/consensus/wiki/Glossary#wargame)
+[augmented-reality](https://github.com/conreality/conreality/wiki/Glossary#augmented-reality),
+tactical [wargame](https://github.com/conreality/conreality/wiki/Glossary#wargame)
 currently in an early design and planning phase.
 
 There is nothing much to see here unless you're an experienced software
@@ -32,13 +32,14 @@ Elsewhere
 ---------
 
 Find this project at:
-[GitHub](https://github.com/conreality/consensus),
-[Bitbucket](https://bitbucket.org/conreality/consensus),
+[GitHub](https://github.com/conreality/conreality),
+[Bitbucket](https://bitbucket.org/conreality/conreality),
 [Google Groups](https://groups.google.com/d/forum/conreality),
 [Launchpad](https://launchpad.net/~conreality),
 [Open Hub](https://www.openhub.net/p/conreality),
 [SourceForge](https://sourceforge.net/projects/conreality/),
-[Travis CI](https://travis-ci.org/conreality/consensus),
+[Travis CI](https://travis-ci.org/conreality/conreality),
+[Coveralls](https://coveralls.io/github/conreality/conreality),
 [Facebook](https://www.facebook.com/conreality),
 [Twitter](https://twitter.com/ConrealityGame),
 [Tumblr](http://conreality.tumblr.com/), and
