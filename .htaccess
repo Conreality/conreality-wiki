@@ -1,0 +1,34 @@
+##
+# See: http://wiki.dreamhost.com/Htaccess
+# See: http://wiki.dreamhost.com/Htaccess_tricks
+
+# Respond with 403 Forbidden for directory indexes.
+# See: https://httpd.apache.org/docs/2.4/mod/core.html#options
+Options -Indexes +FollowSymLinks
+
+# Enable only HTML and PHP indexes.
+# See: https://httpd.apache.org/docs/2.4/mod/mod_dir.html#directoryindex
+<IfModule mod_dir.c>
+DirectoryIndex index.html index.php
+</IfModule>
+
+# Respond with 403 Forbidden for hidden files.
+# See: https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirectmatch
+<IfModule mod_alias.c>
+RedirectMatch 403 /\..*$
+</IfModule>
+
+# Set the header Content-Type: text/html; charset=UTF-8.
+# See: https://httpd.apache.org/docs/2.4/mod/core.html#adddefaultcharset
+AddDefaultCharset UTF-8
+
+# Set the header Content-Language: en.
+# See: https://httpd.apache.org/docs/2.4/mod/mod_mime.html#defaultlanguage
+<IfModule mod_mime.c>
+DefaultLanguage en
+</IfModule>
+
+# Define custom error responses.
+# See: https://httpd.apache.org/docs/2.4/mod/core.html#errordocument
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
