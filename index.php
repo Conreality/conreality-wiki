@@ -51,6 +51,7 @@ if (preg_match('|/([0-9A-Za-z&-]+)|', $_SERVER['REQUEST_URI'], $matches) &&
   }
 }
 else {
+  http_response_code(404);
   $content = '<h1>404 Not Found</h1>';
 }
 
