@@ -8,8 +8,6 @@ if ($_SERVER['REQUEST_URI'] == '/') {
 }
 
 class Parser extends Parsedown {}
-$parser = new Parser();
-$parser->setMarkupEscaped(true);
 
 function expand_wikilinks($text) {
   return preg_replace_callback(
@@ -29,16 +27,24 @@ function expand_wikilinks($text) {
     $text);
 }
 
-$sidebar = file_get_contents('_Sidebar.md');
-$sidebar = expand_wikilinks($sidebar);
-$sidebar = $parser->text($sidebar);
+function render_markdown($input) {
+  static $parser = null;
+  if (!$parser) {
+    $parser = new Parser();
+    $parser->setMarkupEscaped(true);
+  }
+  $output = expand_wikilinks($input);
+  $output = $parser->text($output);
+  return $output;
+}
+
+$sidebar = render_markdown(file_get_contents('_Sidebar.md'));
+$footer  = render_markdown(file_get_contents('_Footer.md'));
 
 if (preg_match('|/([0-9A-Za-z&-]+)|', $_SERVER['REQUEST_URI'], $matches) &&
     file_exists($matches[1] . '.md')) {
   $link = $matches[1];
-  $content = file_get_contents($link . '.md');
-  $content = expand_wikilinks($content);
-  $content = $parser->text($content);
+  $content = render_markdown(file_get_contents($link . '.md'));
   if ($link != 'Home') {
     $page = str_replace('-', ' ', $link);
     $content = "<h1>$page</h1>\n\n" . $content;
