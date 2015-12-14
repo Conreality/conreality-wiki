@@ -57,10 +57,7 @@ else {
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Conreality wiki</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cosmo/bootstrap.min.css" crossorigin="anonymous"/>
-    <style type="text/css">
-      body { padding-top: 60px; }
-      .footer { width: 100%; border-top: 1px solid #ccc; padding-top: 10px; }
-    </style>
+    <link rel="stylesheet" href="/index.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -111,5 +108,6 @@ else {
       </div>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="/index.js"></script>
   </body>
 </html>
