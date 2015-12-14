@@ -21,6 +21,10 @@
     * [[Test Suite]]
   * [[Release Procedure]]
   * [[Packaging]]
+* **Developer Manuals**
+  * [Driver Development Kit (DDK)](http://ddk.conreality.org)
+  * [Software Development Kit (SDK)](http://sdk.conreality.org)
+  * [Application Programming Interface (API)](http://api.conreality.org)
 * **Research & Development**
   * **Configurations**
     * [[Laser Turret]]
