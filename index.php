@@ -1,5 +1,6 @@
 <?php
 require_once '.php/Parsedown.php';
+require_once '.php/ParsedownExtra.php';
 
 if ($_SERVER['REQUEST_URI'] == '/') {
   $host = $_SERVER['HTTP_HOST'];
@@ -7,7 +8,7 @@ if ($_SERVER['REQUEST_URI'] == '/') {
   return;
 }
 
-class Parser extends Parsedown {}
+class Parser extends ParsedownExtra {}
 
 function expand_wikilinks($text) {
   return preg_replace_callback(
