@@ -41,7 +41,7 @@ function render_markdown($input) {
 $sidebar = render_markdown(file_get_contents('_Sidebar.md'));
 $footer  = render_markdown(file_get_contents('_Footer.md'));
 
-if (preg_match('|/([0-9A-Za-z&-]+)|', $_SERVER['REQUEST_URI'], $matches) &&
+if (preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches) &&
     file_exists($matches[1] . '.md')) {
   $link = $matches[1];
   $content = render_markdown(file_get_contents($link . '.md'));
