@@ -4,9 +4,8 @@ Consensus Reality
 *"Don't panic, it's just a game."*
 
 **Consensus Reality** (aka **Conreality**) is a live-action
-[augmented-reality](https://github.com/conreality/conreality/wiki/Glossary#augmented-reality),
-tactical [wargame](https://github.com/conreality/conreality/wiki/Glossary#wargame)
-currently in an early design and planning phase.
+[augmented-reality](Glossary#augmented-reality), tactical
+[wargame](Glossary#wargame) currently in an early design and planning phase.
 
 There is nothing much to see here unless you're an experienced software
 developer capable of building the system from scratch and figuring things

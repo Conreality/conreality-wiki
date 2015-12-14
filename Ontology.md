@@ -1,7 +1,5 @@
 The Consensus Reality ontology describes the simulation concepts in the form
-of a machine-readable,
-[RDFS](https://github.com/conreality/conreality/wiki/Glossary#rdfs) and
-[OWL](https://github.com/conreality/conreality/wiki/Glossary#owl)-compatible
+of a machine-readable, [RDFS](Glossary#rdfs) and [OWL](Glossary#owl)-compatible
 ontology.
 
 Master File
@@ -22,8 +20,7 @@ SPARQL Endpoint
 ---------------
 
 There is also a public [SPARQL endpoint](http://dydra.com/conreality/ontology/sparql)
-available to enable querying the ontology with
-[SPARQL](https://github.com/conreality/conreality/wiki/Glossary#sparql).
+available to enable querying the ontology with [SPARQL](Glossary#sparql).
 
 Prefixes
 --------
