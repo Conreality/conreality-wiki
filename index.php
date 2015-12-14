@@ -86,6 +86,9 @@ else {
         <div class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
           </ul>
+          <form class="navbar-form navbar-right">
+            <button id="edit" type="button" class="btn btn-primary">Edit</button>
+          </form>
         </div>
       </div>
     </nav>
