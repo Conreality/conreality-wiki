@@ -45,14 +45,17 @@ if (preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches) &&
     file_exists($matches[1] . '.md')) {
   $link = $matches[1];
   $content = render_markdown(file_get_contents($link . '.md'));
+  $title = null;
   if ($link != 'Home') {
     $page = str_replace('-', ' ', $link);
     $content = "<h1>$page</h1>\n\n" . $content;
+    $title = $page;
   }
 }
 else {
   http_response_code(404);
   $content = '<h1>404 Not Found</h1>';
+  $title = '404 Not Found';
 }
 
 ?>
@@ -62,7 +65,7 @@ else {
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Conreality wiki</title>
+    <title><?php echo $title ? "$title &mdash; " : '' ?>Conreality Wiki</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cosmo/bootstrap.min.css" crossorigin="anonymous"/>
     <link rel="stylesheet" href="/index.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -81,7 +84,7 @@ else {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Conreality wiki</a>
+          <a class="navbar-brand" href="/">Conreality Wiki</a>
           <span class="navbar-text navbar-version pull-left"><b><?php echo gmdate('Y-m-d') ?></b></span>
         </div>
         <div class="collapse navbar-collapse nav-collapse">
