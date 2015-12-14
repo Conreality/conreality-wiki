@@ -81,7 +81,7 @@ else {
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">Conreality wiki</a>
-          <span class="navbar-text navbar-version pull-left"><b>2015-12-13</b></span>
+          <span class="navbar-text navbar-version pull-left"><b><?php echo gmdate('Y-m-d') ?></b></span>
         </div>
         <div class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
