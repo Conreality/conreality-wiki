@@ -28,13 +28,20 @@ function expand_wikilinks($text) {
     $text);
 }
 
+function fix_indentation($input) {
+  /* Workaround for a bug in Parsedown: */
+  return str_replace("\n    * ", "\n     * ", $input);
+}
+
 function render_markdown($input) {
   static $parser = null;
   if (!$parser) {
     $parser = new Parser();
     $parser->setMarkupEscaped(true);
   }
-  $output = expand_wikilinks($input);
+  $output = $input;
+  $output = fix_indentation($output);
+  $output = expand_wikilinks($output);
   $output = $parser->text($output);
   return $output;
 }
