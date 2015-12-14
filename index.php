@@ -113,7 +113,7 @@ else {
         <p class="pull-right">
           <a href="#">Back to top</a><br/>
         </p>
-        <p></p>
+        <?php echo $footer ?>
       </div>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
