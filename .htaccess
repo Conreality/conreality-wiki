@@ -32,3 +32,13 @@ DefaultLanguage en
 # See: https://httpd.apache.org/docs/2.4/mod/core.html#errordocument
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
+
+# Redirect all requests to the PHP dispatcher script.
+# See: https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
