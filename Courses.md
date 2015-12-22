@@ -95,3 +95,8 @@ https://www.coursera.org/learn/optics-robots-drones
 ### Control of Mobile Robots _by Georgia Tech_
 
 https://www.coursera.org/course/conrob
+
+See Also
+--------
+
+* [@bendiken's notes on MOOCs](http://ar.to/notes/mooc)

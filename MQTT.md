@@ -60,3 +60,8 @@ Interoperability
 ----------------
 
 ### ROS
+
+See Also
+--------
+
+* [@bendiken's notes on MQTT](http://ar.to/notes/mqtt)

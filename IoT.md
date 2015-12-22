@@ -32,3 +32,8 @@ Comparisons
 * [Building the Internet of Things: DDS and MQTT](http://www.slideshare.net/Angelo.Corsaro/building-the-internet-of-things-22196885)
 * [MQTT and CoAP, IoT Protocols](https://eclipse.org/community/eclipse_newsletter/2014/february/article2.php)
 * [Beyond MQTT: A Cisco View on IoT Protocols](http://blogs.cisco.com/ioe/beyond-mqtt-a-cisco-view-on-iot-protocols)
+
+See Also
+--------
+
+* [@bendiken's notes on IoT](http://ar.to/notes/iot)

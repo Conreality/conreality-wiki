@@ -35,3 +35,8 @@ ROS 2
 
 * http://design.ros2.org/articles/ros_on_dds.html
 * https://github.com/ros2/design/wiki/DDS-Overview
+
+See Also
+--------
+
+* [@bendiken's notes on DDS](http://ar.to/notes/dds)

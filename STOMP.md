@@ -15,3 +15,8 @@ Clients
 -------
 
 * https://stomp.github.io/implementations.html#STOMP_Clients
+
+See Also
+--------
+
+* [@bendiken's notes on STOMP](http://ar.to/notes/stomp)

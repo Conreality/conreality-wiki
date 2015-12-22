@@ -32,3 +32,4 @@ See Also
 --------
 
 * [Concise Binary Object Representation](http://cbor.io/)
+* [@bendiken's notes on CoAP](http://ar.to/notes/coap)

@@ -49,3 +49,8 @@ Procedure adapted from http://blog.oscarliang.net/raspberry-pi-arduino-connected
 ```            
 
 * Python support: `sudo apt-get install python-smbus` (Also: https://github.com/quick2wire/quick2wire-python-api)
+
+See Also
+--------
+
+* [@bendiken's notes on the Raspberry Pi](http://ar.to/notes/rpi)

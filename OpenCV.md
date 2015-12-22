@@ -7,3 +7,8 @@ Notes
 
 Configuration
 -------------
+
+See Also
+--------
+
+* [@bendiken's notes on OpenCV](http://ar.to/notes/opencv)
