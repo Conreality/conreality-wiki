@@ -25,6 +25,8 @@
   * [Driver Development Kit (DDK)](http://ddk.conreality.org)
   * [Software Development Kit (SDK)](http://sdk.conreality.org)
   * [Application Programming Interface (API)](http://api.conreality.org)
+* **Development Infrastructure**
+  * [[IRC C&C Server]]
 * **Research & Development**
   * **Configurations**
     * [[Laser Turret]]
