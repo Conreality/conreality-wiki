@@ -51,13 +51,22 @@ $footer  = render_markdown(file_get_contents('_Footer.md'));
 
 if (preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches) &&
     file_exists($matches[1] . '.md')) {
-  $link = $matches[1];
-  $content = render_markdown(file_get_contents($link . '.md'));
-  $title = null;
-  if ($link != 'Home') {
-    $page = str_replace('-', ' ', $link);
-    $content = "<h1>$page</h1>\n\n" . $content;
-    $title = $page;
+  $filename = $link . '.md';
+  if (is_link($filename)) {
+    $filename = readlink($filename);
+    http_response_code(301);
+    header('Location: /' . str_replace('.md', '', $filename));
+    return;
+  }
+  else {
+    $link = $matches[1];
+    $content = render_markdown(file_get_contents($filename));
+    $title = null;
+    if ($link != 'Home') {
+      $page = str_replace('-', ' ', $link);
+      $content = "<h1>$page</h1>\n\n" . $content;
+      $title = $page;
+    }
   }
 }
 else {
