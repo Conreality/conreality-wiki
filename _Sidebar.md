@@ -11,6 +11,7 @@
   * [[Mailing List]]
   * [[Donations]]
 * **Developer Guide**
+  * [[Source Code]]
   * [[Roadmap]]
   * [[Project Structure]]
   * [[Naming Conventions]]
@@ -36,7 +37,7 @@
     * [[Messaging]]
     * [[Networking]]
   * **Components**
-    * [Android App](Android)
+    * [[Android App]]
     * [[Ontology]]
     * [[Physics Engine]]
     * [[Server Daemon]]
