@@ -10,8 +10,7 @@
   * [[Contribution Guidelines]]
   * [[Mailing List]]
   * [[Donations]]
-* **Developer Guide**
-  * [[Source Code]]
+* **[[Developer Guide]]**
   * [[Roadmap]]
   * [[Project Structure]]
   * [[Naming Conventions]]
@@ -27,6 +26,8 @@
   * [Software Development Kit (SDK)](http://sdk.conreality.org)
   * [Application Programming Interface (API)](http://api.conreality.org)
 * **Development Infrastructure**
+  * [[Source Code]]
+  * [[Websites]]
   * [[IRC C&C Server]]
 * **Research & Development**
   * **Configurations**
