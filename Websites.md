@@ -21,7 +21,7 @@ Documentation
   [Conreality Application Programming Interface (API) manual](http://api.conreality.org).
 * [ddk.conreality.org](http://ddk.conreality.org):
   [Conreality Driver Development Kit (DDK) manual](http://ddk.conreality.org).
-* [kb.conreality.org](http:/kb.conreality.org):
+* [kb.conreality.org](http://kb.conreality.org):
   [Conreality Knowledge Base (KB) website](http://kb.conreality.org).
 * [sdk.conreality.org](http://sdk.conreality.org):
   [Conreality Software Development Kit (SDK) manual](http://sdk.conreality.org).
