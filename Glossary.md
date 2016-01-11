@@ -84,11 +84,17 @@ a widely-used systems programming language.
 ##### C&C
 [[Command & Control]].
 
+##### CCCP
+[Consensus Command and Control Protocol](http://api.conreality.org/protocols/cccp.html).
+
 ##### CI
 Counterintelligence.
 
 ##### CPU
 Central Processing Unit.
+
+##### CoAP
+[Constrained Application Protocol](http://api.conreality.org/protocols/coap.html).
 
 ##### COMSEC
 Communications Security.
@@ -183,6 +189,9 @@ Hard-Disk Drive.
 
 ##### Hi-Cap
 
+##### HTTP
+[Hypertext Transfer Protocol](http://api.conreality.org/protocols/http.html).
+
 ##### HUD
 See [*Heads-up display*](https://en.wikipedia.org/wiki/Head-up_display)
 in Wikipedia.
@@ -208,7 +217,7 @@ Internet Protocol.
 infrared.
 
 ##### IRC
-Internet Relay Chat.
+[Internet Relay Chat](http://api.conreality.org/protocols/irc.html).
 
 ##### JPEG
 a lossy-compression digital image file format.
@@ -265,6 +274,9 @@ in Wikipedia.
 
 ##### MPEG
 Mid Powered Electric Gun.
+
+##### MQTT
+[MQ Telemetry Transport](http://api.conreality.org/protocols/mqtt.html).
 
 ##### multicopter
 
@@ -386,7 +398,7 @@ Rail Interface/Integration System.
 Rate of Fire, meaning the RPM output of an AEG.
 
 ##### ROS
-Robot Operating System.
+[Robot Operating System](http://api.conreality.org/protocols/ros.html).
 
 ##### RPC
 Remote Procedure Call.
@@ -448,6 +460,9 @@ System-on-Chip.
 ##### speed loader
 
 ##### spin-up
+
+##### STOMP
+[Simple Text Oriented Messaging Protocol](http://api.conreality.org/protocols/stomp.html).
 
 ##### TCP
 Transmission Control Protocol.
