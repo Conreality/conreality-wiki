@@ -5,4 +5,4 @@ http://beagleboard.org/black
 Support
 -------
 
-* `Wiki pages for the BeagleBoard Black <http://elinux.org/Beagleboard:BeagleBoneBlack>`
+* `Wiki pages for the BeagleBone Black <http://elinux.org/Beagleboard:BeagleBoneBlack>`
