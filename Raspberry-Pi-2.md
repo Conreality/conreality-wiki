@@ -12,4 +12,4 @@ See also the [[Raspberry Pi]] page for more detailed information.
 Support
 -------
 
-* `Help pages for the Raspberry Pi 2 <https://www.raspberrypi.org/help/>`
+* `Help pages for the Raspberry Pi 2 ` [<https://www.raspberrypi.org/help/>](https://www.raspberrypi.org/help/)
