@@ -5,5 +5,5 @@ http://beagleboard.org/x15
 Support
 -------
 
-* `Mailing list for the BeagleBoard X15 `[link](https://groups.google.com/forum/#!forum/beagleboard-x15)
-* `Wiki pages for the BeagleBoard X15 ` [link](http://elinux.org/Beagleboard:BeagleBoard-X15)
+* `Mailing list for the BeagleBoard X15 `[<https://groups.google.com/forum/#!forum/beagleboard-x15>](https://groups.google.com/forum/#!forum/beagleboard-x15)
+* `Wiki pages for the BeagleBoard X15 ` [<http://elinux.org/Beagleboard:BeagleBoard-X15>](http://elinux.org/Beagleboard:BeagleBoard-X15)
