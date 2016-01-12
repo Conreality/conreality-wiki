@@ -12,7 +12,7 @@ Components
 Our initial proof-of-concept reference configuration is:
 
 * [[Turret Frame|Turret Frames]]: Adafruit Mini Pan/Tilt Kit
-* [[Main Board|Main Boards]]: [[Raspbery Pi 2]]
+* [[Main Board|Main Boards]]: [[Raspberry Pi 2]]
 * [[Camera Module|Camera Modules]]: [[CMUcam5 Pixy]]
 * [[Laser Module|Laser Modules]]: [[Laser Modules]]
 
