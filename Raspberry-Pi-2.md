@@ -7,4 +7,4 @@ https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
 Support
 -------
 
-* `Help pages for the Raspberry Pi 2 <https://www.raspberrypi.org/help/>`__
+* `Help pages for the Raspberry Pi 2 <https://www.raspberrypi.org/help/>`
