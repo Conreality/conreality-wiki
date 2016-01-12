@@ -63,7 +63,7 @@
     * [[Main Boards]]
       * [[Raspberry Pi]]
       * [[Raspberry Pi 2]]
-      * [[BeagleBone-X15]]
+      * [[BeagleBoard-X15]]
       * [[BeagleBone-Black]]
     * [[Peripherals]]
       * [[Camera Modules]]
