@@ -12,9 +12,9 @@ Components
 Our initial proof-of-concept reference configuration is:
 
 * [[Turret Frame|Turret Frames]]: Adafruit Mini Pan/Tilt Kit
-* [[Main Board|Main Boards]]: [[BeagleBone Black]]
+* [[Main Board|Main Boards]]: [[Raspbery Pi 2]]
 * [[Camera Module|Camera Modules]]: [[CMUcam5 Pixy]]
-* [[Laser Module|Laser Modules]]: _TBD_ (a commodity part)
+* [[Laser Module|Laser Modules]]: [[Laser Modules]]
 
 Discussions
 -----------

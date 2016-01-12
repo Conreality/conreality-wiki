@@ -6,6 +6,8 @@ In case you happen to have one of these devices lying around collecting
 dust, please consider donating it to the project. For logistics, please
 contact one of the project leads.
 
+This list may not be up to date, so it is probably best to contact one of the project leads for a more current list.
+
 #### [BeagleBone Black](http://beagleboard.org/black)
 
 Available from, e.g.,
