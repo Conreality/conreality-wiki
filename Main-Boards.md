@@ -16,7 +16,7 @@ improving economy.
 
 ### Boards
 
-* [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
+* [[Raspberry Pi 2]]
 
 ### Distros
 
