@@ -1,4 +1,6 @@
-https://www.raspberrypi.org/products/raspberry-pi-2-model-b/
+https://www.raspberrypi.org/products/raspberry-pi-2-model-b
+
+See also [[Raspberry Pi]] for more detailed information.
 
 <img src="https://www.raspberrypi.org/wp-content/uploads/2015/01/Pi2ModB1GB_-comp.jpeg"
   alt="Photo of the Raspberry Pi 2"
