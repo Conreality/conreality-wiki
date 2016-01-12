@@ -2,7 +2,7 @@ https://www.raspberrypi.org/products/raspberry-pi-2-model-b
 
 See also [[Raspberry Pi]] for more detailed information.
 
-![Photo of the Raspberry Pi 2 board](https://www.raspberrypi.org/wp-content/uploads/2015/01/Pi2ModB1GB_-comp.jpeg =400x)
+![Photo of the Raspberry Pi 2 board](https://wiki.openwrt.org/_media/media/raspberry_pi_foundation/rpi2b.jpg)
 
 Support
 -------
