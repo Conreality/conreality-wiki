@@ -1,3 +1,7 @@
+Altitude
+--------
+[[Pressure-Sensors]]
+
 Audio
 -----
 
@@ -9,5 +13,5 @@ Vision
 
 See Also
 --------
-
+* [[Peripherals]]
 * http://wiki.ros.org/Sensors
