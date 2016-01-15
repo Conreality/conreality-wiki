@@ -298,7 +298,7 @@ the Open Dynamics Engine physics engine.
 See [[OODA Loop]]. Also known as the **Boyd Cycle**.
 
 ##### OpenCV
-a computer vision software library.
+a computer vision software library. See also [[OpenCV]]
 
 ##### OpenGL
 a computer graphics standard.
