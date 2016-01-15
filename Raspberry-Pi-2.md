@@ -18,3 +18,9 @@ Support
 -------
 
 * `Help pages for the Raspberry Pi 2 ` [<https://www.raspberrypi.org/help/>](https://www.raspberrypi.org/help/)
+
+Sourcing
+--------
+* http://de.farnell.com/raspberrypi-boards
+* https://www.conrad.de/de/raspberry-pi-2-model-b-1-gb-ohne-betriebssystem-1316978.html
+* http://www.amazon.de/Raspberry-Pi-Model-Made-U-K/dp/B00T3BX0L8/ref=sr_1_2?s=computers&ie=UTF8&qid=1452639393&sr=1-2&keywords=raspberry+pi+2
