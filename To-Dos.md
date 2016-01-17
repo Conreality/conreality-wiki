@@ -13,24 +13,28 @@ go ahead and record your intent by editing this wiki page.
 Website Infrastructure
 ----------------------
 
+- Document the procedure for obtaining and installing TLS certificates
+  issued by Let's Encrypt. (@bendiken)
+- Force HTTP to HTTPS redirection on all our TLS-enabled websites.
+  (@bendiken)
 - Auto-link `@handles` in wiki pages to the respective GitHub account.
 
 Development Infrastructure
 --------------------------
 
-- Finish the build system overhaul to use Autotools instead of Ocamlbuild.
+- Finish the build system overhaul to use Autotools instead of OCamlbuild.
   (@bendiken)
 - Finish the Debian/Ubuntu packaging based on the Autotools build system.
   (@bendiken)
 - Enhance the build system by checking that the OCaml version is supported.
   This requires use of the
-  [AX_COMPARE_VERSION](https://www.gnu.org/software/autoconf-archive/ax_compare_version.html)
+  [`AX_COMPARE_VERSION`](https://www.gnu.org/software/autoconf-archive/ax_compare_version.html)
   macro. See the example in OPAM's
   [`configure.ac`](https://github.com/ocaml/opam/blob/master/configure.ac#L17).
 - Support builds with no system dependencies, using bundled external
-  dependencies (difficulty: expert):
+  dependencies (*difficulty: expert*):
     - Bundle [libffi](https://github.com/atgreen/libffi) in `lib/libffi`.
-      The project uses a Autotools-based build system.
+      The project uses an Autotools-based build system.
     - Bundle [Lua 5.1](https://github.com/LuaDist/lua) in `lib/lua`.
       The project uses a Make-based build system.
     - Bundle [OpenCV 2.4](https://github.com/Itseez/opencv) in `lib/opencv`.
