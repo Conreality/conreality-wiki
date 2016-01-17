@@ -19,7 +19,8 @@ Target Architectures & Platforms
 Third-Party Dependencies
 ------------------------
 
-- Enhance [Alcotest]()'s user-friendliness by pushing matchers, etc, upstream.
+- Enhance [Alcotest](https://github.com/mirage/alcotest)'s user-friendliness
+  by pushing `Float` matchers, etc, upstream.
 - Update [OCaml-Lua](http://ocaml-lua.forge.ocamlcore.org) to use Lua 5.2+
   instead of the current Lua 5.1. Lua 5.2 brings significant enhancements.
 
