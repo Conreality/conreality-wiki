@@ -29,6 +29,6 @@ Project Evangelism
 
 - Submit a mentoring organization application to
   [Google Summer of Code](https://developers.google.com/open-source/gsoc/)
-  2017. According to their
+  in 2017. According to their
   [timeline](https://developers.google.com/open-source/gsoc/timeline?hl=en),
   mentoring organizations must apply by mid-February.
