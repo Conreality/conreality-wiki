@@ -11,7 +11,7 @@ Target Architectures & Platforms
   Amend the platform detection and support configuration in
   [configure.ac](https://github.com/conreality/conreality/blob/master/configure.ac)
   accordingly.
-- Work through cross-compilation from x86-64 to ARM.
+- Work through and document cross-compilation from x86-64 to ARM.
   The Autotools-based build system in principle supports cross compilation.
   This may require changing `AC_CANONICAL_HOST` to `AC_CANONICAL_TARGET`.
   [See the manual](https://www.gnu.org/software/autoconf/manual/autoconf-2.69/html_node/Canonicalizing.html).
@@ -19,6 +19,10 @@ Target Architectures & Platforms
 Third-Party Dependencies
 ------------------------
 
+- Add support for the `ioctl(2)` facility in
+  [extunix](https://github.com/ygrek/extunix).
+  (pull request [#11](https://github.com/ygrek/extunix/pull/11)
+  by @bendiken)
 - Enhance [Alcotest](https://github.com/mirage/alcotest)'s user-friendliness
   by pushing `Float` matchers, etc, upstream.
 - Update [OCaml-Lua](http://ocaml-lua.forge.ocamlcore.org) to use Lua 5.2+
