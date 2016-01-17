@@ -1,14 +1,15 @@
-These are known to-do items for the project. Please don't add any
-wishlist-type fluff here--these are all manifestly actionable items, to be
-by default done by the person who added a specific item.
-
-In case a particular to-do item has a user handle associated with it, it's
-already in the works by the person designated by the handle; to collaborate
-on the task, contact that person directly.
+The following are known to-do items for the project. In case a particular
+to-do item has a user handle associated with it, it's already in the works
+by the person designated by the handle; to collaborate on the task, contact
+that person directly.
 
 If a to-do item has no user handle associated with it, it is up for grabs by
 anyone to do. Once you've actually begun on the task (*not* before that!),
 go ahead and record your intent by editing this wiki page.
+
+*Please do **not** add any wishlist-type fluff here--these are all
+manifestly actionable items, to be by default done by the person who added a
+specific item.*
 
 Website Infrastructure
 ----------------------
@@ -26,10 +27,11 @@ Development Infrastructure
   (@bendiken)
 - Finish the Debian/Ubuntu packaging based on the Autotools build system.
   (@bendiken)
+- Ensure that the build system supports out-of-tree compiles. (@bendiken)
 - Enhance the build system by checking that the OCaml version is supported.
   This requires use of the
   [`AX_COMPARE_VERSION`](https://www.gnu.org/software/autoconf-archive/ax_compare_version.html)
-  macro. See the example in OPAM's
+  macro to check `OCAMLVERSION` for OCaml 4.02.1+. See the example in OPAM's
   [`configure.ac`](https://github.com/ocaml/opam/blob/master/configure.ac#L17).
 - Support builds with no system dependencies, using bundled external
   dependencies (*difficulty: expert*):
@@ -41,14 +43,15 @@ Development Infrastructure
       The project uses a CMake-based build system.
     - Bundle OCaml packages under `lib/` as submodules.
     - Build the transitive dependency graph with correct ordering.
+- Build manuals (HTML, PDF, EPUB) automatically in post-commit hook.
 
 Target Architectures & Platforms
 --------------------------------
 
-- Validate builds on Mac OS X, FreeBSD, NetBSD, and OpenBSD.
+- Validate the build procedure on Mac OS X, FreeBSD, NetBSD, and OpenBSD.
   Amend the platform detection and support configuration in
   [`configure.ac`](https://github.com/conreality/conreality/blob/master/configure.ac)
-  accordingly.
+  accordingly. Document the findings.
 - Work through and document cross-compilation from x86-64 to ARM.
   The Autotools-based build system in principle supports cross compilation.
   This may require changing `AC_CANONICAL_HOST` to `AC_CANONICAL_TARGET`.
@@ -64,7 +67,8 @@ Third-Party Dependencies
 - Enhance [Alcotest](https://github.com/mirage/alcotest)'s user-friendliness
   by pushing `Float` matchers, etc, upstream.
 - Update [OCaml-Lua](http://ocaml-lua.forge.ocamlcore.org) to use Lua 5.2+
-  instead of the current Lua 5.1. Lua 5.2 brings significant enhancements.
+  instead of the current Lua 5.1. Lua 5.2 brings significant
+  [enhancements](#).
 
 Project Evangelism
 ------------------
