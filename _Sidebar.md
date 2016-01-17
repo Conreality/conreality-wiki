@@ -11,6 +11,7 @@
   * [[Mailing List]]
   * [[Donations]]
 * **[[Developer Guide]]**
+  * [[To-Dos]]
   * [[Roadmap]]
   * [[Project Structure]]
   * [[Naming Conventions]]
@@ -28,6 +29,7 @@
 * **Development Infrastructure**
   * [[Source Code]]
   * [[Websites]]
+  * [[Debian Packaging]]
   * [[IRC C&C Server]]
 * **Research & Development**
   * **Configurations**
@@ -63,8 +65,8 @@
     * [[Main Boards]]
       * [[Raspberry Pi]]
       * [[Raspberry Pi 2]]
-      * [[BeagleBoard-X15]]
-      * [[BeagleBone-Black]]
+      * [[BeagleBoard X15]]
+      * [[BeagleBone Black]]
     * [[Peripherals]]
       * [[Camera Modules]]
       * [[Laser Modules]]
