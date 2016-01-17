@@ -1,3 +1,15 @@
+These are known to-do items for the project. Please don't add any
+wishlist-type fluff here--these are all manifestly actionable items, to be
+by default done by the person who added a specific item.
+
+In case a particular to-do item has a user handle associated with it, it's
+already in the works by the person designated by the handle; to collaborate
+on the task, contact that person directly.
+
+If a to-do item has no user handle associated with it, it is up for grabs.
+Once you've actually started on the task (not before!), record your intent
+by editing this wiki page.
+
 Development Infrastructure
 --------------------------
 
