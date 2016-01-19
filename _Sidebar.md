@@ -3,6 +3,7 @@
 * [[Home]]
 * [[Scenarios]]
 * **Installation Guide**
+  * [[Supported Platforms]]
   * [[Prerequisites]]
   * [[Installation]]
 * **User Guide**
