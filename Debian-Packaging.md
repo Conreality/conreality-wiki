@@ -1,7 +1,50 @@
+Building Tarballs
+-----------------
+
+This procedure builds a `conreality-$(VERSION).tar.gz` source tarball for
+general distribution:
+
+    $ git clone --recursive https://github.com/conreality/conreality.git /src/conreality
+    $ cd /src/conreality
+    $ ./autogen.sh
+    $ ./configure
+    $ make dist          # produces ./conreality-$(VERSION).tar.gz
+
+Building Packages
+-----------------
+
+This procedure requires the `conreality-$(VERSION).tar.gz` tarball built
+in the previous section and produces Debian binary packages from it:
+
+    $ mkdir -p /tmp/debian
+    $ cp conreality-$(VERSION).tar.gz /tmp/debian/
+    $ cd /tmp/debian
+    $ tar -xf conreality-$(VERSION).tar.gz
+    $ mv conreality-$(VERSION).tar.gz conreality_$(VERSION).orig.tar.gz
+    $ cd conreality-$(VERSION)
+    $ rsync -a /src/conreality/etc/debian/conreality/ debian/
+    $ dpkg-buildpackage -us -uc
+
 Build Configuration
 -------------------
 
-    $ ./configure --disable-irc
+Our Debian packages are built with the following feature configuration:
+
+    $ ./configure --enable-debug --enable-develop --disable-irc
+
+This means that the build host must have the Alcotest and UTop development
+packages installed as build dependencies at build time.
+
+Debian Packages
+---------------
+
+### OCaml
+
+* `ocaml-base`, `ocaml-base-nox`: `ocamlrun`, `*.cmi`
+* `ocaml-interp`: `ocaml` toplevel
+* `ocaml-native-compilers`: `ocamlc.opt`, `ocamlopt.opt`, etc.
+* `ocaml-nox`: `ocamlc`, `ocamlopt`, `ocamldoc`, `ocamllex`, `ocamlbuild`, etc.
+* `ocaml-findlib`: `ocamlfind`
 
 Debian Tooling
 --------------
@@ -41,3 +84,10 @@ Case Examples
 -------------
 
 * https://github.com/ocaml/opam/issues/149
+
+See Also
+--------
+
+* https://raphaelhertzog.com/2010/09/27/different-dependencies-between-debian-and-ubuntu-but-common-source-package/
+* [Arch Linux OCaml package guidelines](https://wiki.archlinux.org/index.php/OCaml_package_guidelines)
+* https://forge.ocamlcore.org/tracker/?func=detail&aid=718&group_id=54&atid=291
