@@ -24,6 +24,7 @@
     * [[Test Suite]]
   * [[Release Procedure]]
   * [[Packaging]]
+    * [[Debian Packaging]]
 * **Developer Manuals**
   * [Driver Development Kit (DDK)](http://ddk.conreality.org)
   * [Software Development Kit (SDK)](http://sdk.conreality.org)
@@ -31,7 +32,6 @@
 * **Development Infrastructure**
   * [[Source Code]]
   * [[Websites]]
-  * [[Debian Packaging]]
   * [[IRC C&C Server]]
 * **Research & Development**
   * **Configurations**
