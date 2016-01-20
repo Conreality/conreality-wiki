@@ -60,3 +60,9 @@ and/or @mikegogulski.
   Redirects to the [mailing list](https://groups.google.com/d/forum/conreality).
 * [**prov.conreality.org**](http://prov.conreality.org):
   Redirects to the [provenance subproject](https://github.com/conreality/provenance).
+
+Packages
+--------
+
+* [**apt.conreality.org**](http://apt.conreality.org):
+  Conreality APT package archive repository for Debian and Ubuntu.

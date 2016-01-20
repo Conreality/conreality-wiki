@@ -24,6 +24,7 @@ in the previous section and produces Debian binary packages from it:
     $ cd conreality-$(VERSION)
     $ rsync -a /src/conreality/etc/debian/conreality/ debian/
     $ dpkg-buildpackage -us -uc
+    $ lintian -i -I --show-overrides
 
 Build Configuration
 -------------------
