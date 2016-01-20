@@ -6,6 +6,7 @@
   * [[Supported Platforms]]
   * [[Prerequisites]]
   * [[Installation]]
+  * [[Debian Packages]]
 * **User Guide**
 * **Contributor Guide**
   * [[Contribution Guidelines]]
