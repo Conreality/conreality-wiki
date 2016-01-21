@@ -8,11 +8,21 @@ are in the works.
 Package Repositories
 --------------------
 
+### Binary Packages
+
     # Debian 8.x (Jessie)
     deb http://apt.conreality.org/debian jessie main
 
     # Ubuntu 14.04 LTS (Trusty Tahr)
     deb http://apt.conreality.org/ubuntu trusty main
+
+### Source Packages
+
+    # Debian 8.x (Jessie)
+    deb-src http://apt.conreality.org/debian jessie main
+
+    # Ubuntu 14.04 LTS (Trusty Tahr)
+    deb-src http://apt.conreality.org/ubuntu trusty main
 
 Package Descriptions
 --------------------

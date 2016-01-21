@@ -36,7 +36,9 @@ Publishing Packages
     $ git clone https://github.com/conreality/apt.conreality.org.git /srv/apt.conreality.org
     $ cd /srv/apt.conreality.org
 
-    $ reprepro include trusty conreality*.changes
+    $ cd ubuntu
+
+    $ reprepro include trusty /tmp/debian/conreality*.changes
 
     $ reprepro list trusty
     $ reprepro dumpreferences | sort
