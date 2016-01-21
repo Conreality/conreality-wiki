@@ -14,8 +14,9 @@ general distribution:
 Building Packages
 -----------------
 
-This procedure requires the `conreality-$(VERSION).tar.gz` tarball built
-in the previous section and produces Debian binary packages from it:
+This procedure requires the `conreality-$(VERSION).tar.gz` source tarball
+built in the previous section and produces Debian source and binary packages
+from it:
 
     $ mkdir -p /tmp/debian
     $ cp conreality-$(VERSION).tar.gz /tmp/debian/
@@ -43,12 +44,14 @@ Publishing Packages
 Build Configuration
 -------------------
 
-Our Debian packages are built with the following feature configuration:
+Our Debian packages are currently built with the following feature
+configuration:
 
     $ ./configure --enable-debug --enable-develop --disable-irc
 
-This means that the build host must have the Alcotest and UTop development
-packages installed as build dependencies at build time.
+Note that the inclusion of `--enable-develop` means that the build host must
+also have the Alcotest and UTop development packages installed as build
+dependencies at build time.
 
 Debian Packages
 ---------------

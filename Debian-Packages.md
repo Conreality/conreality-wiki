@@ -1,3 +1,10 @@
+Packages are currently available for Ubuntu 14.04 LTS (Trusty Tahr).
+Packages for Debian 8.2 (Jessie) are in the works.
+
+Binary packages currently target the 64-bit PC (`amd64`) architecture.
+Binary packages for the [[Raspberry Pi]] (`armv6l`) and 32-bit ARM (`armhf`)
+are in the works.
+
 Package Repositories
 --------------------
 
