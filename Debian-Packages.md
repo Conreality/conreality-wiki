@@ -1,5 +1,16 @@
-`conreality`
-------------
+Package Repositories
+--------------------
+
+    # Debian 8.x (Jessie)
+    deb http://apt.conreality.org/debian jessie main
+
+    # Ubuntu 14.04 LTS (Trusty Tahr)
+    deb http://apt.conreality.org/ubuntu trusty main
+
+Package Descriptions
+--------------------
+
+### `conreality`
 
     $ aptitude show conreality
     Package: conreality
@@ -17,8 +28,7 @@
      Program binaries for the Conreality wargame.
     Homepage: https://conreality.org
 
-`conreality-dev`
-----------------
+### `conreality-dev`
 
     $ aptitude show conreality-dev
     Package: conreality-dev
@@ -36,8 +46,7 @@
      Developer resources for the Conreality wargame.
     Homepage: https://conreality.org
 
-`conreality-doc`
-----------------
+### `conreality-doc`
 
     $ aptitude show conreality-doc
     Package: conreality-doc

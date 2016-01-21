@@ -6,6 +6,7 @@ general distribution:
 
     $ git clone --recursive https://github.com/conreality/conreality.git /src/conreality
     $ cd /src/conreality
+
     $ ./autogen.sh
     $ ./configure
     $ make dist          # produces ./conreality-$(VERSION).tar.gz
@@ -19,12 +20,25 @@ in the previous section and produces Debian binary packages from it:
     $ mkdir -p /tmp/debian
     $ cp conreality-$(VERSION).tar.gz /tmp/debian/
     $ cd /tmp/debian
+
     $ tar -xf conreality-$(VERSION).tar.gz
     $ mv conreality-$(VERSION).tar.gz conreality_$(VERSION).orig.tar.gz
     $ cd conreality-$(VERSION)
     $ rsync -a /src/conreality/etc/debian/conreality/ debian/
+
     $ dpkg-buildpackage -us -uc
     $ lintian -i -I --show-overrides
+
+Publishing Packages
+-------------------
+
+    $ git clone https://github.com/conreality/apt.conreality.org.git /srv/apt.conreality.org
+    $ cd /srv/apt.conreality.org
+
+    $ reprepro include trusty conreality*.changes
+
+    $ reprepro list trusty
+    $ reprepro dumpreferences | sort
 
 Build Configuration
 -------------------
@@ -50,11 +64,23 @@ Debian Packages
 Debian Tooling
 --------------
 
+To work on packaging, install the following tools:
+
+    $ sudo aptitude install debhelper devscripts dh-make lintian reprepro
+
 * [`dh_make(8)`](http://manpages.ubuntu.com/manpages/trusty/man8/dh_make.8.html)
 * [`dh(1)`](http://manpages.ubuntu.com/manpages/trusty/man1/dh.1.html)
 * [`debuild(1)`](http://manpages.ubuntu.com/manpages/trusty/man1/debuild.1.html)
 * [`lintian(1)`](http://manpages.ubuntu.com/manpages/trusty/man1/lintian.1.html)
-* [`reprepro(?)`](https://mirrorer.alioth.debian.org/reprepro.1.html)
+* [`reprepro(1)`](https://mirrorer.alioth.debian.org/reprepro.1.html)
+  * [Reprepro home page](https://mirrorer.alioth.debian.org/)
+  * [Reprepro manual](https://anonscm.debian.org/cgit/mirrorer/reprepro.git/plain/docs/manual.html)
+  * [Reprepro FAQ](https://anonscm.debian.org/cgit/mirrorer/reprepro.git/plain/docs/FAQ)
+  * [Reprepro how-to by Wikimedia](https://wikitech.wikimedia.org/wiki/Reprepro)
+  * https://wiki.debian.org/SettingUpSignedAptRepositoryWithReprepro
+  * https://wikitech.wikimedia.org/wiki/Reprepro
+  * https://www.digitalocean.com/community/tutorials/how-to-use-reprepro-for-a-secure-package-repository-on-ubuntu-14-04
+* [`dpkg-scanpackages(1)`](#)
 
 Debian Policy
 -------------
