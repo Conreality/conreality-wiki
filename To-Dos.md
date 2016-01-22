@@ -3,13 +3,14 @@ to-do item has a user handle associated with it, it's already in the works
 by the person designated by the handle; to collaborate on the task, contact
 that person directly.
 
-If a to-do item has no user handle associated with it, it is up for grabs by
-anyone to do. Once you've actually begun on the task (*not* before that!),
-go ahead and record your intent by editing this wiki page.
+If a to-do item has no user handle associated with it, it is up for grabs
+for anyone to do. Once you've actually begun on the task (*not* before
+that!), go ahead and record your intent by editing this wiki page.
 
 *Please do **not** add any wishlist-type fluff here--these are all
 manifestly actionable items, to be by default done by the person who added a
-specific item.*
+specific item. Don't add anything that you're not prepared to step up to
+implement yourself.*
 
 Website Infrastructure
 ----------------------
@@ -43,7 +44,7 @@ Development Infrastructure
       The project uses a CMake-based build system.
     - Bundle OCaml packages under `lib/` as submodules.
     - Build the transitive dependency graph with correct ordering.
-- Build manuals (HTML, PDF, EPUB) automatically in post-commit hook.
+- Build all manuals (HTML, PDF, EPUB) automatically from post-commit hooks.
 
 Target Architectures & Platforms
 --------------------------------
@@ -68,7 +69,11 @@ Third-Party Dependencies
   by pushing `Float` matchers, etc, upstream.
 - Update [OCaml-Lua](http://ocaml-lua.forge.ocamlcore.org) to use Lua 5.2+
   instead of the current Lua 5.1. Lua 5.2 brings significant
-  [enhancements](#).
+  [enhancements](http://www.lua.org/versions.html#5.2).
+- Submit [OCaml-Lua](http://ocaml-lua.forge.ocamlcore.org) Debian packaging
+  to upstream.
+- Support @lindig's public-domain, pure-OCaml Lua runtime implementation,
+  [Lua-ML](https://github.com/lindig/lua-ml).
 
 Project Evangelism
 ------------------
