@@ -8,8 +8,8 @@ Marketing
 The project's main website will eventually host a nontechnical description
 of the project targeted towards potential users and contributors.
 
-* [**conreality.org**](http://conreality.org):
-  [Conreality.org website](http://conreality.org).
+* [**conreality.org**](https://conreality.org):
+  [Conreality.org website](https://conreality.org).
   (Redirects to the wiki at present.)
 
 Collaboration
@@ -18,8 +18,8 @@ Collaboration
 Most of the day-to-day collaboration among project developers is facilitated
 using the [[mailing list|Mailing List]] and the project wiki.
 
-* [**wiki.conreality.org**](http://wiki.conreality.org):
-  [Conreality Wiki website](http://wiki.conreality.org).
+* [**wiki.conreality.org**](https://wiki.conreality.org):
+  [Conreality Wiki website](https://wiki.conreality.org).
 
 Documentation
 -------------
@@ -27,12 +27,12 @@ Documentation
 These documentation websites are generated using the
 [Sphinx](http://www.sphinx-doc.org) documentation generator.
 
-* [**api.conreality.org**](http://api.conreality.org):
-  [Conreality Application Programming Interface (API) manual](http://api.conreality.org).
-* [**ddk.conreality.org**](http://ddk.conreality.org):
-  [Conreality Driver Development Kit (DDK) manual](http://ddk.conreality.org).
-* [**sdk.conreality.org**](http://sdk.conreality.org):
-  [Conreality Software Development Kit (SDK) manual](http://sdk.conreality.org).
+* [**api.conreality.org**](https://api.conreality.org):
+  [Conreality Application Programming Interface (API) manual](https://api.conreality.org).
+* [**ddk.conreality.org**](https://ddk.conreality.org):
+  [Conreality Driver Development Kit (DDK) manual](https://ddk.conreality.org).
+* [**sdk.conreality.org**](https://sdk.conreality.org):
+  [Conreality Software Development Kit (SDK) manual](https://sdk.conreality.org).
 
 Knowledge
 ---------
@@ -40,8 +40,8 @@ Knowledge
 Machine-readable knowledge is captured in the [knowledge base](Knowledge-Base)
 (KB) and made browsable at the KB website.
 
-* [**kb.conreality.org**](http://kb.conreality.org):
-  [Conreality Knowledge Base (KB) website](http://kb.conreality.org).
+* [**kb.conreality.org**](https://kb.conreality.org):
+  [Conreality Knowledge Base (KB) website](https://kb.conreality.org).
 
 Redirects
 ---------
@@ -64,5 +64,5 @@ and/or @mikegogulski.
 Packages
 --------
 
-* [**apt.conreality.org**](http://apt.conreality.org):
+* [**apt.conreality.org**](https://apt.conreality.org):
   Conreality APT package archive repository for Debian and Ubuntu.

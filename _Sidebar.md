@@ -28,9 +28,9 @@
   * [[Packaging]]
     * [[Debian Packaging]]
 * **Developer Manuals**
-  * [Driver Development Kit (DDK)](http://ddk.conreality.org)
-  * [Software Development Kit (SDK)](http://sdk.conreality.org)
-  * [Application Programming Interface (API)](http://api.conreality.org)
+  * [Driver Development Kit (DDK)](https://ddk.conreality.org)
+  * [Software Development Kit (SDK)](https://sdk.conreality.org)
+  * [Application Programming Interface (API)](https://api.conreality.org)
 * **Development Infrastructure**
   * [[Build Machines]]
   * [[Source Code]]

@@ -15,19 +15,19 @@ Websites
 --------
 
 * [**conreality/conreality.org**](https://github.com/conreality/conreality.org):
-  The source repository for the [Conreality.org website](http://conreality.org).
+  The source repository for the [Conreality.org website](https://conreality.org).
 * [**conreality/api.conreality.org**](https://github.com/conreality/api.conreality.org):
-  The source repository for the [Conreality Application Programming Interface (API) manual](http://api.conreality.org).
+  The source repository for the [Conreality Application Programming Interface (API) manual](https://api.conreality.org).
 * [**conreality/apt.conreality.org**](https://github.com/conreality/apt.conreality.org):
-  The source repository for the [Conreality APT packages for Debian](http://apt.conreality.org).
+  The source repository for the [Conreality APT packages for Debian](https://apt.conreality.org).
 * [**conreality/ddk.conreality.org**](https://github.com/conreality/ddk.conreality.org):
-  The source repository for the [Conreality Driver Development Kit (DDK) manual](http://ddk.conreality.org).
+  The source repository for the [Conreality Driver Development Kit (DDK) manual](https://ddk.conreality.org).
 * [**conreality/kb.conreality.org**](https://github.com/conreality/kb.conreality.org):
-  The source repository for the [Conreality Knowledge Base (KB) website](http://kb.conreality.org).
+  The source repository for the [Conreality Knowledge Base (KB) website](https://kb.conreality.org).
 * [**conreality/sdk.conreality.org**](https://github.com/conreality/sdk.conreality.org):
-  The source repository for the [Conreality Software Development Kit (SDK) manual](http://sdk.conreality.org).
+  The source repository for the [Conreality Software Development Kit (SDK) manual](https://sdk.conreality.org).
 * [**conreality/wiki.conreality.org**](https://github.com/conreality/wiki.conreality.org):
-  The source repository for the [Conreality Wiki website](http://wiki.conreality.org).
+  The source repository for the [Conreality Wiki website](https://wiki.conreality.org).
 
 Miscellaneous
 -------------
