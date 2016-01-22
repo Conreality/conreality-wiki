@@ -17,6 +17,8 @@ Install the Conreality [[server daemon|Server Daemon]] and command-line tools:
 
     $ sudo apt-get install -y conreality
 
+Refer to the [[Debian Packages]] page for a list of all available packages.
+
 ### Debian 8.2 (Jessie)
 
 (Coming soon.)
