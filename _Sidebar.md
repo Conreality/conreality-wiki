@@ -32,6 +32,7 @@
   * [Software Development Kit (SDK)](http://sdk.conreality.org)
   * [Application Programming Interface (API)](http://api.conreality.org)
 * **Development Infrastructure**
+  * [[Build Machines]]
   * [[Source Code]]
   * [[Websites]]
   * [[IRC C&C Server]]
