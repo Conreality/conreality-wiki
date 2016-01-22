@@ -1,4 +1,4 @@
-Packages are currently available for Ubuntu 14.04 LTS (Trusty Tahr).
+[[Packages]] are currently available for Ubuntu 14.04 LTS (Trusty Tahr).
 Packages for Debian 8.2 (Jessie) are in the works.
 
 Binary packages currently target the 64-bit PC (`amd64`) architecture.
@@ -23,6 +23,14 @@ Package Repositories
 
     # Ubuntu 14.04 LTS (Trusty Tahr)
     deb-src http://apt.conreality.org/ubuntu trusty main
+
+Package List
+------------
+
+    $ aptitude search conreality
+    p   conreality                   - Augmented-reality wargame
+    p   conreality-dev               - Augmented-reality wargame (development)
+    p   conreality-doc               - Augmented-reality wargame (documentation)
 
 Package Descriptions
 --------------------
