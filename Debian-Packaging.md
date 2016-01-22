@@ -19,15 +19,16 @@ built in the previous section and produces Debian source and binary packages
 from it:
 
     $ mkdir -p /tmp/debian
-    $ cp conreality-$(VERSION).tar.gz /tmp/debian/
+    $ cp conreality-$VERSION.tar.gz /tmp/debian/
     $ cd /tmp/debian
 
-    $ tar -xf conreality-$(VERSION).tar.gz
-    $ mv conreality-$(VERSION).tar.gz conreality_$(VERSION).orig.tar.gz
-    $ cd conreality-$(VERSION)
+    $ tar -xf conreality-$VERSION.tar.gz
+    $ mv conreality-$VERSION.tar.gz conreality_$VERSION.orig.tar.gz
+    $ cd conreality-$VERSION
     $ rsync -a /src/conreality/etc/debian/conreality/ debian/
 
-    $ dpkg-buildpackage -us -uc
+    $ dpkg-buildpackage -us -uc               # for testing, OR:
+    $ dpkg-buildpackage -k0x2F934B49D8F03962  # for releases
     $ lintian -i -I --show-overrides
 
 Publishing Packages
@@ -39,9 +40,13 @@ Publishing Packages
     $ cd ubuntu
 
     $ reprepro include trusty /tmp/debian/conreality*.changes
+    $ reprepro export  # not normally needed
+    $ reprepro createsymlinks
 
     $ reprepro list trusty
     $ reprepro dumpreferences | sort
+
+    $ rsync -azv ./ conreality@apt.conreality.org:sites/apt.conreality.org/ubuntu/
 
 Build Configuration
 -------------------
@@ -82,7 +87,7 @@ To work on packaging, install the following tools:
   * [Reprepro manual](https://anonscm.debian.org/cgit/mirrorer/reprepro.git/plain/docs/manual.html)
   * [Reprepro FAQ](https://anonscm.debian.org/cgit/mirrorer/reprepro.git/plain/docs/FAQ)
   * [Reprepro how-to by Wikimedia](https://wikitech.wikimedia.org/wiki/Reprepro)
-  * https://wiki.debian.org/SettingUpSignedAptRepositoryWithReprepro
+  * [SettingUpSignedAptRepositoryWithReprepro](https://wiki.debian.org/SettingUpSignedAptRepositoryWithReprepro)
   * https://wikitech.wikimedia.org/wiki/Reprepro
   * https://www.digitalocean.com/community/tutorials/how-to-use-reprepro-for-a-secure-package-repository-on-ubuntu-14-04
 * [`dpkg-scanpackages(1)`](#)
@@ -95,6 +100,7 @@ Debian Policy
 * [Debian Policy Manual](https://www.debian.org/doc/debian-policy/)
 * [Debian OCaml Packaging Policy](https://pkg-ocaml-maint.alioth.debian.org/ocaml_packaging_policy.html/)
 * [Debian OCaml Task Force](https://wiki.debian.org/Teams/OCamlTaskForce)
+* [Debian Repository Format](https://wiki.debian.org/RepositoryFormat)
 * https://wiki.debian.org/IntroDebianPackaging
 * https://wiki.debian.org/Packaging
 * https://wiki.debian.org/HowToPackageForDebian
