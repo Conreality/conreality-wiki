@@ -1,6 +1,8 @@
 Inspiration
 -----------
 
+* **Orson Scott Card**
+  * [Ender's Game](https://en.wikipedia.org/wiki/Ender%27s_Game)
 * **Arthur C. Clarke**
   * [Superiority](https://en.wikipedia.org/wiki/Superiority_(short_story))
 * **Michael Crichton**
