@@ -2,11 +2,15 @@
 require_once '.php/Parsedown.php';
 require_once '.php/ParsedownExtra.php';
 
-$protocol = !empty($_SERVER['HTTPS']) ? 'https' : 'http';
+if (empty($_SERVER['HTTPS'])) {
+  $host = $_SERVER['HTTP_HOST'];
+  header("Location: https://$host" . $_SERVER['REQUEST_URI'], true, 301);
+  return;
+}
 
 if ($_SERVER['REQUEST_URI'] == '/') {
   $host = $_SERVER['HTTP_HOST'];
-  header("Location: $protocol://$host/Home", true, 302);
+  header("Location: https://$host/Home", true, 302);
   return;
 }
 
