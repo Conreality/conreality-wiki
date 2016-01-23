@@ -39,7 +39,7 @@ Publishing Packages
 
     $ cd ubuntu
 
-    $ reprepro include trusty /tmp/debian/conreality*.changes
+    $ reprepro --ignore=wrongdistribution include trusty /tmp/debian/conreality*.changes
     $ reprepro export  # not normally needed
     $ reprepro createsymlinks
 
