@@ -91,6 +91,7 @@ To work on packaging, install the following tools:
   * https://wikitech.wikimedia.org/wiki/Reprepro
   * https://www.digitalocean.com/community/tutorials/how-to-use-reprepro-for-a-secure-package-repository-on-ubuntu-14-04
 * [`dpkg-scanpackages(1)`](#)
+* [`start-stop-daemon(8)`](http://manpages.ubuntu.com/manpages/trusty/man8/start-stop-daemon.8.html)
 
 Debian Policy
 -------------
