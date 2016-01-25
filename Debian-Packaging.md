@@ -99,6 +99,7 @@ Debian Policy
 * [Debian Packaging Tutorial](https://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf)
 * [Debian New Maintainers' Guide](https://www.debian.org/doc/manuals/maint-guide/)
 * [Debian Policy Manual](https://www.debian.org/doc/debian-policy/)
+* [Debian Developer's Reference](https://www.debian.org/doc/manuals/developers-reference/)
 * [Debian OCaml Packaging Policy](https://pkg-ocaml-maint.alioth.debian.org/ocaml_packaging_policy.html/)
 * [Debian OCaml Task Force](https://wiki.debian.org/Teams/OCamlTaskForce)
 * [Debian Repository Format](https://wiki.debian.org/RepositoryFormat)
