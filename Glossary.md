@@ -64,6 +64,10 @@ in Wikipedia.
 ##### BB
 Ball bullet.
 
+##### BDU
+See [*Battle Dress Uniform*](https://en.wikipedia.org/wiki/Battle_Dress_Uniform)
+in Wikipedia.
+
 ##### BGC
 brushless gimbal controller.
 
