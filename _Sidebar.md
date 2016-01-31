@@ -27,6 +27,7 @@
   * [[Release Procedure]]
   * [[Packaging]]
     * [[Debian Packaging]]
+  * [[Device Drivers]]
 * **Developer Manuals**
   * [Driver Development Kit (DDK)](https://ddk.conreality.org)
   * [Software Development Kit (SDK)](https://sdk.conreality.org)
