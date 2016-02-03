@@ -19,7 +19,7 @@
 2nd Conreality Hackathon
 ------------------------
 
-* **When**: December 5th to November 6th, 2015
+* **When**: December 5th to December 6th, 2015
 * **Where**: Bratislava
 
 1st Conreality Hackathon
