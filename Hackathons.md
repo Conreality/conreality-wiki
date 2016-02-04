@@ -32,3 +32,6 @@
 * **When**: November 7th to November 8th, 2015
 * **Where**: Bratislava
 * **Who**: @bendiken, @DanKomorny, @mikegogulski
+
+![Coders hard at work, fueled by local white wine and BBQ takeout bought
+with bitcoin. Charlie presiding.](/images/hackathon1.jpg)
