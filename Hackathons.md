@@ -12,6 +12,50 @@
 **Where**: Bratislava  
 **Who**: @ab0032, @bendiken, @DanKomorny, @mikegogulski  
 
+The development team once again reconvened in Bratislava for another
+extended hackathon.
+
+The primary outcomes of this hackathon were as follows:
+
+1. Disassembled @DanKomorny's [airsoft
+   rifle](http://www.hobbytron.com/ElectricM14RISEBRM6681SniperRifleFPS370AirsoftGun.html)
+   that he contributed (i.e., sacrificed) to the project.
+
+1. Figured out (but did not yet test) how to programmatically drive the AEG
+   mechbox by hooking up a transistor to control the 7V trigger circuit.
+
+1. Did a code base walk-through on the big monitor in order to disseminate
+   know-how on the software architecture and its current implementation.
+
+1. [Figured out](https://github.com/conreality/conreality/commit/3c819aedf364dee395de71d309e0e5121d108cb5)
+   an effective late-bound, type-safe design for device drivers--after
+   initial misadventures.
+
+1. [Implemented](https://github.com/conreality/conreality/commit/8da1d3afb00a1f5de1f8e6d24c943889cea86029)
+   device driver instantiation from user-supplied configuration.
+
+1. [Achieved](https://github.com/conreality/conreality/commit/f4fb376f2522f631bfb1312d8c61fc58c58f2f28)
+   and demonstrated laser fire control from the IRC C&C situation room.
+
+1. [Fixed](https://github.com/conreality/conreality/commit/dc2a7caea0d27847932cd24a03ed16b7ddfed327)
+   the linking error that @ab0032 had been blocked by when attempting to
+   build the project on Debian. The project now builds cleanly on Ubuntu and
+   Debian both.
+
+1. Repurposed @mikegogulski's old server hardware (`charlie.local`) as a
+   build host managing virtual machines for specific build targets
+   (`trusty-amd64`, `jessie-amd64`, etc) using standard *libvirt* tooling.
+
+1. Automated the build VM installation and post-installation configuration
+   procedures substantially, using scripts based on `virt-install`.
+
+1. Encountered complications setting up `{trusty,jessie}-armhf` build VMs.
+   Discussed the option of purchasing an ODROID-XU4 board to be used
+   specifically as an ARMv7 build machine.
+
+1. Discussed funding options for more substantial POC hardware acquisitions
+   planned for later in the year.
+
 3rd Conreality Hackathon
 ------------------------
 
