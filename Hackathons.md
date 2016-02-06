@@ -62,6 +62,9 @@ hackathon. The primary outcomes of this hackathon were as follows:
 1. Discussed funding options for more substantial POC hardware acquisitions
    planned for later in the year.
 
+![Photo of the 4th Conreality Hackathon](/images/hackathon4.jpg "
+Charlie guarding the disassembled airsoft sniper rifle mechbox.")
+
 3rd Conreality Hackathon
 ------------------------
 
