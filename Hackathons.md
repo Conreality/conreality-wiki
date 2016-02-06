@@ -37,6 +37,9 @@ hackathon. The primary outcomes of this hackathon were as follows:
 1. [Achieved](https://github.com/conreality/conreality/commit/f4fb376f2522f631bfb1312d8c61fc58c58f2f28)
    and demonstrated laser fire control from the IRC C&C situation room.
 
+1. Worked on device drivers for driving the Raspberry BCM2835 PWM hardware
+   directly from OCaml by writing into the hardware registers.
+
 1. [Fixed](https://github.com/conreality/conreality/commit/dc2a7caea0d27847932cd24a03ed16b7ddfed327)
    the linking error that @ab0032 had been blocked by when attempting to
    build the project on Debian. The project now builds cleanly on Ubuntu and
@@ -115,6 +118,10 @@ same room. The primary outcomes of this hackathon were as follows:
 
 1. Got everyone in the development team set up with OCaml and Lua
    development environments.
+
+1. Installed a third Raspberry for @ab0032 and set up the current conreality software
+
+1. Achieved usable control over a servo from one pin of the Raspberry Pi.
 
 1. Explored prospects for [[Gazebo]] integration.
 
