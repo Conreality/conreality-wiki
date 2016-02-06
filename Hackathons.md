@@ -5,6 +5,8 @@
 **Where**: Bratislava  
 **Who**: TBD  
 
+*Our next hackathon is currently planned for the last weekend of February.*
+
 4th Conreality Hackathon
 ------------------------
 
@@ -12,10 +14,8 @@
 **Where**: Bratislava  
 **Who**: @ab0032, @bendiken, @DanKomorny, @mikegogulski  
 
-The development team once again reconvened in Bratislava for another
-extended hackathon.
-
-The primary outcomes of this hackathon were as follows:
+The development team once again reconvened in Bratislava for an extended
+hackathon. The primary outcomes of this hackathon were as follows:
 
 1. Disassembled @DanKomorny's [airsoft
    rifle](http://www.hobbytron.com/ElectricM14RISEBRM6681SniperRifleFPS370AirsoftGun.html)
@@ -53,6 +53,12 @@ The primary outcomes of this hackathon were as follows:
    Discussed the option of purchasing an ODROID-XU4 board to be used
    specifically as an ARMv7 build machine.
 
+1. Settled on laser tag as the likeliest technology basis to enable
+   effective (and cost-effective) automatic scoring of human-human and
+   human-machine games. Hybrid laser tag & airsoft is a possibility to
+   explore as well, as projectile-induced feedback learning is an essential
+   differentiator of adults' games from kids' games.
+
 1. Discussed funding options for more substantial POC hardware acquisitions
    planned for later in the year.
 
@@ -63,12 +69,48 @@ The primary outcomes of this hackathon were as follows:
 **Where**: Bratislava  
 **Who**: @bendiken, @mikegogulski  
 
+Our inaugural Christmas hackathon focused on [provenance](Provenance),
+[networking](Networking), as well as [command and
+control](Command-&-Control) via text and voice control interfaces.
+The primary outcomes of this hackathon were as follows:
+
+1. Continued work on [establishing indelible commit
+   provenance](https://groups.google.com/d/msg/conreality/3u38BhSUKok/Pl2Jpgx-BAAJ).
+
+1. Installed a private IRC server for the project, for hosting situation
+   rooms to be used for development and demo purposes.
+
+1. [Implemented](https://github.com/conreality/conreality/commit/62904b08eb9e54d04837a60de895fdb1ad372607)
+   configuration parsing for the [daemon](Server-Daemon).
+
+1. [Implemented](https://github.com/conreality/conreality/commit/31c885e919a4d91a62dfd0989f46e6b54feb38ce)
+   network protocol instantiation from user-supplied configuration.
+
+1. Added IRC client support to the daemon and
+   [implemented](https://github.com/conreality/conreality/commit/81234836f56d2da58a079a413b42993d21e73d14)
+   parsing of IRC-relayed commands as well as inline help.
+
+1. Created a [Conreality app for the Android mobile operating
+   system](https://github.com/conreality/conreality-for-android).
+
+1. Implemented voice recognition in the Android app using Google's services.
+
 2nd Conreality Hackathon
 ------------------------
 
 **When**: December 5th to December 6th, 2015  
 **Where**: Bratislava  
 **Who**: @ab0032, @bendiken, @DanKomorny, @mikegogulski  
+
+This was the first hackathon with the full initial development team in the
+same room. The primary outcomes of this hackathon were as follows:
+
+1. Shared and discussed the project vision and objectives.
+
+1. Got everyone in the development team set up with OCaml and Lua
+   development environments.
+
+1. Explored prospects for [[Gazebo]] integration.
 
 1st Conreality Hackathon
 ------------------------
@@ -77,11 +119,11 @@ The primary outcomes of this hackathon were as follows:
 **Where**: Bratislava  
 **Who**: @bendiken, @DanKomorny, @mikegogulski  
 
-We made good progress validating and integrating the hardware for the
+This inaugural hackathon kicked off hardware experimentation for the
 [initial POC project](Laser-Turret), based on the two Raspberry Pi main
 boards provided by @mikegogulski. The [primary
 outcomes](https://groups.google.com/forum/#!topic/conreality/5Zk2kOBW1aU)
-of this inaugural hackathon were as follows:
+of this hackathon were as follows:
 
 1. Validated a native build of the Conreality platform with an up-to-date
    OCaml and OPAM toolchain on a Raspberry Pi running Debian Jessie.
