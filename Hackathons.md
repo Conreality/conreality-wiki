@@ -95,6 +95,9 @@ The primary outcomes of this hackathon were as follows:
 
 1. Implemented voice recognition in the Android app using Google's services.
 
+![The hackathon was fueled by Slovak beer and local white
+wine.](/images/hackathon3.jpg)
+
 2nd Conreality Hackathon
 ------------------------
 
