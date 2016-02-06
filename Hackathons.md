@@ -95,8 +95,8 @@ The primary outcomes of this hackathon were as follows:
 
 1. Implemented voice recognition in the Android app using Google's services.
 
-![Photo of the 3rd Conreality Hackathon](/images/hackathon3.jpg
-"The hackathon was fueled by Slovak beer and local white wine.")
+![Photo of the 3rd Conreality Hackathon](/images/hackathon3.jpg "
+The hackathon was fueled by Slovak beer and local white wine.")
 
 2nd Conreality Hackathon
 ------------------------
@@ -162,6 +162,5 @@ All in all quite a productive first hackathon, despite the limited
 time available and the voluminous amounts of inebriating beverages
 consumed.
 
-![Photo of the 1st Conreality Hackathon](/images/hackathon1.jpg
-"Coders hard at work, fueled by local white wine and BBQ takeout bought with
-bitcoin. Charlie presiding.")
+![Photo of the 1st Conreality Hackathon](/images/hackathon1.jpg "
+Coders hard at work, fueled by local white wine and BBQ takeout bought with bitcoin. Charlie presiding.")
