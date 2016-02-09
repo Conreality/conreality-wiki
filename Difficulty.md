@@ -1,10 +1,10 @@
-The levels of difficulty have chiefly to do with the tempo of the game.
+**The levels of difficulty have chiefly to do with the tempo of the game.**
 
 At a high enough tempo, ultimately humans will be unable to comprehend in
 real-time what is happening any longer, leading to panicked behavior and/or
 shock-and-awe numbness.
 
-Other factor for the difficulty levers include:
+**Other factors for the difficulty levers include:**
 
 * At lower difficulty levels, impose standard socially-acceptable
   constraints on the movement of robots, helping ensure that robot motion
