@@ -2,7 +2,7 @@
 
 At a high enough tempo, ultimately humans will be unable to comprehend in
 real-time what is happening any longer, leading to panicked behavior and/or
-shock-and-awe numbness.
+shock-and-awe numbness. At that point, the robot team wins.
 
 **Other factors for the difficulty levers include:**
 
