@@ -15,3 +15,8 @@ shock-and-awe numbness. At that point, the robot team wins.
 * At the very highest difficulty levels, decrease the risk-aversion factor
   of the robots, enabling motion planning of trajectories that have a higher
   risk of failure and even potential damage to equipment.
+
+  * One parameter that can be adjusted is the proportional gain (K_p) in
+    the PD or PID control loops. By increasing K_p, we make the system more
+    "springy"--it can overshoot its desired state (e.g., trajectory) by a
+    larger margin, but it will reach the desired state quicker.
