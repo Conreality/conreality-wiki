@@ -4,10 +4,6 @@ and/or meet likeminded developers and users.*
 2016
 ----
 
-### FOSDEM (Brussels, Feb 2016)
-
-https://fosdem.org/2016/
-
 ### Airsoft Meetup (Nurnberg, March 2016)
 
 http://airsoftmeetup.com/
@@ -39,6 +35,10 @@ https://events.ccc.de/
 
 https://fosdem.org/2017/
 
+### MINIXCon 2017 (Amsterdam, Feb 2017)
+
+http://www.minix3.org/conference/
+
 ### FSCONS 2017 (Gothenburg, Nov 2017)
 
 https://fscons.org/2017/
@@ -54,6 +54,10 @@ https://events.ccc.de/
 
 https://fosdem.org/2018/
 
+### MINIXCon 2018 (Amsterdam, Feb 2018)
+
+http://www.minix3.org/conference/
+
 ### FSCONS 2018 (Gothenburg, Nov 2018)
 
 https://fscons.org/2018/
@@ -68,6 +72,10 @@ https://events.ccc.de/
 ### FOSDEM (Brussels, Feb 2019)
 
 https://fosdem.org/2019/
+
+### MINIXCon 2019 (Amsterdam, Feb 2019)
+
+http://www.minix3.org/conference/
 
 ### Chaos Communication Camp (Brandenburg, Aug 2019)
 
