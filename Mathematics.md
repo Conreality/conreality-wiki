@@ -8,9 +8,11 @@ Elementary Background
 
 * [Trigonometry](https://www.khanacademy.org/math/trigonometry)
 * [Algebra](https://www.khanacademy.org/math/algebra2)
-  * [Imaginary and complex numbers](https://www.khanacademy.org/math/algebra2/introduction-to-complex-numbers-algebra-2)
+* [Precalculus](https://www.khanacademy.org/math/precalculus)
+  * [Imaginary and complex numbers](https://www.khanacademy.org/math/precalculus/imaginary-and-complex-numbers)
 * [Differential calculus](https://www.khanacademy.org/math/differential-calculus)
 * [Integral calculus](https://www.khanacademy.org/math/integral-calculus)
+  * [Taylor series approximations](https://www.khanacademy.org/math/integral-calculus/sequences_series_approx_calc)
 * [Multivariable calculus](https://www.khanacademy.org/math/multivariable-calculus)
 
 Essential Skills
