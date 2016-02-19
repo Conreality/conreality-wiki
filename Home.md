@@ -17,6 +17,7 @@ Development Team
 * [@bendiken](https://github.com/bendiken)
 * [@mikegogulski](https://github.com/mikegogulski)
 * [@dankomorny](https://github.com/dankomorny)
+* [@ab0032](https://github.com/ab0032)
 
 [[IRC Channel]]
 ---------------
