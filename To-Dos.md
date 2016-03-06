@@ -74,6 +74,9 @@ Third-Party Dependencies
   to upstream.
 - Support @lindig's public-domain, pure-OCaml Lua runtime implementation,
   [Lua-ML](https://github.com/lindig/lua-ml).
+- Fix OpenCV's spurious "Camera dropped frame!" `stdout` spamming on OS X
+  (ticket [#980](http://code.opencv.org/issues/980); discussion on
+  [Stack Overflow](http://stackoverflow.com/q/6536946/320911))
 
 Project Evangelism
 ------------------
