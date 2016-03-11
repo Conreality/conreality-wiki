@@ -11,6 +11,9 @@ There is nothing much to see here unless you're an experienced software
 developer capable of building the system from scratch and figuring things
 out on your own as needed. Otherwise, check back on us in a year or two.
 
+![CPAF](/images/cpaf-640x252.jpg "Content advisory:
+Some material may be inappropriate for technophobes.")
+
 Development Team
 ----------------
 
