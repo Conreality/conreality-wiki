@@ -57,6 +57,8 @@ Target Architectures & Platforms
   The Autotools-based build system in principle supports cross compilation.
   This may require changing `AC_CANONICAL_HOST` to `AC_CANONICAL_TARGET`.
   [See the manual](https://www.gnu.org/software/autoconf/manual/autoconf-2.69/html_node/Canonicalizing.html).
+- Help [port](https://github.com/nojb/riscv-ocamlopt) the OCaml native
+  compiler to the RISC-V architecture.
 
 Third-Party Dependencies
 ------------------------
