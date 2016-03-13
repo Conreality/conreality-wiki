@@ -130,6 +130,10 @@ Electric Blow Back.
 
 ##### effective range
 
+##### exteroception
+The perception of the external state of the environment surrounding the
+robot.
+
 ##### field gaming
 
 ##### flash hider
@@ -351,6 +355,13 @@ Point of Aim.
 
 ##### POI
 Point of Interest; or, Point of Impact.
+
+##### pose
+position and orientation.
+
+##### proprioception
+aka kinesthetic perception.
+The perception of the internal state of the robot.
 
 ##### PRU
 Programmable Real-Time Unit.
