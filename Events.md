@@ -12,7 +12,7 @@ http://airsoftmeetup.com/
 
 http://porcfest.com/
 
-### HCPP16 (Prague, Oct 2016)
+### HCPP16 (Prague, Sep 30 to Oct 2, 2016)
 
 http://www.hcpp.cz/eng/
 
