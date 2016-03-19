@@ -45,7 +45,7 @@ ArduPilot Mega.
 
 ##### ARM
 
-##### augmented reality
+##### augmented reality (AR)
 See [*Augmented reality*](https://en.wikipedia.org/wiki/Augmented_reality)
 in Wikipedia.
 
@@ -198,6 +198,9 @@ Hard-Disk Drive.
 
 ##### Hi-Cap
 
+##### HMD
+Head-Mounted Device.
+
 ##### HTTP
 [Hypertext Transfer Protocol](https://api.conreality.org/protocols/http.html).
 
@@ -286,6 +289,9 @@ Mid Powered Electric Gun.
 
 ##### MQTT
 [MQ Telemetry Transport](https://api.conreality.org/protocols/mqtt.html).
+
+##### MR
+mixed reality.
 
 ##### multicopter
 
@@ -535,6 +541,12 @@ in Wikipedia.
 
 ##### UUID
 Universally Unique Identifier.
+
+##### VR
+virtual reality.
+
+##### VRD
+Virtual Retinal Display.
 
 ##### wargame
 See [*Kriegsspiel*](https://en.wikipedia.org/wiki/Kriegsspiel_(wargame)),
