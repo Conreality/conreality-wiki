@@ -1,11 +1,20 @@
+6th Conreality Hackathon
+------------------------
+
+**When**: April 8th to April 11th, 2016  
+**Where**: Bratislava  
+**Who**: TBD  
+
+*Our next hackathon is currently planned for mid-April.*
+
 5th Conreality Hackathon
 ------------------------
 
 **When**: February 26th to February 29th, 2016  
 **Where**: Bratislava  
-**Who**: TBD  
+**Who**: @ab0032, @DanKomorny, @mikegogulski  
 
-*Our next hackathon is currently planned for the last weekend of February.*
+*To be written up.*
 
 4th Conreality Hackathon
 ------------------------
