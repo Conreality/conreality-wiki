@@ -6,51 +6,28 @@ In case you happen to have one of these devices lying around collecting
 dust, please consider donating it to the project. For logistics, please
 contact one of the project leads.
 
-This list may not be up to date, so it is probably best to contact one of the project leads for a more current list.
+**This list may not always be up to date, so it is probably best to contact
+one of the project leads for a more current list.**
 
-#### [BeagleBone Black](http://beagleboard.org/black)
+#### Immediate Utility
 
-Available from, e.g.,
-[Farnell](http://de.farnell.com/element14/bbone-black-4g/beaglebone-black-rev-c-cortex/dp/2422228)
-(€46),
-[Conrad](https://www.conrad.de/de/beaglebone-black-mini-pc-rev-c-bb-bblk-000-rev-c-1227430.html)
-(€52),
-[Amazon.de](http://www.amazon.de/BeagleBone-Beagleboard-Black-Cortex-Speicher/dp/B00CO3MZCW)
-(€80).
+##### RobotGeek Webcam
 
-#### [Adafruit Mini Pan/Tilt Kit](https://www.adafruit.com/products/1967)
+This is an add-on kit for our existing RobotGeek Desktop RoboTurret.
 
-Available from, e.g.,
-[Amazon.de](http://www.amazon.de/Mini-Pan-Tilt-Set-Micro-Servos/dp/B00PY3LQ2Y/)
-(€30),
-[Pimoroni](https://shop.pimoroni.de/collections/new-products/products/adafruit-mini-pan-tilt-kit-assembled-with-micro-servos)
-(€21).
+Available in the EU from
+[Generation Robots](http://www.generationrobots.com/en/402260-robotgeek-webcam-with-mounts.html)
+(€41).
 
-#### Fat Shark Pan/Tilt Camera Mount (FS-1602)
+#### Lower Priority
 
-Available from, e.g.,
-[HobbyKing](http://www.hobbyking.com/hobbyking/store/__65161__.html)
-(€21).
+These are nice-to-haves, not critical:
 
-#### Fat Shark Pan/Tilt/Roll Camera Mount (FS-1603)
-
-Available from, e.g.,
-[HobbyKing](http://www.hobbyking.com/hobbyking/store/__51068__.html)
-(€55),
-[Conrad](https://www.conrad.de/de/fat-shark-pan-tilt-roll-mechanismus-1196364.html)
-(€66).
-
-#### [CMUcam5 Pixy Sensor](http://www.cmucam.org/projects/cmucam5/wiki)
-
-Available from, e.g.,
-[Adafruit](https://www.adafruit.com/product/1906)
-($75),
-[noDNA](https://nodna.de/pixy-cmucam5)
-(€72),
-[Watterott](http://www.watterott.com/de/Pixy-CMUcam)
-(€74),
-[Conrad](https://www.conrad.de/de/pixycam-cmucam-5-pixy-cam-1364834.html)
-(€129).
+* [BeagleBone Black](http://beagleboard.org/black)
+* [Adafruit Mini Pan/Tilt Kit](https://www.adafruit.com/products/1967)
+* Fat Shark Pan/Tilt Camera Mount (FS-1602)
+* Fat Shark Pan/Tilt/Roll Camera Mount (FS-1603)
+* [CMUcam5 Pixy Sensor](http://www.cmucam.org/projects/cmucam5/wiki)
 
 Bitcoin Wallet
 --------------
