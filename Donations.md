@@ -60,6 +60,13 @@ The following items are not on the critical path but would be helpful to
 have access to as early as possible to ensure that development is on the
 right track:
 
+#### XBee Radio Modules
+
+We could use two XBee radio modules for field tests and to develop driver
+support for them.
+
+Budget: €100
+
 #### Crazyflie Drone
 
 We could use a [Crazyflie](https://www.bitcraze.io/crazyflie-2/) drone
