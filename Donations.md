@@ -60,7 +60,18 @@ The following items are not on the critical path but would be helpful to
 have access to as early as possible to ensure that development is on the
 right track:
 
-* [An augmented-reality headset](AR-Headsets)
+#### Crazyflie Drone
+
+We could use a `Crazyflie <https://www.bitcraze.io/crazyflie-2/>`__ drone
+for prototype development.
+
+Budget: €150
+
+#### Augmented Reality Headset
+
+We could use early access to [an augmented-reality headset](AR-Headsets) in
+order to grok the parameters and begin development of the tactical user
+interface.
 
 ### Nice-to-Haves
 
