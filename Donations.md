@@ -62,7 +62,7 @@ right track:
 
 #### Crazyflie Drone
 
-We could use a `Crazyflie <https://www.bitcraze.io/crazyflie-2/>`__ drone
+We could use a [Crazyflie](https://www.bitcraze.io/crazyflie-2/) drone
 for prototype development.
 
 Budget: €150
