@@ -25,6 +25,7 @@ Ultra Wide Band
 
 [Geozondas](http://www.geozondas.com/index.html) has a number of products for different applications.
 
+[Purelink](http://www.purelink.ca/en/products/rtls-hardware.php) offers asset tracking and badges.
 [Sewio](http://www.sewio.net/shop/) offers a number of kits.
 
 [Sewio packet sniffer localization demo video](https://www.youtube.com/watch?v=bOzQM9zHyt0) using 802.15.4a.
