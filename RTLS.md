@@ -20,6 +20,8 @@ Ultra Wide Band
 
 [Decawave UWB demo video](https://www.youtube.com/watch?v=Nt5x2_y8SAw).
 
+[Symeo 1cm precision products](http://www.symeo.com/en/products/positioning-sensors/index.html?1frontend=bee7o4k1kg81db30i5vt0ubv075rtod1).
+
 
 Bluetooth
 ---------
