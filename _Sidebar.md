@@ -74,7 +74,7 @@
       * [[BeagleBoard X15]]
       * [[BeagleBone Black]]
     * [[Peripherals]]
-      * [[Distance Sensors]
+      * [[Distance Sensors]]
       * [[Camera Modules]]
       * [[Laser Modules]]
     * [[Gimbals]]
