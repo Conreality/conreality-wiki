@@ -435,7 +435,7 @@ Rounds per Second.
 Ready to Fly.
 
 ##### RTLS
-Real time location system.
+See [*Real time locating system*](https://en.wikipedia.org/wiki/Real-time_locating_system).
 
 ##### rqt
 a program bundled with ROS.
