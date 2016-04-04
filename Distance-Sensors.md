@@ -1,5 +1,3 @@
-Distance Sensors
-----------------
 
 [Infrared example](https://www.youtube.com/watch?v=iAWslxNC7e4).
 [Another IR example](https://www.youtube.com/watch?v=gRtdcxOXojo) using the KY-032 sensor.
