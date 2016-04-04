@@ -434,6 +434,9 @@ Rounds per Second.
 ##### RTF
 Ready to Fly.
 
+##### RTLS
+Real time location system.
+
 ##### rqt
 a program bundled with ROS.
 
