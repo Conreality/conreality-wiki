@@ -1,6 +1,7 @@
 Ontologies
 ----------
 
+* [ConceptNet](https://en.wikipedia.org/wiki/Open_Mind_Common_Sense)
 * [DBpedia](https://en.wikipedia.org/wiki/DBpedia)
 * [GeoNames](https://en.wikipedia.org/wiki/GeoNames)
 * [OpenCyc](https://en.wikipedia.org/wiki/Cyc)
