@@ -9,7 +9,7 @@ at least another generation or two of advances in hardware will be needed."*
    reality](http://www.extremetech.com/extreme/224618-2016-is-turning-out-to-be-an-amazing-year-for-augmented-reality)
 
 *Note: this list is strictly for AR-capable headsets. No VR-only entries
-(such as the Oculus Rift) should be added here.*
+(such as the Oculus Rift) should be added here. Alphabetical order applies.*
 
 Epson Moverio BT-300
 --------------------
@@ -62,6 +62,7 @@ Microsoft HoloLens
 Q1/2016.**
 
 * https://www.microsoft.com/microsoft-hololens/en-us
+* https://www.microsoft.com/microsoft-hololens/en-us/why-hololens
 * https://www.facebook.com/microsofthololens
 * https://twitter.com/hololens
 
@@ -95,6 +96,11 @@ user identification and health monitoring."*
 #### Lumus DK-50
 
 * http://www.slashgear.com/these-lumus-displays-could-fix-hololens-big-problem-07422009/
+
+#### Sulon Q
+
+* http://www.techinsider.io/sulon-q-vr-ar-headset-features-photos-2016-3
+* https://vimeo.com/158922156
 
 #### In the News
 
