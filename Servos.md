@@ -166,4 +166,12 @@ Servo Producers
 Non-PWM Serial Servos
 ---------------------
 
+[HerkuleX DRS-0101](http://www.robotshop.com/eu/en/herkulex-drs-0101-robot-servo.html) sells at 38€. May require extra cables.
+
+Other [HerkuleX servos and accessories](http://www.robotshop.com/eu/en/catalogsearch/result/?q=herkulex&order=stats_sales_order_count&dir=desc).
+
 [Dynamixel AX-18A serial](http://www.robotshop.com/media/files/pdf/ax-18a-smart-serial-servo-902-0005-001.pdf)
+[Dynamixel AX-12A serial](http://www.robotshop.com/en/dynamixel-ax-12a-smart-servo-serial.html) sells at $45 in US Roboshop. [Pack of six](http://www.robotshop.com/en/dynamixel-ax-12a-smart-serial-servo-6pk.html) with free shipping at $225.
+
+Other [Dynamixel servos and accessories](http://www.robotshop.com/en/catalogsearch/result/index/?dir=asc&limit=60&order=price&q=dynamixel).
+
