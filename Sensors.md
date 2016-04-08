@@ -7,7 +7,7 @@ Audio
 
 Sonar
 -----
-[[hc-sro4]] Ultrasonic distance sensor
+[[HC-SR04]] Ultrasonic distance sensor
 
 Real Time Location Systems
 --------------------------
