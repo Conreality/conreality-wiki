@@ -178,7 +178,9 @@ Non-PWM Serial Servos
 HerkuleX
 --------
 
-[HerkuleX DRS-0101](http://www.robotshop.com/eu/en/herkulex-drs-0101-robot-servo.html) sells at 38€. Seems to require the [interface manager kit](http://www.robotshop.com/eu/en/interface-manager-kit-herkulex-servo.html) for 40€ to connect to a PC. The servos can be daisy chained so just one interface kit seems to be necessary for multiple servos.
+[HerkuleX DRS-0101](http://www.robotshop.com/eu/en/herkulex-drs-0101-robot-servo.html) sells at 38€.
+
+Seems to require the [interface manager kit](http://www.robotshop.com/eu/en/interface-manager-kit-herkulex-servo.html) for 40€ to connect to a PC. The servos can be daisy chained so just one interface kit seems to be necessary for multiple servos. The Manual for the managerkit is [here](http://www.sgbotic.com/products/datasheets/robotics/Herkulex_Manager_Kit_manual-1.pdf).
 
 A pdf manual for the DRS-0101 can be found [here](http://www.robotshop.com/media/files/pdf/manual-drs-0101.pdf).
 It explains the registers and the communication protocoll as well as the mechanical parts needed to build turrets or robot arms and legs with multiple servos. It seems that all software is for Windows only.
