@@ -11,7 +11,8 @@ Specifications:
 * ranging distance: 2 cm – 500 cm
 * resolution: 0.3 cm
 
-
+Best theoretical sample rate (our calculation): ~13 Hz
+Real sample rate (sysfs, measured): ~14 Hz
 
 Linux kernel driver (sysfs)
 ---------------------------
