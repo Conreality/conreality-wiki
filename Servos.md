@@ -8,14 +8,27 @@ OpenServo, a project to replace PWM by I2C seems to  have ceased activity but is
 [here on github](https://github.com/ginge/OpenServo).
 Unlike PWM this also allows querying the servo's speed and position, which is definitely a very interesting feature.
 
+250Hz
+-----
+
+* [BMS 760DMG](http://www.hobbyking.com/hobbyking/store/__8763__BMS_760DMG_Low_Profile_Digital_Servo_Metal_Gear_5_6kg_18sec_34g.html) - suggestive name, but - no - it is not 760µs. 30€ but out of stock.
+Weight: 34g / 1.19oz
+Dimensions: 42 x 21.5 x 22 mm / 1.65 x 0.85 x 0.87 inch
+Torque At 4.8V: 5.6kg/cm , 79 oz/in
+Torque At 6.0V: 7.2kg/cm , 112 oz/in
+Speed At 4.8V: 0.18 sec / 60° at no load
+Speed At 6.0V: 0.16 sec / 60° at no load
+
 560Hz 760µs
 -----------
 
-[MKS HBL980](http://www.ebay.de/itm/262223544014?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
+Sorted by price.
+
+* [MKS HBL980](http://www.ebay.de/itm/262223544014?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
 sells for ~144€ from the UK.
 [Specs](http://www.fast-lad.co.uk/store/images/storage/hbl980_main1.jpg)
 
-[MKS BLS980](http://www.ebay.de/itm/380750283396?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
+* [MKS BLS980](http://www.ebay.de/itm/380750283396?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
 sells for 139€ in EU.
 Dead Band	0.0004ms (Default)
 Control System	+Pulse Width Control
@@ -38,7 +51,7 @@ Connector Wire Length	24.0 cm (9.4 in)
 Dimensions	40 x 20 x 40 mm ( 1.57x0.79x1.50 in)
 Weight	58.0 g (1.97 oz)
 
-[MKS BLS990](http://www.ebay.de/itm/331388993721?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
+* [MKS BLS990](http://www.ebay.de/itm/331388993721?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
 sells at ~125€ from the UK.
 Dimensions 40 x 20 x 40 mm ( 1.57x0.79x1.57 in) 
 Operating Voltage 4.8 ~ 6.0 V DC Volts 
@@ -52,7 +65,7 @@ Speed: 0.038 s (4.8V) 0.030 s (6.0V)
 Weight: 69 g (2.43 oz)
 
 
-[MKS DS760](http://www.ebay.de/itm/191619446780?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
+* [MKS DS760](http://www.ebay.de/itm/191619446780?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
 sells for 111€.
 Dead Band	0.001ms (Default)
 Totzone: 0.0008 ms (Grundeinstellung)
@@ -80,7 +93,7 @@ Dimensions	40X20X40 mm
 Weight	62.26g
 Lagerungstyp: 2-fach Kugelgelagert
 
-[KST BLS505X](http://www.ebay.de/itm/KST-BLS-505X-Heli-Heck-Tail-Servo-/111938233587?)
+* [KST BLS505X](http://www.ebay.de/itm/KST-BLS-505X-Heli-Heck-Tail-Servo-/111938233587?)
 sells for 93€.
 [Specs](http://www.kstsz.com/threestyle/kstsz/product/19798278.html)
 Spannungsbereich: 6- 8,4V
@@ -97,7 +110,7 @@ Gewicht. 40 g
 Kugellager: 2
 Motor: Brushless
 
-[MKS DS95i](http://www.ebay.de/itm/191495054732?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
+* [MKS DS95i](http://www.ebay.de/itm/191495054732?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
 sells for 84€.
 Totzone: 0.001 ms (Grundeinstellung)
 Steuer System: Positives Breitensignal
@@ -119,7 +132,7 @@ Programmierbarkeit: Nein
 Gewicht: 21.21 g
 Kabellänge: 20 cm
 
-[KST BLS905X](http://www.ebay.de/itm/KST-BLS-905X-Heli-Heck-Tail-Servo-/111938233588?)
+* [KST BLS905X](http://www.ebay.de/itm/KST-BLS-905X-Heli-Heck-Tail-Servo-/111938233588?)
 sells for 84€.
 Betriebsspannung: DC 6.0V-8.4V
 Abmessungen: 40,50*20*37mm
@@ -135,7 +148,7 @@ Gewicht: 72g
 Impulszeit: 760us/560Hz
 Kugellager: 2 Stück
 
-[MKS DS8910A+](http://www.ebay.de/itm/201325688528?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
+* [MKS DS8910A+](http://www.ebay.de/itm/201325688528?ssPageName=STRK:MESINDXX:IT&_trksid=p3984.m1436.l2649)
 sells for 75€.
 Totzone: 0.0008 ms (Grundeinstellung)
 Steuer System: Positives Breitensignal
@@ -158,19 +171,38 @@ Abmessungen: 35.8 x 15.2 x 29 mm (1.41x 0.6x 1.14 in)
 Gewicht: 28.0 g (0.99 oz)
 Kabellänge: 15.0 cm (5.9 in)
 
+* [TGY-BLS805MG](http://www.hobbyking.com/hobbyking/store/__50470__Turnigy_8482_TGY_BLS805MG_HV_DS_MG_Servo_w_Alloy_Case_760us_PWM_7_5kg_0_039sec_68g.html) sells for 55€.
+Specs:
+Operating Voltage: 6~8.4v
+Torque: 5.5kg @ 6v~7.5kg @ 8.4v
+Speed: 0.048sec @ 6v~0.039sec @ 8.4v
+Dimensions: 40.5 x 20 x 37mm
+Weight: 68g
+Motor: Brushless
+Working Frequency: 760us/560Hz
+Servo Plug: JR type
+Servo Lead Length: 320mm
+
+* [TGY-DS525MG](http://www.hobbyking.com/hobbyking/store/__50465__Turnigy_8482_TGY_DS525MG_Coreless_HV_DS_Tail_Servo_w_Alloy_Case_760us_7_5kg_0_04sec_68g.html) sells for 39€.
+Specs:
+Operating Voltage: 6~8.4v
+Torque: 5.5kg @ 6v~7.5kg @ 8.4v
+Speed: 0.05sec @ 6v~0.04sec @ 8.4v
+Dimensions: 40.5 x 20 x 37mm
+Weight: 68g
+Working Frequency: 760us
+Motor: 17mm dia coreless
+Servo Plug: JR type
+Servo Lead Length: 320mm
 
 Servo Producers
 ---------------
 
-[dongbu robot (HerkuleX)](http://www.dongburobot.com)
-
-[MKS](http://mks-servo.com.tw/mks46.html)
-
-[Bluebird](http://www.blue-bird-model.com/all%20servo%20of%20frequency.html)
-
-[KST](http://www.kstsz.com/threestyle/kstsz/firstcatalog/3046440/1.html)
-
-[Robotis (Dynamix)](http://en.robotis.com/index/)
+* [dongbu robot (HerkuleX)](http://www.dongburobot.com)
+* [MKS](http://mks-servo.com.tw/mks46.html)
+* [Bluebird](http://www.blue-bird-model.com/all%20servo%20of%20frequency.html)
+* [KST](http://www.kstsz.com/threestyle/kstsz/firstcatalog/3046440/1.html)
+* [Robotis (Dynamix)](http://en.robotis.com/index/)
 
 Non-PWM Serial Servos
 ---------------------
