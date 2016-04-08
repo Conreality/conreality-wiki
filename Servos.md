@@ -162,7 +162,7 @@ Kabellänge: 15.0 cm (5.9 in)
 Servo Producers
 ---------------
 
-[dongbu robot (HherkuleX)](http://www.dongburobot.com)
+[dongbu robot (HerkuleX)](http://www.dongburobot.com)
 
 [MKS](http://mks-servo.com.tw/mks46.html)
 
@@ -190,11 +190,12 @@ Dynamixel
 
 [Wikipedia page for Dynamixel](https://en.wikipedia.org/wiki/DYNAMIXEL).
 
-[Dynamixel AX-18A serial](http://www.robotshop.com/media/files/pdf/ax-18a-smart-serial-servo-902-0005-001.pdf)
+[Dynamixel AX-18A serial](http://www.robotshop.com/media/files/pdf/ax-18a-smart-serial-servo-902-0005-001.pdf).
+
 [Dynamixel AX-12A serial](http://www.robotshop.com/en/dynamixel-ax-12a-smart-servo-serial.html) sells at $45 in US Roboshop. [Pack of six](http://www.robotshop.com/en/dynamixel-ax-12a-smart-serial-servo-6pk.html) with free shipping at $225. 
 
 Other [Dynamixel servos and accessories](http://www.robotshop.com/en/catalogsearch/result/index/?dir=asc&limit=60&order=price&q=dynamixel).
 
-Details about the open source python libraries, the ROS integration and other facts about the Dynamixel servos can be found at [hizook.com](http://www.hizook.com/blog/2010/03/14/robotis-dynamixel-servos-overview-applications-tear-down-and-open-source-software?page=1).
+Details about the open source python libraries, the ROS integration and other facts about the Dynamixel servos can be found at [hizook.com](http://www.hizook.com/blog/2010/03/14/robotis-dynamixel-servos-overview-applications-tear-down-and-open-source-software?page=1). According to this page the Dynamixel have 10bit resolution for the position reported but only 8bit for the actual physical position they can go to.
 
 Dynamixel communicates over TTL RS232 and a $50 [USB2Dynamixel adapter](http://www.trossenrobotics.com/robotis-bioloid-usb2dynamixel.aspx) is recommended.
