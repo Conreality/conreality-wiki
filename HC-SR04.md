@@ -2,6 +2,8 @@ HC-SR04 Ultrasonic Ranging Module
 ==================================
 Data sheet: http://www.robotshop.com/media/files/pdf/datasheet-sen026.pdf
 
+User's manual: https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE/edit
+
 Cost: ~$1 each in qty. 5
 
 Specifications:
@@ -18,6 +20,8 @@ Real sample rate (sysfs, measured): ~14 Hz
 Linux kernel driver (sysfs)
 ---------------------------
 https://github.com/johannesthoma/linux-hc-sro4
+
+(Raspbian kernel tree and cross-compile toolchain are installed on charlie, in syadasti's environment)
 
 Demo code, GPIO, Python, 1 Hz
 -----------------------------
