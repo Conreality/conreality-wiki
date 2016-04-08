@@ -170,7 +170,7 @@ Servo Producers
 
 [KST](http://www.kstsz.com/threestyle/kstsz/firstcatalog/3046440/1.html)
 
-[Robotis (Dynamix)](http://en.robotis.com/index/) maker of Dynamixel servos.
+[Robotis (Dynamix)](http://en.robotis.com/index/)
 
 Non-PWM Serial Servos
 ---------------------
