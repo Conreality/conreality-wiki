@@ -68,6 +68,7 @@
   * **Hardware**
     * [[Turret Frames]]
     * [[Drone Kits]]
+    * [[Gimbals]]
     * [[Main Boards]]
       * [[Raspberry Pi]]
       * [[Raspberry Pi 2]]
@@ -78,9 +79,9 @@
       * [[Camera Modules]]
       * [[Laser Modules]]
       * [[RTLS]]
-    * [[Gimbals]]
     * [[Sensors]]
     * [[Servos]]
+    * [[Stores]]
   * **Media**
     * [[Blogs]]
     * [[Books]]
