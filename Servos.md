@@ -1,10 +1,12 @@
-Good overview of servo properties can be found [here](http://www.rchelicopterfun.com/rc-servos.html).
+Good overview of servo properties can be found [here](http://www.rchelicopterfun.com/rc-servos.html) and
+[here](http://www.helifreak.com/showthread.php?t=263175).
 
 The [Servo Database](http://www.servodatabase.com/advanced-search) is also a good source of information.
 
 OpenServo, a project to replace PWM by I2C seems to  have ceased activity but is noteworthy. It can be found at
 [openservo.com](http://www.openservo.com/) and
 [here on github](https://github.com/ginge/OpenServo).
+Unlike PWM this also allows querying the servo's speed and position, which is definitely a very interesting feature.
 
 560Hz 760µs
 -----------
@@ -160,21 +162,39 @@ Kabellänge: 15.0 cm (5.9 in)
 Servo Producers
 ---------------
 
+[dongbu robot (HherkuleX)](http://www.dongburobot.com)
+
 [MKS](http://mks-servo.com.tw/mks46.html)
 
 [Bluebird](http://www.blue-bird-model.com/all%20servo%20of%20frequency.html)
 
 [KST](http://www.kstsz.com/threestyle/kstsz/firstcatalog/3046440/1.html)
 
+[Robotis (Dynamix)](http://en.robotis.com/index/) maker of Dynamixel servos.
+
 Non-PWM Serial Servos
 ---------------------
 
-[HerkuleX DRS-0101](http://www.robotshop.com/eu/en/herkulex-drs-0101-robot-servo.html) sells at 38€. May require extra cables.
+HerkuleX
+--------
 
-Other [HerkuleX servos and accessories](http://www.robotshop.com/eu/en/catalogsearch/result/?q=herkulex&order=stats_sales_order_count&dir=desc).
+[HerkuleX DRS-0101](http://www.robotshop.com/eu/en/herkulex-drs-0101-robot-servo.html) sells at 38€. Seems to require the [interface manager kit](http://www.robotshop.com/eu/en/interface-manager-kit-herkulex-servo.html) for 40€ to connect to a PC. The servos can be daisy chained so just one interface kit seems to be necessary for multiple servos.
+
+A pdf manual for the DRS-0101 can be found [here](http://www.robotshop.com/media/files/pdf/manual-drs-0101.pdf).
+It explains the registers and the communication protocoll as well as the mechanical parts needed to build turrets or robot arms and legs with multiple servos. It seems that all software is for Windows only.
+
+Other [HerkuleX servos and accessories](http://www.robotshop.com/eu/en/catalogsearch/result/?q=herkulex&order=stats_sales_order_count&dir=desc) such as mechanical connectors.
+
+Dynamixel
+---------
+
+[Wikipedia page for Dynamixel](https://en.wikipedia.org/wiki/DYNAMIXEL).
 
 [Dynamixel AX-18A serial](http://www.robotshop.com/media/files/pdf/ax-18a-smart-serial-servo-902-0005-001.pdf)
-[Dynamixel AX-12A serial](http://www.robotshop.com/en/dynamixel-ax-12a-smart-servo-serial.html) sells at $45 in US Roboshop. [Pack of six](http://www.robotshop.com/en/dynamixel-ax-12a-smart-serial-servo-6pk.html) with free shipping at $225.
+[Dynamixel AX-12A serial](http://www.robotshop.com/en/dynamixel-ax-12a-smart-servo-serial.html) sells at $45 in US Roboshop. [Pack of six](http://www.robotshop.com/en/dynamixel-ax-12a-smart-serial-servo-6pk.html) with free shipping at $225. 
 
 Other [Dynamixel servos and accessories](http://www.robotshop.com/en/catalogsearch/result/index/?dir=asc&limit=60&order=price&q=dynamixel).
 
+Details about the open source python libraries, the ROS integration and other facts about the Dynamixel servos can be found at [hizook.com](http://www.hizook.com/blog/2010/03/14/robotis-dynamixel-servos-overview-applications-tear-down-and-open-source-software?page=1).
+
+Dynamixel communicates over TTL RS232 and a $50 [USB2Dynamixel adapter](http://www.trossenrobotics.com/robotis-bioloid-usb2dynamixel.aspx) is recommended.
