@@ -2,6 +2,9 @@ Good overview of servo properties can be found [here](http://www.rchelicopterfun
 
 The [Servo Database](http://www.servodatabase.com/advanced-search) is also a good source of information.
 
+OpenServo, a project to replace PWM by I2C seems to  have ceased activity but is noteworthy. It can be found at
+[openservo.com](http://www.openservo.com/) and
+[here on github](https://github.com/ginge/OpenServo).
 
 560Hz 760µs
 -----------
