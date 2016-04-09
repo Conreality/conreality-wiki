@@ -24,9 +24,7 @@ Budget: €100-200.
 
 #### Fast & Precise Servos
 
-We need a couple of high-quality servos to explore the limits of precise
-target tracking and engagement. The specific hardware hasn't been selected
-yet; @ab0032 is presently working on researching the best options here.
+Two of these 39€ [servos](http://www.hobbyking.com/hobbyking/store/__77639__Turnigy_8482_TGY_DS525MG_Coreless_HV_DS_Tail_Servo_w_Alloy_Case_760us_7_5kg_0_0_EU_Warehouse_.html) for one turret plus brackets or four for two turrets would be very appreciated.
 
 Budget: €100-200.
 
