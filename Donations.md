@@ -26,6 +26,8 @@ Budget: €100-200.
 
 Two of these 39€ [servos](http://www.hobbyking.com/hobbyking/store/__77639__Turnigy_8482_TGY_DS525MG_Coreless_HV_DS_Tail_Servo_w_Alloy_Case_760us_7_5kg_0_0_EU_Warehouse_.html) for one turret plus brackets or four for two turrets would be very appreciated.
 
+Two of these 6€ standard sized servo [brackets](https://nodna.de/Aluminum-Multi-Purpose-Servo-Bracket_1) per turret are needed with the servos. 
+
 Budget: €100-200.
 
 #### Localization Modules
