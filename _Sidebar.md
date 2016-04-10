@@ -85,6 +85,8 @@
   * **Media**
     * [[Blogs]]
     * [[Books]]
+    * [[Games]]
+    * [[Movies]]
     * [[News]]
     * [[Papers]]
     * [[Videos]]
