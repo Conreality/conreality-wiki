@@ -21,6 +21,7 @@ Development Team
 * [@mikegogulski](https://github.com/mikegogulski)
 * [@dankomorny](https://github.com/dankomorny)
 * [@ab0032](https://github.com/ab0032)
+* [@joecoin](https://github.com/joecoin)
 
 [[IRC Channel]]
 ---------------
