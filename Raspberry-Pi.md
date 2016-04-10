@@ -3,6 +3,7 @@ https://en.wikipedia.org/wiki/Raspberry_Pi
 PIN Mappings
 ------------
 
+* https://pinout.xyz/
 * http://raspmap.everpi.net/
 * http://www.panu.it/raspberry/
 
