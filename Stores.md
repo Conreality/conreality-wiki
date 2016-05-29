@@ -14,7 +14,7 @@ Electronics and other
 * [conrad](https://www.conrad.de/)
 * [farnell](http://farnell.com/)
 * [gmelectronic](http://www.gmelectronic.com/)
-* [hobbykind](http://www.hobbyking.com/)
+* [hobbyking](http://www.hobbyking.com/) "Take a month to ship" according to one person
 * [mouser](http://www.mouser.com/)
 * [reichelt](http://www.reichelt.de/)
 * [rlx](http://rlx.sk/en/)
