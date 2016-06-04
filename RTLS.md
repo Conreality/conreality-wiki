@@ -59,8 +59,8 @@ On Github
 [DW1000 arduino project](https://github.com/thotro/arduino-dw1000).
 
 
-DWM1000 from Decawave
----------------------
+[[DW1000]] from Decawave
+------------------------
 
 [DWM1000 from Semiconductorshop](http://www.semiconductorstore.com/DecaWave/) and
 [breakout board](https://oshpark.com/shared_projects/95789Glk).
