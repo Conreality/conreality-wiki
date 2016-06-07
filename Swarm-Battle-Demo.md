@@ -55,7 +55,7 @@ This phase of the battle is over in about a minute, concluding the demo.
       modifying Crazyflie firmware to support multiplexing over one or two
       channels; possible, but additional work. (Time versus money, as usual.)
 
-    * Availability and feasibility of 20-port USB hubs?
+    * Availability and feasibility of 20-port USB hubs? (Or 2x 10-port.)
 
 * Visibility of laser beams in fog-machine output?
 
@@ -68,8 +68,18 @@ This phase of the battle is over in about a minute, concluding the demo.
 
 Costs estimated from German distributors, and include taxes.
 
+### Drones
+
+The cost estimate for an individual drone is sub-€300:
+
 * €200 [Crazyflie 2.0](https://www.bitcraze.io/crazyflie-2/)
 * €30 [Crazyradio PA](https://www.bitcraze.io/crazyradio-pa/)
 * €20 [LED-ring deck](https://www.bitcraze.io/led-ring-deck/)
 * €20 DWM1000 module
+* €10 PCB adapter for DWM1000
 * €5 Laser module
+
+### Ground Control Station
+
+* €0 Laptop. (Reuse existing.)
+* €3-5 per port in USB hub. Probably 2x USB hubs.
