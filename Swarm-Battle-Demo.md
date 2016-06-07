@@ -46,6 +46,20 @@ This phase of the battle is over in about a minute, concluding the demo.
 
 ## Questions
 
+* Good flocking algorithm for swarms?
+
+  * To be researched from the academic literature.
+
+  * Ideally, use two different algorithms, to obtain visually distinct swarm
+    behavior for each team.
+
+* Visibility of laser beams in fog-machine output?
+
+  * Not so much fog that you can't see the battle, but enough that laser
+    beams are largely visible.
+
+  * To be tested in Berlin or Bratislava over the summer.
+
 * Simultaneous radio control of multiple Crazyflies?
 
   * Low-tech solution: 20x Crazyradio PA USB dongles, connected to USB
@@ -56,13 +70,6 @@ This phase of the battle is over in about a minute, concluding the demo.
       channels; possible, but additional work. (Time versus money, as usual.)
 
     * Availability and feasibility of 20-port USB hubs? (Or 2x 10-port.)
-
-* Visibility of laser beams in fog-machine output?
-
-  * Not so much fog that you can't see the battle, but enough that laser
-    beams are largely visible.
-
-  * To be tested in Berlin or Bratislava over the summer.
 
 ## Budget
 
