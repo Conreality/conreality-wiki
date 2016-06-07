@@ -46,7 +46,7 @@ This phase of the battle is over in about a minute, concluding the demo.
 
 ## Questions
 
-1. Good flocking algorithm for swarms?
+1. Choose good flocking algorithms for the two swarms.
 
   * To be researched from the academic literature.
 
@@ -70,6 +70,10 @@ This phase of the battle is over in about a minute, concluding the demo.
       channels; possible, but additional work. (Time versus money, as usual.)
 
     * Availability and feasibility of 20-port USB hubs? (Or 2x 10-port.)
+
+4. Select sound track for demo.
+
+    * Suggestion from Mike: Bach.
 
 ## Budget
 
