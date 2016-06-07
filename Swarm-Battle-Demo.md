@@ -1,6 +1,7 @@
 *"Creating art and beauty with our autonomous weapons systems."*
 
-Also known as "Ballet & Battle", to be prospectively presented at [HCPP16](Events).
+Also known as "Ballet & Battle", to be prospectively presented at
+[HCPP16](Events).
 
 ## Script
 
@@ -13,8 +14,35 @@ the air (initially as one big swarm), dividing them into two distinct swarms
 (LEDs change color accordingly, and drones regroup in the air into two
 flocks), and designating their enemy swarm and letting them fire at will.
 
-### Battle
+This phase of the script takes about a minute, or perhaps two in case we
+decide to do more ballet prior to the battle.
 
+### Battle I
+
+Drones in each swarm designate a target in the enemy swarm, and fire their
+laser at it at will. Both drones and swarms move: drones within the swarm,
+to avoid getting hit by enemy firing solutions, and the swarm as a whole to
+demonstrate dynamism. The swarms keep their distance (variable, but min/max
+bounded) from each other.
+
+This phase of the battle goes on for a minute or so, with no clear victor
+emerging and all drones staying in the air.
+
+### Battle II
+
+One of the swarms autonomously, or as response to command from presenter,
+changes to an alternate battle strategy, where all drones (10x) in the swarm
+concentrate fire on the same designated enemy drone (1x) instead of shooting
+at different targets.
+
+As a result, the target drone quickly incurs significant (simulated) damage
+and has to perform an emergency landing (or just falls from the air, in case
+a soft landing can be guaranteed to avoid damaging hardware).
+
+The targeting process repeats individually for all drones in the losing swarm,
+until only the victorious swarm is left in the air.
+
+This phase of the battle is over in about a minute, concluding the demo.
 
 ## Questions
 
@@ -34,4 +62,5 @@ Costs estimated from German distributors, and include taxes.
 * €200 [Crazyflie 2.0](https://www.bitcraze.io/crazyflie-2/)
 * €30 [Crazyradio PA](https://www.bitcraze.io/crazyradio-pa/)
 * €20 [LED-ring deck](https://www.bitcraze.io/led-ring-deck/)
+* €20 DWM1000 module
 * €5 Laser module
