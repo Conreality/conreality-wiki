@@ -51,9 +51,18 @@ This phase of the battle is over in about a minute, concluding the demo.
   * Low-tech solution: 20x Crazyradio PA USB dongles, connected to USB
     hub(s), configured to use different radio channels.
 
-    * Cost of 20x dongles is non-ideal.
+    * Cost of 20x dongles is non-ideal, but the alternative would require
+      modifying Crazyflie firmware to support multiplexing over one or two
+      channels; possible, but additional work. (Time versus money, as usual.)
 
     * Availability and feasibility of 20-port USB hubs?
+
+* Visibility of laser beams in fog-machine output?
+
+  * Not so much fog that you can't see the battle, but enough that laser
+    beams are largely visible.
+
+  * To be tested in Berlin or Bratislava over the summer.
 
 ## Budget
 
