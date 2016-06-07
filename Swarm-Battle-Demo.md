@@ -5,7 +5,7 @@ Also known as "Ballet & Battle", to be prospectively presented at
 
 ## Script
 
-### Ballet
+### Script for Ballet
 
 Presenter stands in front of a homogeneous group of 20 small drones. To the
 tune of a sound track, he uses hand gestures to arm and prime the drones,
@@ -17,7 +17,7 @@ flocks), and designating their enemy swarm and letting them fire at will.
 This phase of the script takes about a minute, or perhaps two in case we
 decide to do more ballet prior to the battle.
 
-### Battle I
+### Script for Battle I
 
 Drones in each swarm designate a target in the enemy swarm, and fire their
 laser at it at will. Both drones and swarms move: drones within the swarm,
@@ -28,7 +28,7 @@ bounded) from each other.
 This phase of the battle goes on for a minute or so, with no clear victor
 emerging and all drones staying in the air.
 
-### Battle II
+### Script for Battle II
 
 One of the swarms autonomously, or as response to command from presenter,
 changes to an alternate battle strategy, where all drones (10x) in the swarm
@@ -46,21 +46,21 @@ This phase of the battle is over in about a minute, concluding the demo.
 
 ## Questions
 
-* Good flocking algorithm for swarms?
+1. Good flocking algorithm for swarms?
 
   * To be researched from the academic literature.
 
   * Ideally, use two different algorithms, to obtain visually distinct swarm
     behavior for each team.
 
-* Visibility of laser beams in fog-machine output?
+2. Visibility of laser beams in fog-machine output?
 
   * Not so much fog that you can't see the battle, but enough that laser
     beams are largely visible.
 
   * To be tested in Berlin or Bratislava over the summer.
 
-* Simultaneous radio control of multiple Crazyflies?
+3. Simultaneous radio control of multiple Crazyflies?
 
   * Low-tech solution: 20x Crazyradio PA USB dongles, connected to USB
     hub(s), configured to use different radio channels.
