@@ -25,4 +25,4 @@ following indicated operating system and host architecture combinations:
 
 ### See Also
 
-See also the [[Debian Packaging]] and [[Supported Platforms]] pages.
+See also the [[Debian Packaging]] and [[Supported Hardware]] pages.

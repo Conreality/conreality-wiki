@@ -1,4 +1,0 @@
-Downstream Distributions
-------------------------
-
-* [[Debian Packaging]]

@@ -3,12 +3,9 @@
 * [[Home]]
 * [[Scenarios]]
 * **Installation Guide**
-  * [[Supported Platforms]]
+  * [[Supported Hardware]]
   * [[Prerequisites]]
   * [[Installation]]
-  * [[Packages]]
-    * [[Debian Packages]]
-  * [[Uninstallation]]
 * **User Guide**
 * **Contributor Guide**
   * [[Contribution Guidelines]]
@@ -26,14 +23,11 @@
     * [[Test Suite]]
   * [[Release Procedure]]
   * [[Packaging]]
-    * [[Debian Packaging]]
-  * [[Device Drivers]]
 * **Developer Manuals**
   * [Driver Development Kit (DDK)](https://ddk.conreality.org)
   * [Software Development Kit (SDK)](https://sdk.conreality.org)
   * [Application Programming Interface (API)](https://api.conreality.org)
 * **Development Infrastructure**
-  * [[Build Machines]]
   * [[Source Code]]
   * [[Websites]]
   * [[IRC C&C Server]]
