@@ -54,9 +54,9 @@ function render_markdown($input) {
 
 $sidebar = render_markdown(file_get_contents('_Sidebar.md'));
 $footer  = render_markdown(file_get_contents('_Footer.md'));
+$matched = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 
-if (preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches) &&
-    file_exists($matches[1] . '.md')) {
+if ($matched && file_exists($matches[1] . '.md')) {
   $link = $matches[1];
   $filename = $link . '.md';
   if (is_link($filename)) {
@@ -74,6 +74,10 @@ if (preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches) &&
       $title = $page;
     }
   }
+}
+else if ($matched && $matches[1] == 'Index') {
+  $content = '<h1>Index</h1>';
+  $title = 'Index';
 }
 else {
   http_response_code(404);
