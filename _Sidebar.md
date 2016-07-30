@@ -1,13 +1,13 @@
 **Consensus Reality**
 
 * [[Home]]
-* [[Scenarios]]
-* **Installation Guide**
+* **[[Installation Guide]]**
   * [[Supported Hardware]]
   * [[Prerequisites]]
   * [[Installation]]
-* **User Guide**
-* **Contributor Guide**
+* **[[User Guide]]**
+  * [[Scenarios]]
+* **[[Contributor Guide]]**
   * [[Contribution Guidelines]]
   * [[Mailing List]]
   * [[Donations]]
