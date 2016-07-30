@@ -12,7 +12,6 @@
   * [[Mailing List]]
   * [[Donations]]
 * **[[Developer Guide]]**
-  * [[To-Dos]]
   * [[Roadmap]]
   * [[Project Structure]]
   * [[Naming Conventions]]
@@ -23,6 +22,7 @@
     * [[Test Suite]]
   * [[Release Procedure]]
   * [[Packaging]]
+  * [[To-Dos]]
 * **Developer Manuals**
   * [Driver Development Kit (DDK)](https://ddk.conreality.org)
   * [Software Development Kit (SDK)](https://sdk.conreality.org)
@@ -66,8 +66,11 @@
     * [[Main Boards]]
       * [[Raspberry Pi]]
       * [[Raspberry Pi 2]]
+      * [[Raspberry Pi 3]]
       * [[BeagleBoard X15]]
       * [[BeagleBone Black]]
+      * [[ODROID XU4]]
+      * [[Intel Galileo]]
     * [[Peripherals]]
       * [[Distance Sensors]]
       * [[Camera Modules]]

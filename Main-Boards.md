@@ -38,9 +38,9 @@ Arduino Due is their only ARM-based board, the others are AVR-based.
 [Edison](https://en.wikipedia.org/wiki/Intel_Edison)
 ----------------------------------------------------
 
-Intel's Edison and [Galileo](https://en.wikipedia.org/wiki/Intel_Galileo)
-boards have an x86 CPU and run a generic Linux software stack, yet provide
-compatility for the Arduino SDK and Arduino sketches and shields.
+Intel's Edison and [[Galileo|Intel Galileo]] boards have an x86 CPU and run
+a generic Linux software stack, yet provide compatility for the Arduino SDK
+and Arduino sketches and shields.
 
 ## Boards
 
