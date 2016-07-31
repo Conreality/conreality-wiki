@@ -5,12 +5,15 @@
   * [[Supported Hardware]]
   * [[Prerequisites]]
   * [[Installation]]
+  * [[Frequently Asked Questions|Installation FAQs]]
 * **[[User Guide]]**
   * [[Scenarios]]
+  * [[Frequently Asked Questions|User FAQs]]
 * **[[Contributor Guide]]**
   * [[Contribution Guidelines]]
   * [[Mailing List]]
   * [[Donations]]
+  * [[Frequently Asked Questions|Contributor FAQs]]
 * **[[Developer Guide]]**
   * [[Roadmap]]
   * [[Project Structure]]
@@ -23,6 +26,7 @@
   * [[Release Procedure]]
   * [[Packaging]]
   * [[To-Dos]]
+  * [[Frequently Asked Questions|Developer FAQs]]
 * **Development Infrastructure**
   * [[Source Code]]
   * [[Websites]]
