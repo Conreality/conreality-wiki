@@ -46,12 +46,25 @@ At present, the best option for Windows users is to get set up with a Ubuntu
 16.04 virtual machine (VM) using
 [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
 
+#### Other
+
+For other varieties of Linux than Ubuntu, or other Unix systems, please
+refer to the upstream
+[Erlang](https://www.erlang-solutions.com/resources/download.html),
+[Elixir](http://elixir-lang.org/install.html), and
+[Nerves](https://hexdocs.pm/nerves/installation.html) installation guides.
+
 ### Post-Installation
 
-https://hexdocs.pm/nerves/installation.html
+After installing Erlang and Elixir, make sure to update your versions of the
+`hex` and `rebar` package and build tools:
 
     $ mix local.hex
     $ mix local.rebar
+
+In case you're wondering, the `mix` utility was installed as part of Elixir.
+
+As a final step, install the Nerves bootstrap and tooling:
 
     $ mix archive.install https://github.com/nerves-project/archives/raw/master/nerves_bootstrap.ez
 
