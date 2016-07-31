@@ -96,7 +96,7 @@ else {
   $content = '<h1>404 Not Found</h1>';
 }
 
-header('Last-Modified', gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
+header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
 
 ?>
 <!DOCTYPE html>
