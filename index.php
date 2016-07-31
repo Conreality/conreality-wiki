@@ -52,9 +52,10 @@ function render_markdown($input) {
   return $output;
 }
 
-$sidebar = render_markdown(file_get_contents('_Sidebar.md'));
-$footer  = render_markdown(file_get_contents('_Footer.md'));
-$matched = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
+$sidebar   = render_markdown(file_get_contents('_Sidebar.md'));
+$footer    = render_markdown(file_get_contents('_Footer.md'));
+$matched   = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
+$timestamp = time();
 
 if ($matched && file_exists($matches[1] . '.md')) {
   $link = $matches[1];
@@ -65,27 +66,29 @@ if ($matched && file_exists($matches[1] . '.md')) {
     header('Location: /' . str_replace('.md', '', $filename));
     return;
   }
-  else {
+  else if ($link == 'Home') {
+    $timestamp = time();
     $title = null;
     $content = render_markdown(file_get_contents($filename));
-    if ($link != 'Home') {
-      $page = str_replace('-', ' ', $link);
-      $title = $page;
-      $content = "<h1>$page</h1>\n\n" . $content;
-    }
+  }
+  else {
+    $timestamp = filemtime($filename);
+    $title = str_replace('-', ' ', $link);
+    $content = render_markdown(file_get_contents($filename));
+    $content = "<h1>$title</h1>\n\n" . $content;
   }
 }
 else if ($matched && $matches[1] == 'Index') {
   $title = 'Index';
-  $content = ['<h1>Index</h1>', '<ul>'];
+  $content = ["<h1>Index</h1>\n", '<ul>'];
   foreach (glob('*.md') as $filename) {
     if ($filename[0] == '_' || is_link($filename)) continue;
     $link = str_replace('.md', '', $filename);
-    $page = str_replace('-', ' ', $link);
-    $content[] = "<li><a href=\"/$link\">$page</a></li>";
+    $title = str_replace('-', ' ', $link);
+    $content[] = "<li><a href=\"/$link\">$title</a></li>";
   }
   $content[] = '</ul>';
-  $content = implode('', $content);
+  $content = implode("\n", $content);
 }
 else {
   http_response_code(404);
@@ -120,7 +123,7 @@ else {
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">Conreality Wiki</a>
-          <span class="navbar-text navbar-version pull-left"><b><?php echo gmdate('Y-m-d') ?></b></span>
+          <span class="navbar-text navbar-version pull-left"><b><?php echo gmdate('Y-m-d', $timestamp) ?></b></span>
         </div>
         <div class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
