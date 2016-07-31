@@ -41,6 +41,7 @@
     * [[Networking]]
   * **Components**
     * [[Android App]]
+    * [[Console]]
     * [[Ontology]]
     * [[Physics Engine]]
     * [[Server Daemon]]
