@@ -1,3 +1,9 @@
+#### What size SD memory card do I need to install Conreality?
+
+The current Conreality firmware installation requires a minimum of 100 MiB of
+space. Any remaining disk space can be used for user data such as scenario
+scripts and assets.
+
 #### Can I install Conreality on my Arduino board?
 
 Not quite. Conreality doesn't run on microcontrollers (MCUs); you will need
