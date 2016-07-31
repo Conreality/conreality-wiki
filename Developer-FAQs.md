@@ -1,4 +1,4 @@
-### `Unchecked dependencies for environment dev`
+#### `Unchecked dependencies for environment dev`
 
     $ mix -h
     Unchecked dependencies for environment dev:
