@@ -23,10 +23,6 @@
   * [[Release Procedure]]
   * [[Packaging]]
   * [[To-Dos]]
-* **Developer Manuals**
-  * [Driver Development Kit (DDK)](https://ddk.conreality.org)
-  * [Software Development Kit (SDK)](https://sdk.conreality.org)
-  * [Application Programming Interface (API)](https://api.conreality.org)
 * **Development Infrastructure**
   * [[Source Code]]
   * [[Websites]]
