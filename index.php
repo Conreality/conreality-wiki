@@ -79,7 +79,7 @@ else if ($matched && $matches[1] == 'Index') {
   $title = 'Index';
   $content = ['<h1>Index</h1>', '<ul>'];
   foreach (glob('*.md') as $filename) {
-    if ($filename[0] == '_' || !is_file($filename)) continue;
+    if ($filename[0] == '_' || is_link($filename)) continue;
     $link = str_replace('.md', '', $filename);
     $page = str_replace('-', ' ', $link);
     $content[] = "<li><a href=\"/$link\">$page</a></li>";
