@@ -66,23 +66,29 @@ if ($matched && file_exists($matches[1] . '.md')) {
     return;
   }
   else {
-    $content = render_markdown(file_get_contents($filename));
     $title = null;
+    $content = render_markdown(file_get_contents($filename));
     if ($link != 'Home') {
       $page = str_replace('-', ' ', $link);
-      $content = "<h1>$page</h1>\n\n" . $content;
       $title = $page;
+      $content = "<h1>$page</h1>\n\n" . $content;
     }
   }
 }
 else if ($matched && $matches[1] == 'Index') {
-  $content = '<h1>Index</h1>';
   $title = 'Index';
+  $content = ['<h1>Index</h1>', '<ul>'];
+  foreach (glob('*.md') as $filename) {
+    $page = str_replace('-', ' ', str_replace('.md', '', $filename));
+    $content[] = "<li>$page</li>";
+  }
+  $content[] = '</ul>';
+  $content = implode('', $content);
 }
 else {
   http_response_code(404);
-  $content = '<h1>404 Not Found</h1>';
   $title = '404 Not Found';
+  $content = '<h1>404 Not Found</h1>';
 }
 
 ?>
