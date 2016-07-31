@@ -7,8 +7,8 @@ project from source and to contribute improvements to the project.
 
 ### Installation
 
-Conreality development requires [[Erlang/OTP|Erlang]], [[Elixir]], and
-[[Nerves]].
+Conreality development requires a Unix system with the [[Erlang/OTP|Erlang]]
+platform, the [[Elixir]] compiler and tooling, and the [[Nerves]] framework.
 
 #### Ubuntu
 
@@ -21,6 +21,9 @@ Solutions](https://www.erlang-solutions.com/resources/download.html):
     $ sudo apt-get update
     $ sudo apt-get install erlang
     $ sudo apt-get install elixir
+
+We recommend [Ubuntu 16.04 LTS (Xenial Xerus)](http://releases.ubuntu.com/16.04/)
+as a known-good development environment; most of the core team use this.
 
 #### MacOS
 
