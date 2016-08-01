@@ -11,6 +11,8 @@ https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol
 * https://hex.pm/packages/nerves_ssdp_client
 * https://github.com/nerves-project/nerves_ssdp_client
 
+Example of LAN service discovery in Elixir:
+
     $ git clone https://github.com/nerves-project/nerves_ssdp_client.git
     $ cd nerves_ssdp_client
     $ mix deps.get
@@ -24,6 +26,8 @@ https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol
 
 * https://rubygems.org/gems/ssdp
 * https://github.com/daumiller/ssdp
+
+Example of LAN service discovery in Ruby:
 
     $ sudo gem install ssdp
 
