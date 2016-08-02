@@ -1,13 +1,19 @@
-Hardware Designs
-----------------
-
-These are our current reference hardware designs:
-
-* [[Anchor]] nodes ground the battlespace.
-* [[Camera]] nodes observe the battlespace.
-* [[Laser Turret]] nodes engage targets.
-
-Supporting Hardware
--------------------
-
-* battery charger
+* [[Turret Frames]]
+* [[Drone Kits]]
+* [[Gimbals]]
+* [[Main Boards]]
+  * [[Raspberry Pi]]
+  * [[Raspberry Pi 2]]
+  * [[Raspberry Pi 3]]
+  * [[BeagleBoard X15]]
+  * [[BeagleBone Black]]
+  * [[ODROID XU4]]
+  * [[Intel Galileo]]
+* [[Peripherals]]
+  * [[Distance Sensors]]
+  * [[Camera Modules]]
+  * [[Laser Modules]]
+  * [[RTLS]]
+* [[Sensors]]
+* [[Servos]]
+* [[Stores]]
