@@ -24,26 +24,29 @@ function page_title($page) {
   return str_replace('-', ' ', $page);
 }
 
+function parse_wikilink($wikilink) {
+  $title = substr($wikilink, 2, -2);
+  $page = $title;
+  if (strpos($title, '|') !== false) {
+    list($title, $page) = explode('|', $title);
+  }
+  $page = str_replace(' ', '-', $page);
+  $page = str_replace('/', '-', $page);
+  return [$page, $title];
+}
+
 function expand_wikilinks($text) {
   return preg_replace_callback(
     '|(\[\[[^\]]+\]\])|',
     function ($matches) {
-      $page = substr($matches[1], 2, -2);
-      if (strpos($page, '|') !== FALSE) {
-        list($page, $link) = explode('|', $page);
-        $link = str_replace(' ', '-', $link);
-      }
-      else {
-        $link = str_replace(' ', '-', $page);
-      }
-      $link = str_replace('/', '-', $link);
-      return "[$page](/$link)";
+      list($page, $title) = parse_wikilink($matches[1]);
+      return "[$title](/$page)";
     },
     $text);
 }
 
 function fix_indentation($input) {
-  /* Workaround for a bug in Parsedown: */
+  // Workaround for a bug in Parsedown:
   return str_replace("\n    * ", "\n     * ", $input);
 }
 
@@ -60,11 +63,44 @@ function render_markdown($input) {
   return $output;
 }
 
+function page_breadcrumb($page, $sidebar) {
+  $title = preg_quote(page_title($page), '!');
+  $lines = explode("\n", $sidebar);
+  $index = $level = null;
+  foreach ($lines as $line_no => $line) {
+    if (preg_match('![\[\*\|]' . $title . '[\]\*]!', $line)) {
+      $index = $line_no;
+      $level = strpos($line, '* ');
+      break;
+    }
+  }
+  if (!$index) return [];
+  for ($i = $index - 1; $i > 0; $i--) {
+    $line = $lines[$i];
+    if (strpos($line, '* ') < $level) {
+      $level = strpos($line, '* ');
+      if (preg_match('|(\[\[[^\]]+\]\])|', $line, $matches)) {
+        list($page, $title) = parse_wikilink($matches[1]);
+        $breadcrumb[] = [$title, $page];
+      }
+      else if (preg_match('|\* \*\*([^\*]+)\*\*|', $line, $matches)) {
+        $breadcrumb[] = [$matches[1], null];
+      }
+    }
+    if (!$level) break;
+  }
+  $breadcrumb[] = ['Home', 'Home'];
+  return array_reverse($breadcrumb);
+}
+
 $sidebar   = render_markdown(file_get_contents('_Sidebar.md'));
 $footer    = render_markdown(file_get_contents('_Footer.md'));
 $matched   = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 $timestamp = time();
 
+$page = null;
+$title = null;
+$breadcrumb = [];
 if ($matched && file_exists($matches[1] . '.md')) {
   $page = $matches[1];
   $filename = $page . '.md';
@@ -75,11 +111,13 @@ if ($matched && file_exists($matches[1] . '.md')) {
     return;
   }
   else if ($page == 'Home') {
+    $breadcrumb = [];
     $timestamp = time();
     $title = null;
     $content = render_markdown(file_get_contents($filename));
   }
   else {
+    $breadcrumb = page_breadcrumb($page, file_get_contents('_Sidebar.md'));
     $timestamp = filemtime($filename);
     $title = page_title($page);
     $content = render_markdown(file_get_contents($filename));
@@ -87,14 +125,13 @@ if ($matched && file_exists($matches[1] . '.md')) {
   }
 }
 else if ($matched && $matches[1] == 'Index') {
+  $breadcrumb = [['Home', 'Home']];
   $title = 'Index';
   $content = ["<h1>Index</h1>\n", '<ul>'];
   foreach (glob('*.md') as $filename) {
     if ($filename[0] == '_' || is_link($filename)) continue;
     $page = str_replace('.md', '', $filename);
-    $link = page_link($page);
-    $title = page_title($page);
-    $content[] = "<li><a href=\"$link\">$title</a></li>";
+    $content[] = '<li><a href="' . page_path($page) . '">' . page_title($page) . '</a></li>';
   }
   $content[] = '</ul>';
   $content = implode("\n", $content);
@@ -104,8 +141,6 @@ else {
   $title = '404 Not Found';
   $content = '<h1>404 Not Found</h1>';
 }
-
-$parents = ['Home'];
 
 header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
 
@@ -150,12 +185,16 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
     <div class="container">
       <div class="row">
         <div class="col-md-9 content">
+          <?php if ($breadcrumb): ?>
           <ol class="breadcrumb">
-            <?php foreach ($parents as $parent): ?>
-            <li><a href="<?php echo page_path($parent) ?>"><?php echo page_title($parent) ?></a></li>
+            <?php foreach ($breadcrumb as $parent): ?>
+            <li><?php echo $parent[1] ?
+              '<a href="' . page_path($parent[1]) . '">' . page_title($parent[0]) . '</a>' :
+              page_title($parent[0]) ?></li>
             <?php endforeach ?>
             <li class="active"><?php echo $title ?></li>
           </ol>
+          <?php endif ?>
           <div class="section">
             <?php echo $content ?>
           </div>
