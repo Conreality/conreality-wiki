@@ -16,6 +16,14 @@ if ($_SERVER['REQUEST_URI'] == '/') {
 
 class Parser extends ParsedownExtra {}
 
+function page_path($page) {
+  return '/' . $page;
+}
+
+function page_title($page) {
+  return str_replace('-', ' ', $page);
+}
+
 function expand_wikilinks($text) {
   return preg_replace_callback(
     '|(\[\[[^\]]+\]\])|',
@@ -58,22 +66,22 @@ $matched   = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $match
 $timestamp = time();
 
 if ($matched && file_exists($matches[1] . '.md')) {
-  $link = $matches[1];
-  $filename = $link . '.md';
+  $page = $matches[1];
+  $filename = $page . '.md';
   if (is_link($filename)) {
     $filename = readlink($filename);
     http_response_code(301);
     header('Location: /' . str_replace('.md', '', $filename));
     return;
   }
-  else if ($link == 'Home') {
+  else if ($page == 'Home') {
     $timestamp = time();
     $title = null;
     $content = render_markdown(file_get_contents($filename));
   }
   else {
     $timestamp = filemtime($filename);
-    $title = str_replace('-', ' ', $link);
+    $title = page_title($page);
     $content = render_markdown(file_get_contents($filename));
     $content = "<h1>$title</h1>\n\n" . $content;
   }
@@ -83,9 +91,10 @@ else if ($matched && $matches[1] == 'Index') {
   $content = ["<h1>Index</h1>\n", '<ul>'];
   foreach (glob('*.md') as $filename) {
     if ($filename[0] == '_' || is_link($filename)) continue;
-    $link = str_replace('.md', '', $filename);
-    $title = str_replace('-', ' ', $link);
-    $content[] = "<li><a href=\"/$link\">$title</a></li>";
+    $page = str_replace('.md', '', $filename);
+    $link = page_link($page);
+    $title = page_title($page);
+    $content[] = "<li><a href=\"$link\">$title</a></li>";
   }
   $content[] = '</ul>';
   $content = implode("\n", $content);
@@ -95,6 +104,8 @@ else {
   $title = '404 Not Found';
   $content = '<h1>404 Not Found</h1>';
 }
+
+$parents = ['Home'];
 
 header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
 
@@ -139,6 +150,12 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
     <div class="container">
       <div class="row">
         <div class="col-md-9 content">
+          <ol class="breadcrumb">
+            <?php foreach ($parents as $parent): ?>
+            <li><a href="<?php echo page_path($parent) ?>"><?php echo page_title($parent) ?></a></li>
+            <?php endforeach ?>
+            <li class="active"><?php echo $title ?></li>
+          </ol>
           <div class="section">
             <?php echo $content ?>
           </div>
