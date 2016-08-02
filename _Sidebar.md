@@ -5,6 +5,7 @@
   * [[Supported Hardware]]
   * [[Prerequisites]]
   * [[Installation]]
+  * [[Networking Configuration]]
   * [[FAQs|Installation FAQs]]
 * **[[User Guide]]**
   * [[Scenarios]]

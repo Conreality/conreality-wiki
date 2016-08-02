@@ -5,7 +5,7 @@ These instructions will help you get set up with a local Conreality
 development environment such that you will be able to build the whole
 project from source and to contribute improvements to the project.
 
-### Installation
+### Installation (System-Specific)
 
 Conreality development requires a Unix system with the [[Erlang/OTP|Erlang]]
 platform, the [[Elixir]] compiler and tooling, and the [[Nerves]] framework.
@@ -54,7 +54,7 @@ refer to the upstream
 [Elixir](http://elixir-lang.org/install.html), and
 [Nerves](https://hexdocs.pm/nerves/installation.html) installation guides.
 
-### Post-Installation
+### Installation (Generic)
 
 After installing Erlang and Elixir, make sure to update your versions of the
 `hex` and `rebar` package and build tools:
@@ -67,6 +67,21 @@ In case you're wondering, the `mix` utility was installed as part of Elixir.
 As a final step, install the Nerves bootstrap and tooling:
 
     $ mix archive.install https://github.com/nerves-project/archives/raw/master/nerves_bootstrap.ez
+
+### Development Environment
+
+    $ git clone git@github.com:conreality/conreality.git
+    $ cd conreality
+
+    $ NERVES_TARGET=rpi mix deps.get
+
+### Building the Firmware Image
+
+    $ NERVES_TARGET=rpi mix firmware
+
+### Burning the Firmware Image
+
+    $ NERVES_TARGET=rpi mix firmware.burn
 
 Developer Manuals
 -----------------

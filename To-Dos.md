@@ -24,8 +24,6 @@ Website Infrastructure
 Development Infrastructure
 --------------------------
 
-- Finish the build system overhaul to use Autotools instead of OCamlbuild.
-  (@bendiken)
 - Finish the Debian/Ubuntu packaging based on the Autotools build system.
   (@bendiken)
 - Ensure that the build system supports out-of-tree compiles. (@bendiken)
@@ -58,7 +56,7 @@ Target Architectures & Platforms
   This may require changing `AC_CANONICAL_HOST` to `AC_CANONICAL_TARGET`.
   [See the manual](https://www.gnu.org/software/autoconf/manual/autoconf-2.69/html_node/Canonicalizing.html).
 - Help [port](https://github.com/nojb/riscv-ocamlopt) the OCaml native
-  compiler to the RISC-V architecture.
+  code compiler to the RISC-V architecture.
 
 Third-Party Dependencies
 ------------------------

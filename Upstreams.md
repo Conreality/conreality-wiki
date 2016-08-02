@@ -39,6 +39,11 @@ These dependencies are useful to us at the moment but ultimately replaceable
 should the need arise. We ought to certainly contribute bug reports and
 submit patches.
 
+### Elixir/ALE
+
+* https://hex.pm/packages/elixir_ale
+* https://github.com/fhunleth/elixir_ale
+
 ### [[Lua]] for Elixir
 
 ### [[Lua]] for Python (Lupa)

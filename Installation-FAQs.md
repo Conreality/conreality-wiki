@@ -12,3 +12,5 @@ or the x86 computer architecture. The minimum memory (RAM) requirement is
 64 MiB, though you'll be able to do more with a device with 512+ MiB of RAM.
 
 We recommend the [[Raspberry Pi 3]] as a good default board for Conreality.
+
+#### What types of networking are supported?
