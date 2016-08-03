@@ -5,6 +5,7 @@
   * [[Supported Hardware]]
   * [[Prerequisites]]
   * [[Installation]]
+    * [[Burning Firmware]]
   * [[Network Configuration]]
   * [[FAQs|Installation FAQs]]
 * **[[User Guide]]**
@@ -17,6 +18,11 @@
   * [[Donations]]
   * [[FAQs|Contributor FAQs]]
 * **[[Developer Guide]]**
+  * **[[Development Environment]]**
+  * **Firmware Development**
+    * [[Building Firmware]]
+    * [[Burning Firmware]]
+    * [[Running Firmware]]
   * [[Roadmap]]
   * [[Project Structure]]
   * [[Naming Conventions]]
