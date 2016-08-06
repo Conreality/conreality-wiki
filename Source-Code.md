@@ -8,6 +8,8 @@ Software
 
 * [**conreality/conreality**](https://github.com/conreality/conreality):
   The main source code repository for the Conreality core.
+* [**conreality/conctl**](https://github.com/conreality/conctl):
+  Conreality CLI utility.
 * [**conreality/conreality-for-android**](https://github.com/conreality/conreality-for-android):
   Conreality [[app|Android App]] for the Android mobile operating system.
 
