@@ -73,7 +73,7 @@ As a final step, install the Nerves bootstrap and tooling:
 
 ### Development Environment
 
-    $ git clone git@github.com:conreality/conreality.git
+    $ git clone https://github.com/conreality/conreality.git
     $ cd conreality
 
     $ NERVES_TARGET=rpi mix deps.get
