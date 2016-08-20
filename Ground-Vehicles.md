@@ -1,11 +1,16 @@
+Concepts
+--------
+
+* [[Scout Car]]
+
 Kits
 ----
 
 ### Car Kits
 
-These hobbyist car kits can potentially be modded to run Conreality:
+These hobbyist smart car kits can potentially be modded to run Conreality:
 
-* [[SunFounder Smart Video Car Kit|SunFounder Car]] (based on the Raspberry Pi)
+* [[SunFounder Smart Video Car Kit|SunFounder Car Kit]] (based on the Raspberry Pi)
 * [GoPiGo](http://www.dexterindustries.com/gopigo/) (based on the Raspberry Pi)
 * [BrickPi](http://www.dexterindustries.com/BrickPi/) (based on the Raspberry Pi)
 * [SparkFun RedBot Basic Kit](https://www.sparkfun.com/products/13166) (based on Arduino)
@@ -15,8 +20,8 @@ Chassis
 
 ### Car Chassis
 
-These car chassis would potentially make a good hardware frame for building
-a reconnaissance vehicle:
+These car chassis would potentially make suitable hardware frames for
+building reconnaissance vehicles:
 
 * [SparkFun Shadow Chassis](https://www.sparkfun.com/products/13301)
 * [DAGU Wild Thumper 6WD All-Terrain Chassis](https://www.sparkfun.com/products/11056)
@@ -25,8 +30,8 @@ a reconnaissance vehicle:
 
 ### Tank Chassis
 
-These tank chassis would potentially make good hardware frames for building
-an armored tank:
+These tank chassis would potentially make suitable hardware frames for
+building armored tanks for milsim scenarios:
 
 * [DAGU T'Rex Tank All-Terrain Metal Chassis](https://www.sparkfun.com/products/12719)
 * [DAGU Multi-Chassis Tank](https://www.sparkfun.com/products/12091)
