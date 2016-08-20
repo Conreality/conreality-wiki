@@ -1,10 +1,12 @@
-Concepts
---------
+Vehicle Concepts
+----------------
 
-* [[Scout Car]]
+The [[Scout Car]] is a robotic car that runs the Conreality firmware.
+It can be used as a reconnaissance vehicle in milsim scenarios or as an
+affordable development platform for hacking on Conreality.
 
-Kits
-----
+Vehicle Kits
+------------
 
 ### Car Kits
 
@@ -15,8 +17,8 @@ These hobbyist smart car kits can potentially be modded to run Conreality:
 * [BrickPi](http://www.dexterindustries.com/BrickPi/) (based on the Raspberry Pi)
 * [SparkFun RedBot Basic Kit](https://www.sparkfun.com/products/13166) (based on Arduino)
 
-Chassis
--------
+Vehicle Chassis
+---------------
 
 ### Car Chassis
 
