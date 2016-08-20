@@ -30,6 +30,7 @@ function parse_wikilink($wikilink) {
   if (strpos($title, '|') !== false) {
     list($title, $page) = explode('|', $title);
   }
+  $page = str_replace("\n", '-', $page);
   $page = str_replace(' ', '-', $page);
   $page = str_replace('/', '-', $page);
   return [$page, $title];
