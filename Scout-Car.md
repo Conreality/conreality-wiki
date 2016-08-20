@@ -4,6 +4,8 @@ Kit]].
 
 [scout car]: https://en.wikipedia.org/wiki/Scout_car
 
+![Photo of Scout Car MkI](https://www.sunfounder.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/i/file.jpg)
+
 Components
 ----------
 
