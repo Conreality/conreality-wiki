@@ -17,9 +17,9 @@ Our recommended, known-good reference configuration is the following:
 * 1× Generic 4GB+ microSDHC or microSDXC card (MSRP $3+)
 * 2× Generic 3.7V 18650 rechargeable Li-ion battery (MSRP $6+)
 
-However, you can fairly easily substitute [[another control board|Supported
-Hardware]] than the Raspberry Pi 3. If you do so, adapt the instructions
-that follow accordingly.
+Note that you can fairly easily substitute [[another control board|Supported
+Hardware]] than the Raspberry Pi 3. If you choose to do so, adapt the
+firmware installation instructions that follow accordingly.
 
 Specifications
 --------------

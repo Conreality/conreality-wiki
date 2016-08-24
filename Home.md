@@ -14,6 +14,12 @@ out on your own as needed. Otherwise, check back on us in a year or two.
 ![CPAF](/images/cpaf-640x252.jpg "Content advisory:
 Some material may be inappropriate for technophobes.")
 
+Prototype Hardware
+------------------
+
+* [[Conreality Laser Turret MkI|Laser Turret]]
+* [[Conreality Scout Car MkI|Scout Car]]
+
 Development Team
 ----------------
 
