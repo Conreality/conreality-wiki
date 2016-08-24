@@ -1,7 +1,7 @@
 Our Mark I [scout car][] is a robotic car based on the
-[[SunFounder Smart Video Car Kit|SunFounder Car Kit]] for [[Raspberry Pi]].
-It can be used as a reconnaissance vehicle in milsim scenarios or as an
-affordable development platform for hacking on Conreality.
+[[SunFounder Smart Video Car Kit|SunFounder Car Kit]] for the [[Raspberry
+Pi]]. It can be used as a reconnaissance vehicle in milsim scenarios or as
+an affordable development platform for hacking on Conreality.
 
 [scout car]: https://en.wikipedia.org/wiki/Scout_car
 
@@ -10,7 +10,7 @@ affordable development platform for hacking on Conreality.
 Components
 ----------
 
-Our recommended known-good reference configuration is the following:
+Our recommended, known-good reference configuration is the following:
 
 * 1× [[Raspberry Pi 3]] (MSRP $35)
 * 1× [[SunFounder Smart Video Car Kit|SunFounder Car Kit]] (MSRP $94.99)
@@ -39,6 +39,7 @@ and follow the video tutorials:
 1. [Open Box & Basic Assembly](https://www.youtube.com/watch?v=dHjg_BDYvmA)
 2. [Assembly Completed](https://www.youtube.com/watch?v=XV22rK1mw5g)
 3. [Circuits](https://www.youtube.com/watch?v=Tg_g4YoAZdc)
+4. [Software](https://www.youtube.com/watch?v=ZCYaufyU3XA) (optional, for validation)
 
 Installation
 ------------
