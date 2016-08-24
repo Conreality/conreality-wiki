@@ -42,6 +42,7 @@
 * **Research & Development**
   * **Configurations**
     * [[Laser Turret]]
+    * [[Scout Car]]
   * [[Architecture]]
     * [[Command & Control]]
     * [[Database]]
