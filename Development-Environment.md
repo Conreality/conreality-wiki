@@ -32,7 +32,8 @@ as a known-good development environment; most of the core team use this.
 
 The quickest way to get set up with Erlang and Elixir on Macs is using
 [Homebrew](http://brew.sh):
-
+    $ sudo apt install linuxbrew-wrapper
+    
     $ brew update
     $ brew install erlang
     $ brew install elixir
