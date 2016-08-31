@@ -43,6 +43,7 @@
   * **Configurations**
     * [[Laser Turret]]
     * [[Scout Car]]
+    * [[Recon Drone]]
   * [[Architecture]]
     * [[Command & Control]]
     * [[Database]]
