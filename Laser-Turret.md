@@ -17,6 +17,7 @@ Our recommended, known-good reference configuration is the following:
 * 1× [[Main Board|Main Boards]]: [[Raspberry Pi 3]] (MSRP $35)
 * 1× [[Camera Module|Camera Modules]]: [[CMUcam5 Pixy]] (MSRP $75)
 * 1× [[Laser Module|Laser Modules]]: (included in turret frame kit)
+* 1× Storage Card: Generic 4GB+ microSDHC or microSDXC card (MSRP $3+)
 
 Note that you can fairly easily substitute [[another control board|Supported
 Hardware]] than the Raspberry Pi 3. If you choose to do so, adapt the

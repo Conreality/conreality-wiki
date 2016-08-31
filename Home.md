@@ -5,7 +5,8 @@ Consensus Reality
 
 **Consensus Reality** (aka **Conreality**) is a live-action
 [augmented-reality](Glossary#augmented-reality), tactical
-[wargame](Glossary#wargame) currently in an early design and planning phase.
+[wargame](Glossary#wargame) platform currently in an early design and
+development phase.
 
 There is nothing much to see here unless you're an experienced software
 developer capable of building the system from scratch and figuring things
@@ -19,6 +20,7 @@ Prototype Hardware
 
 * [[Conreality Laser Turret MkI|Laser Turret]]
 * [[Conreality Scout Car MkI|Scout Car]]
+* [[Conreality Recon Drone MkI|Recon Drone]]
 
 Development Team
 ----------------
