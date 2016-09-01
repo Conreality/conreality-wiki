@@ -39,6 +39,10 @@ https://fosdem.org/2017/
 
 http://www.minix3.org/conference/
 
+### EMF 2017 (UK, Aug 2017)
+
+https://www.emfcamp.org/
+
 ### FSCONS 2017 (Gothenburg, Nov 2017)
 
 https://fscons.org/2017/
