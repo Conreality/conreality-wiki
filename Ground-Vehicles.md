@@ -35,6 +35,7 @@ building reconnaissance vehicles:
 These tank chassis would potentially make suitable hardware frames for
 building armored tanks for milsim scenarios:
 
+* [DFRobot Devastator Tank Mobile Platform](https://www.dfrobot.com/wiki/index.php?title=Devastator_Tank_Mobile_Platform_SKU:ROB0112)
 * [DAGU T'Rex Tank All-Terrain Metal Chassis](https://www.sparkfun.com/products/12719)
 * [DAGU Multi-Chassis Tank](https://www.sparkfun.com/products/12091)
 * [DAGU Rover 5 Robot Platform](https://www.sparkfun.com/products/10336)
