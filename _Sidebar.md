@@ -2,7 +2,7 @@
 
 * [[Home]]
 * **[[Installation Guide]]**
-  * [[Supported Hardware]]
+  * [[Supported Platforms]]
   * [[Prerequisites]]
   * [[Installation]]
     * [[Burning Firmware]]
@@ -40,6 +40,7 @@
   * [[Websites]]
   * [[IRC C&C Server]]
 * **Research & Development**
+  * [[Supported Hardware]]
   * **Configurations**
     * [[Laser Turret]]
     * [[Scout Car]]
