@@ -30,6 +30,7 @@ Development Team
 * [@dankomorny](https://github.com/dankomorny)
 * [@ab0032](https://github.com/ab0032)
 * [@joecoin](https://github.com/joecoin)
+* [@gilcherry](https://github.com/gilcherry)
 
 [[IRC Channel]]
 ---------------
