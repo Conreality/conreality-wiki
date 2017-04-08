@@ -25,7 +25,7 @@ Inspiration
 * **Unknown**
   * [Sci-fi story about a global prediction market providing real-time support to a tactical team repelling an alien invasion in Earth orbit](https://www.reddit.com/r/tipofmytongue/comments/3o08bw/tomt_story_scifi_story_about_a_global_prediction/)
 
-Nonfiction
+Non-fiction
 ----------
 
 * [Wired for War: The Robotics Revolution and Conflict in the 21st Century](https://www.goodreads.com/book/show/6124823-wired-for-war)
