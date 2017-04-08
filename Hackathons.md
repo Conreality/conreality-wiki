@@ -1,3 +1,21 @@
+10th Conreality Hackathon
+-------------------------
+
+**When**: April 2017  
+**Where**: Berlin  
+**Who**: TBD  
+
+*To be written up.*
+
+9th Conreality Hackathon
+------------------------
+
+**When**: October 2016  
+**Where**: Bratislava  
+**Who**: @bendiken, @DanKomorny, @mikegogulski  
+
+*To be written up.*
+
 8th Conreality Hackathon
 ------------------------
 
@@ -5,12 +23,16 @@
 **Where**: Bratislava  
 **Who**: TBD  
 
+*To be written up.*
+
 7th Conreality Hackathon
 ------------------------
 
 **When**: ..., 2016  
 **Where**: Bratislava  
 **Who**: ...  
+
+*To be written up.*
 
 6th Conreality Hackathon
 ------------------------
