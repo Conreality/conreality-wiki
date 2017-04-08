@@ -63,7 +63,8 @@
     * [[Modeling]]
     * [[Motion Planning]]
     * [[Security]]
-    * [[Swarming]]
+  * **Brainstorming**
+    * [[Inductive Charging]]   
 * **Resources & Reference**
   * [[Bootcamp]]
   * [[Concepts]]
