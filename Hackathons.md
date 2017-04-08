@@ -1,3 +1,21 @@
+12th Conreality Hackathon
+-------------------------
+
+**When**: late July 2017  
+**Where**: Alicante  
+**Who**: TBD  
+
+*Planned.*
+
+11th Conreality Hackathon
+-------------------------
+
+**When**: late May 2017  
+**Where**: Berlin or Bratislava  
+**Who**: TBD  
+
+*Planned.*
+
 10th Conreality Hackathon
 -------------------------
 
