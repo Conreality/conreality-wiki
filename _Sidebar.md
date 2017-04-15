@@ -51,7 +51,7 @@
     * [[Messaging]]
     * [[Networking]]
   * **Components**
-    * [[Android App]]
+    * [[Android Apps]]
     * [[Console]]
     * [[Ontology]]
     * [[Physics Engine]]

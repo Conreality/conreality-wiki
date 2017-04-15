@@ -11,7 +11,7 @@ Software
 * [**conreality/conctl**](https://github.com/conreality/conctl):
   Conreality CLI utility.
 * [**conreality/conreality-for-android**](https://github.com/conreality/conreality-for-android):
-  Conreality [[app|Android App]] for the Android mobile operating system.
+  Conreality [[apps|Android Apps]] for the Android mobile operating system.
 
 Websites
 --------
