@@ -12,8 +12,14 @@ future it will run on and explicitly support augmented-reality headsets
 
 ### Features
 
-* Enables players to track the current position of teammates.
-* TODO
+* Enables the configuration of the player's nickname and avatar.
+* Enables joining a local game in progress (depending on the game's
+  settings).
+* Displays the mission objective and the current progress to it.
+* Enables players to track the current positions (distance and coordinates)
+  of teammates.
+* Enables players to communicate (via text and voice) with teammates.
+* Provides a personal area network (PAN) for accessories and gadgets.
 
 ### Source Code
 
@@ -26,8 +32,8 @@ https://github.com/conreality/conreality-android-player/issues
 Conreality Scoreboard for Android
 ---------------------------------
 
-The scoreboard app presents a read-only view of an ongoing game for the
-benefit of spectators.
+The scoreboard or spectator app presents a read-only view of an ongoing game
+for the benefit of spectators.
 
 ### Features
 
@@ -51,7 +57,7 @@ oversee game scenarios.
 
 * Enables gamemasters to [[set up|Game Setup]] a game scenario.
 * Enables gamemasters to issue control commands to swarms and nodes.
-* Enables tracking the current position of players and assets.
+* Enables tracking the current positions of players and assets.
 * TODO
 
 ### Source Code
