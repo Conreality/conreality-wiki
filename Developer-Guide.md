@@ -57,6 +57,8 @@ refer to the upstream
 [Elixir](http://elixir-lang.org/install.html), and
 [Nerves](https://hexdocs.pm/nerves/installation.html) installation guides.
 
+TODO: squashfs-tools, ssh-askpass
+
 ### Installation (Generic)
 
 After installing Erlang and Elixir, make sure to update your versions of the

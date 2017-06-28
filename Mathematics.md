@@ -26,3 +26,4 @@ Essential Skills
   * [Vectors and spaces](https://www.khanacademy.org/math/linear-algebra/vectors_and_spaces)
   * [Matrix transformations](https://www.khanacademy.org/math/linear-algebra/matrix_transformations)
   * [Eigenvalues](https://www.khanacademy.org/math/linear-algebra/alternate_bases/eigen_everything/v/linear-algebra-introduction-to-eigenvalues-and-eigenvectors)
+* Probability

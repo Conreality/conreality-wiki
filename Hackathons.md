@@ -159,7 +159,7 @@ The primary outcomes of this hackathon were as follows:
    parsing of IRC-relayed commands as well as inline help.
 
 1. Created a [Conreality app for the Android mobile operating
-   system](https://github.com/conreality/conreality-for-android).
+   system](https://github.com/conreality/conreality-for-android). FIXME
 
 1. Implemented voice recognition in the Android app using Google's services.
 

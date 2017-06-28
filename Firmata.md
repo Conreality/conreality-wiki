@@ -14,6 +14,8 @@
 
 # Software
 
+https://github.com/firmata/protocol#firmata-client-libraries
+
 ## Elixir
 
 * https://hex.pm/packages/firmata (dead?)

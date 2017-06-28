@@ -25,6 +25,7 @@ N/A presently.
 ### Python
 
 * [bluepy](https://github.com/IanHarvey/bluepy) (public domain)
+  * https://ianharvey.github.io/bluepy-doc/
 * [pygattlib](https://bitbucket.org/OscarAcena/pygattlib/)
 * [PyBluez](https://github.com/karulis/pybluez)
   (on [PyPI](https://pypi.python.org/pypi/PyBluez))
