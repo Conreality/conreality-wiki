@@ -59,3 +59,25 @@ Some relevant discussion threads from our [[mailing list|Mailing List]] archives
 * [Laser turret POC](https://groups.google.com/forum/#!topic/conreality/Niw7hiMYxwc)
 * [Gimbal control and POC hardware](https://groups.google.com/forum/#!topic/conreality/r3QpMyAFzEg)
 * [Initial focus of our R&D efforts](https://groups.google.com/forum/#!topic/conreality/zfCe8upi_t4)
+
+Unsorted Links
+--------------
+
+* [Andoer/Zifon YT-260 Remote Control Motorized Pan & Tilt Head](https://www.aliexpress.com/item/Zifon-YT-260-Remote-Control-Motorized-Pan-Tilt-for-Extreme-Camera-Wifi-Camera-and-Smartphone/32759960387.html)
+  230° pan, 60° tilt, 2.5°/s, 260g load
+
+* [Bescor MP-101 Motorized Pan & Tilt Head](https://bescor.com/product/mp-101/)
+  aka [Hague PH Pan & Tilt Camera Powerhead](https://www.haguecamerasupports.com/aerial-masts-powerheads/hague-ph-pan-tilt-camera-powerhead)
+  aka [Maxwell MP-101](http://www.nature-images.eu/contents/reviews/mp-101/index.html)
+
+* [MP-101b](http://www.21best.com/21_best/electronic/security/video/pan_tilt/MP-101b-pan-tilt.html)
+  340° pan, ± 15° tilt, 3-12°/s, 6 lb load
+
+* [MP-360](http://www.21best.com/21_best/electronic/security/video/pan_tilt/MP-360-pan-tilt.html)
+  360° pan, ± 15° tilt, 3-12°/s, 6 lb load
+
+* [PT1000n](http://www.21best.com/21_best/electronic/security/video/pan_tilt/PT1000-Motor-Manual.html)
+  350° pan, ± 35° tilt, 7°/s, 20 lb load
+
+* [PT2000c](http://www.21best.com/21_best/electronic/security/video/pan_tilt/PT2000c-Motor-Manual.html)
+  355° pan, 100° tilt, 0.25-10°/s, 32 lb load
