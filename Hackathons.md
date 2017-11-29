@@ -1,29 +1,24 @@
-12th Conreality Hackathon
--------------------------
-
-**When**: late July 2017  
-**Where**: Alicante  
-**Who**: TBD  
-
-*Planned.*
-
 11th Conreality Hackathon
 -------------------------
 
-**When**: late May 2017  
-**Where**: Berlin or Bratislava  
+**When**: November 18th to 19th, 2017  
+**Where**: [Lviv](http://ar.to/notes/lviv)  
 **Who**: TBD  
 
-*Planned.*
+*To be written up.*
+
+https://www.facebook.com/events/309023262907238/
 
 10th Conreality Hackathon
 -------------------------
 
-**When**: April 2017  
+**When**: April 8th, 2017  
 **Where**: Berlin  
 **Who**: TBD  
 
 *To be written up.*
+
+https://www.facebook.com/events/1636582173033431/
 
 9th Conreality Hackathon
 ------------------------
