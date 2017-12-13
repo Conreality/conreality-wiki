@@ -32,7 +32,7 @@ Graphic Design
 
 ### Print
 
-* [Adobe InDesign]()
+* [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign)
 
 Video Production
 ----------------
