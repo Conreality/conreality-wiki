@@ -1,5 +1,14 @@
-CAD/CAE
--------
+IDEs (Software Development)
+---------------------------
+
+* [Android Studio](https://en.wikipedia.org/wiki/Android_Studio)
+
+* [Arduino IDE](https://en.wikipedia.org/wiki/Arduino#Software_and_programming_tools)
+
+* [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator)
+
+CAD/CAE (3D Mechanical Design)
+------------------------------
 
 ### Desktop
 
@@ -10,6 +19,11 @@ CAD/CAE
 * [SketchUp](https://en.wikipedia.org/wiki/SketchUp)
 
 * [Vectary](https://vectary.com)
+
+CAM (3D Printing & CNC Automation)
+----------------------------------
+
+* [Ultimaker Cura](https://en.wikipedia.org/wiki/Cura_(software))
 
 EDA (PCB Design)
 ----------------
@@ -45,6 +59,11 @@ Video Production
 
 * [Final Cut Pro](https://en.wikipedia.org/wiki/Final_Cut_Pro)
   (Mac only)
+
+Mathematics
+-----------
+
+* [MATLAB](https://en.wikipedia.org/wiki/MATLAB)
 
 Simulation
 ----------
