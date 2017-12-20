@@ -1,0 +1,2 @@
+-  `Scanse Sweep <http://scanse.io/>`__
+-  `Slamtec RPLIDAR A2 <http://www.slamtec.com/en/lidar>`__
