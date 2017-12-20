@@ -96,19 +96,19 @@ function page_breadcrumb($page, $sidebar) {
   return array_reverse($breadcrumb);
 }
 
-$sidebar   = render_markdown(file_get_contents('_Sidebar.md'));
-$footer    = render_markdown(file_get_contents('_Footer.md'));
+$sidebar   = render_markdown(file_get_contents(__DIR__ . '/_Sidebar.md'));
+$footer    = render_markdown(file_get_contents(__DIR__ . '/_Footer.md'));
 $matched   = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 $timestamp = time();
 
 $page = null;
 $title = null;
 $breadcrumb = [];
-if ($matched && file_exists($matches[1] . '.md')) {
+if ($matched && file_exists(__DIR__ . '/' . $matches[1] . '.md')) {
   $page = $matches[1];
   $filename = $page . '.md';
-  if (is_link($filename)) {
-    $filename = readlink($filename);
+  if (is_link(__DIR__ . '/' . $filename)) {
+    $filename = readlink(__DIR__ . '/' . $filename);
     http_response_code(301);
     header('Location: /' . str_replace('.md', '', $filename));
     return;
@@ -117,13 +117,13 @@ if ($matched && file_exists($matches[1] . '.md')) {
     $breadcrumb = [];
     $timestamp = time();
     $title = null;
-    $content = render_markdown(file_get_contents($filename));
+    $content = render_markdown(file_get_contents(__DIR__ . '/' . $filename));
   }
   else {
-    $breadcrumb = page_breadcrumb($page, file_get_contents('_Sidebar.md'));
-    $timestamp = filemtime($filename);
+    $breadcrumb = page_breadcrumb($page, file_get_contents(__DIR__ . '/_Sidebar.md'));
+    $timestamp = filemtime(__DIR__ . '/' . $filename);
     $title = page_title($page);
-    $content = render_markdown(file_get_contents($filename));
+    $content = render_markdown(file_get_contents(__DIR__ . '/' . $filename));
     $content = "<h1>$title</h1>\n\n" . $content;
   }
 }
@@ -131,8 +131,9 @@ else if ($matched && $matches[1] == 'Index') {
   $breadcrumb = [['Home', 'Home']];
   $title = 'Index';
   $content = ["<h1>Index</h1>\n", '<ul>'];
-  foreach (glob('*.md') as $filename) {
-    if ($filename[0] == '_' || is_link($filename)) continue;
+  foreach (glob(__DIR__ . '/*.md') as $pathname) {
+    $filename = basename($pathname);
+    if ($filename[0] == '_' || is_link($pathname)) continue;
     $page = str_replace('.md', '', $filename);
     $content[] = '<li><a href="' . page_path($page) . '">' . page_title($page) . '</a></li>';
   }
