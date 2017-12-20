@@ -1,71 +1,40 @@
 <?php
 require_once __DIR__ . '/.php/wiki.php';
 
-define('IS_LOCALHOST', strpos($_SERVER['HTTP_HOST'], 'localhost') !== false);
+define('IS_LOCALHOST', strpos($_SERVER['HTTP_HOST'], 'localhost') === 0);
 
+// Enforce HTTPS in production:
 if (!IS_LOCALHOST && empty($_SERVER['HTTPS'])) {
   $host = $_SERVER['HTTP_HOST'];
   header("Location: https://$host" . $_SERVER['REQUEST_URI'], true, 301);
   return;
 }
 
+// Redirect the front page to /Home:
 if ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php') {
   $host = $_SERVER['HTTP_HOST'];
   header('Location: ' . (IS_LOCALHOST ? 'http' : 'https') . "://$host/Home", true, 302);
   return;
 }
 
-$sidebar   = render_markdown(file_get_contents(__DIR__ . '/_Sidebar.md'));
-$footer    = render_markdown(file_get_contents(__DIR__ . '/_Footer.md'));
-$matched   = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
-$timestamp = time();
+// Parse the request path for the page ID:
+$matched = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 
-$page = null;
-$title = null;
-$breadcrumb = [];
-if ($matched && file_exists(__DIR__ . '/' . $matches[1] . '.md')) {
-  $page = $matches[1];
-  $filename = $page . '.md';
-  if (is_link(__DIR__ . '/' . $filename)) {
-    $filename = readlink(__DIR__ . '/' . $filename);
-    http_response_code(301);
-    header('Location: /' . str_replace('.md', '', $filename));
-    return;
-  }
-  else if ($page == 'Home') {
-    $breadcrumb = [];
-    $timestamp = time();
-    $title = null;
-    $content = render_markdown(file_get_contents(__DIR__ . '/' . $filename));
-  }
-  else {
-    $breadcrumb = page_breadcrumb($page, file_get_contents(__DIR__ . '/_Sidebar.md'));
-    $timestamp = filemtime(__DIR__ . '/' . $filename);
-    $title = page_title($page);
-    $content = render_markdown(file_get_contents(__DIR__ . '/' . $filename));
-    $content = "<h1>$title</h1>\n\n" . $content;
-  }
+$wiki = new Wiki(__DIR__);
+$page = $matched ? $wiki->get_page($matches[1]) : new WikiErrorPage($wiki, 404);
+
+if (!$page->exists()) {
+  $page = new WikiErrorPage($wiki, 404);
+  http_response_code($page->status);
 }
-else if ($matched && $matches[1] == 'Index') {
-  $breadcrumb = [['Home', 'Home']];
-  $title = 'Index';
-  $content = ["<h1>Index</h1>\n", '<ul>'];
-  foreach (glob(__DIR__ . '/*.md') as $pathname) {
-    $filename = basename($pathname);
-    if ($filename[0] == '_' || is_link($pathname)) continue;
-    $page = str_replace('.md', '', $filename);
-    $content[] = '<li><a href="' . page_path($page) . '">' . page_title($page) . '</a></li>';
-  }
-  $content[] = '</ul>';
-  $content = implode("\n", $content);
-}
-else {
-  http_response_code(404);
-  $title = '404 Not Found';
-  $content = '<h1>404 Not Found</h1>';
+else if ($page->is_link()) {
+  http_response_code(301);
+  $filename = readlink($page->get_pathname());
+  header('Location: /' . str_replace('.md', '', $filename)); // FIXME: this is ugly
+  return; // abort response processing
 }
 
-header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
+header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT');
 
 ?>
 <!DOCTYPE html>
@@ -74,7 +43,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title><?php echo $title ? "$title &mdash; " : '' ?>Conreality Wiki</title>
+    <title><?php echo $page->title ? "{$page->title} &mdash; " : '' ?>Conreality Wiki</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cosmo/bootstrap.min.css" crossorigin="anonymous"/>
     <link rel="stylesheet" href="/index.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -94,7 +63,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="/">Conreality Wiki</a>
-          <span class="navbar-text navbar-version pull-left"><b><?php echo gmdate('Y-m-d', $timestamp) ?></b></span>
+          <span class="navbar-text navbar-version pull-left"><b><?php echo gmdate('Y-m-d', $page->get_mtime()) ?></b></span>
         </div>
         <div class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
@@ -108,24 +77,30 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
     <div class="container">
       <div class="row">
         <div class="col-md-9 content">
-          <?php if ($breadcrumb): ?>
+          <?php if ($page->has_breadcrumb()): ?>
           <ol class="breadcrumb">
-            <?php foreach ($breadcrumb as $parent): ?>
-            <li><?php echo $parent[1] ?
-              '<a href="' . page_path($parent[1]) . '">' . page_title($parent[0]) . '</a>' :
-              page_title($parent[0]) ?></li>
+            <li><a href="/">Home</a></li>
+            <?php foreach ($page->get_breadcrumb() as $parent_page): ?>
+            <?php if ($parent_page->id): ?>
+            <li><a href="<?php echo $parent_page->id ?>"><?php echo $parent_page->title ?></a></li>
+            <?php else: ?>
+            <li><?php echo $parent_page->title ?></li>
+            <?php endif ?>
             <?php endforeach ?>
-            <li class="active"><?php echo $title ?></li>
+            <li class="active"><?php echo $page->title ?></li>
           </ol>
           <?php endif ?>
           <div class="section">
-            <?php echo $content ?>
+          <?php if ($page->title): ?>
+            <h1><?php echo $page->title ?></h1>
+          <?php endif ?>
+            <?php echo $page->html ?: $page->get_html() ?>
           </div>
         </div>
         <div class="col-md-3 sidebar">
           <div class="panel panel-default">
             <div class="panel-body">
-               <?php echo $sidebar ?>
+               <?php echo WikiParser::render($wiki->get_sidebar()) ?>
             </div>
           </div>
         </div>
@@ -136,7 +111,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $timestamp) . ' GMT');
         <p class="pull-right">
           <a href="#">Back to top</a><br/>
         </p>
-        <?php echo $footer ?>
+        <?php echo WikiParser::render($wiki->get_footer()) ?>
       </div>
     </footer>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
