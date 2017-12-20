@@ -1,20 +1,17 @@
 <?php
+define('WIKI_FILE_EXT', '.md'); // Markdown
+
 require_once __DIR__ . '/Parsedown.php';
 require_once __DIR__ . '/ParsedownExtra.php';
 
 class Wiki {
-  function __construct($path) {
+  function __construct($path, $suffix = WIKI_FILE_EXT) {
     $this->path = $path;
+    $this->suffix = $suffix;
   }
 
   function get_path($path) {
     return $this->path . '/' . $path;
-  }
-
-  function get_page($id) {
-    if ($id == 'Home') return new WikiHomePage($this);
-    if ($id == 'Index') return new WikiIndexPage($this);
-    return new WikiContentPage($this, $id);
   }
 
   function get_sidebar() {
@@ -23,6 +20,23 @@ class Wiki {
 
   function get_footer() {
     return $this->get_page('_Footer')->get_body();
+  }
+
+  function get_page($id) {
+    if ($id == 'Home') return new WikiHomePage($this);
+    if ($id == 'Index') return new WikiIndexPage($this);
+    return new WikiContentPage($this, $id);
+  }
+
+  function get_pages() {
+    $result = [];
+    foreach (glob($this->get_path("*{$this->suffix}")) as $pathname) {
+      $filename = basename($pathname);
+      if ($filename[0] == '_' || is_link($pathname)) continue; // skip special pages and links
+      $page_id = str_replace($this->suffix, '', $filename);
+      $result[] = new WikiContentPage($this, $page_id);
+    }
+    return $result;
   }
 }
 
@@ -75,6 +89,10 @@ class WikiContentPage extends WikiPage {
     return is_link($this->get_pathname());
   }
 
+  function get_link_target() {
+    return str_replace($this->parent->suffix, '', readlink($this->get_pathname()));
+  }
+
   function get_mtime() {
     return filemtime($this->get_pathname());
   }
@@ -123,7 +141,7 @@ class WikiContentPage extends WikiPage {
   }
 
   function get_filename() {
-    return $this->id . '.md';
+    return $this->id . $this->parent->suffix;
   }
 
   function get_pathname() {
@@ -157,11 +175,8 @@ class WikiIndexPage extends WikiPage {
 
   function get_html() {
     $result = ['<ul>'];
-    foreach (glob($this->parent->get_path('*.md')) as $pathname) { // TODO: refactor this
-      $filename = basename($pathname);
-      if ($filename[0] == '_' || is_link($pathname)) continue;
-      $page_id = str_replace('.md', '', $filename);
-      $result[] = '<li><a href="/' . $page_id . '">' . str_replace('-', ' ', $page_id) . '</a></li>';
+    foreach ($this->parent->get_pages() as $page) {
+      $result[] = '<li><a href="/' . $page->id . '">' . $page->title . '</a></li>';
     }
     $result[] = '</ul>';
     return implode("\n", $result);

@@ -21,16 +21,15 @@ if ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php') {
 $matched = preg_match('|^/([0-9A-Za-z&-]+)$|', $_SERVER['REQUEST_URI'], $matches);
 
 $wiki = new Wiki(__DIR__);
-$page = $matched ? $wiki->get_page($matches[1]) : new WikiErrorPage($wiki, 404);
+$page = $matched ? $wiki->get_page($matches[1]) : null;
 
-if (!$page->exists()) {
+if (!$page || !$page->exists()) {
   $page = new WikiErrorPage($wiki, 404);
   http_response_code($page->status);
 }
 else if ($page->is_link()) {
-  http_response_code(301);
-  $filename = readlink($page->get_pathname());
-  header('Location: /' . str_replace('.md', '', $filename)); // FIXME: this is ugly
+  http_response_code(301); // 301 Moved Permanently
+  header('Location: /' . $page->get_link_target());
   return; // abort response processing
 }
 
@@ -94,7 +93,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT'
           <?php if ($page->title): ?>
             <h1><?php echo $page->title ?></h1>
           <?php endif ?>
-            <?php echo $page->html ?: $page->get_html() ?>
+            <?php echo isset($page->html) ? $page->html : $page->get_html() ?>
           </div>
         </div>
         <div class="col-md-3 sidebar">
