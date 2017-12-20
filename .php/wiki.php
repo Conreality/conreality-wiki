@@ -1,8 +1,6 @@
 <?php
-define('WIKI_FILE_EXT', '.md'); // Markdown
-
-require_once __DIR__ . '/Parsedown.php';
-require_once __DIR__ . '/ParsedownExtra.php';
+define('WIKI_FILE_EXT', '.rst'); // reST
+define('WIKI_RST2HTML', '/opt/homebrew/bin/rst2html5.py');
 
 class Wiki {
   function __construct($path, $suffix = WIKI_FILE_EXT) {
@@ -15,11 +13,11 @@ class Wiki {
   }
 
   function get_sidebar() {
-    return $this->get_page('_Sidebar')->get_body();
+    return $this->get_page('_Sidebar');
   }
 
   function get_footer() {
-    return $this->get_page('_Footer')->get_body();
+    return $this->get_page('_Footer');
   }
 
   function get_page($id) {
@@ -68,7 +66,7 @@ class WikiPage {
   }
 
   function get_html() {
-    return WikiParser::render($this->get_body());
+    return WikiParser::render($this);
   }
 
   function get_body() {
@@ -195,7 +193,7 @@ class WikiErrorPage extends WikiPage {
   }
 }
 
-class WikiParser extends ParsedownExtra {
+class WikiParser {
   static function parse_wikilink($wikilink) {
     $title = substr($wikilink, 2, -2);
     $page = $title;
@@ -213,26 +211,19 @@ class WikiParser extends ParsedownExtra {
       '|(\[\[[^\]]+\]\])|',
       function ($matches) {
         list($page, $title) = WikiParser::parse_wikilink($matches[1]);
-        return "[$title](/$page)";
+        return "<a href=\"/$page\" class=\"wikilink\">$title</a>";
       },
       $text);
   }
 
-  static function fix_indentation($input) {
-    // Workaround for a bug in Parsedown:
-    return str_replace("\n    * ", "\n     * ", $input);
-  }
-
-  static function render($input) {
-    static $parser = null;
-    if (!$parser) {
-      $parser = new WikiParser();
-      $parser->setMarkupEscaped(true);
-    }
-    $output = $input;
-    $output = WikiParser::fix_indentation($output);
+  static function render($page) {
+    $command = [];
+    $command[] = escapeshellcmd(WIKI_RST2HTML);
+    $command[] = escapeshellarg('--template=' . __DIR__ . '/../.rst2html/template.txt');
+    $command[] = escapeshellarg($page->get_pathname());
+    $command = implode(' ', $command);
+    $output = shell_exec($command);
     $output = WikiParser::expand_wikilinks($output);
-    $output = $parser->text($output);
     return $output;
   }
 }
