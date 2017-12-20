@@ -1,4 +1,4 @@
-**Consensus Reality**
+**Conreality Wiki**
 
 -  [[Home]]
 -  **[[Installation Guide]]**
