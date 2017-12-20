@@ -1,8 +1,11 @@
-*~
-*.swp
-
-# Mac OS X
+# macOS
 .DS_Store
+
+# Editor backup files
+*~
 
 # Let's Encrypt validation
 .well-known/
+
+# Python virtualenv
+.python/

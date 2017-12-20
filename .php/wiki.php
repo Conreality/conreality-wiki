@@ -1,6 +1,6 @@
 <?php
 define('WIKI_FILE_EXT', '.rst'); // reST
-define('WIKI_RST2HTML', '/opt/homebrew/bin/rst2html5.py');
+define('WIKI_RST2HTML', __DIR__ . '/../.python/bin/rst2html5.py');
 
 class Wiki {
   function __construct($path, $suffix = WIKI_FILE_EXT) {
