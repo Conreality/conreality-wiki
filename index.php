@@ -2,15 +2,17 @@
 require_once '.php/Parsedown.php';
 require_once '.php/ParsedownExtra.php';
 
-if (empty($_SERVER['HTTPS'])) {
+define('IS_LOCALHOST', strpos($_SERVER['HTTP_HOST'], 'localhost') !== false);
+
+if (!IS_LOCALHOST && empty($_SERVER['HTTPS'])) {
   $host = $_SERVER['HTTP_HOST'];
   header("Location: https://$host" . $_SERVER['REQUEST_URI'], true, 301);
   return;
 }
 
-if ($_SERVER['REQUEST_URI'] == '/') {
+if ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php') {
   $host = $_SERVER['HTTP_HOST'];
-  header("Location: https://$host/Home", true, 302);
+  header('Location: ' . (IS_LOCALHOST ? 'http' : 'https') . "://$host/Home", true, 302);
   return;
 }
 
