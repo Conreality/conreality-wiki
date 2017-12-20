@@ -20,8 +20,8 @@ CAD/CAE (3D Mechanical Design)
 
 * [Vectary](https://vectary.com)
 
-CAM (3D Printing & CNC Automation)
-----------------------------------
+CAM (3D Printing & CNC Machining)
+---------------------------------
 
 * [Ultimaker Cura](https://en.wikipedia.org/wiki/Cura_(software))
 
