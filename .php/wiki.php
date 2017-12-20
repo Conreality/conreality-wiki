@@ -102,7 +102,7 @@ class WikiContentPage extends WikiPage {
   function get_breadcrumb() {
     $breadcrumb = [];
     $title = preg_quote($this->title, '!');
-    $lines = explode("\n", $this->parent->get_sidebar());
+    $lines = explode("\n", $this->parent->get_sidebar()->get_body());
     $index = $level = null;
     foreach ($lines as $line_no => $line) {
       if (preg_match('![\[\*\|]' . $title . '[\]\*]!', $line)) {
