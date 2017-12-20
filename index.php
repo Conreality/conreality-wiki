@@ -68,7 +68,9 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT'
           <ul class="nav navbar-nav">
           </ul>
           <form class="navbar-form navbar-right">
+            <?php if ($page->id != 'Index'): ?>
             <button id="edit" type="button" class="btn btn-primary">Edit</button>
+            <?php endif ?>
           </form>
         </div>
       </div>
