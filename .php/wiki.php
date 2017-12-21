@@ -217,9 +217,12 @@ class WikiParser {
   }
 
   static function render($page) {
+    if ($page instanceof WikiErrorPage) return '';
     $command = [];
     $command[] = escapeshellcmd(WIKI_RST2HTML);
     $command[] = escapeshellarg('--template=' . __DIR__ . '/../.rst2html/template.txt');
+    $command[] = escapeshellarg('--no-doc-title');
+    $command[] = escapeshellarg('--initial-header-level=2');
     $command[] = escapeshellarg($page->get_pathname());
     $command = implode(' ', $command);
     $output = shell_exec($command);
