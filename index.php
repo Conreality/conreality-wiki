@@ -52,7 +52,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT'
   <body role="document">
     <header>
       <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="">Conreality Wiki</a>
+        <a class="navbar-brand" href="/">Conreality Wiki</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
                 aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -84,7 +84,7 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT'
           <?php if ($page->has_breadcrumb()): ?>
           <nav aria-label="breadcrumb" role="navigation">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="">Home</a></li>
+              <li class="breadcrumb-item"><a href="/">Home</a></li>
               <?php foreach ($page->get_breadcrumb() as $parent_page): ?>
               <?php if ($parent_page->id): ?>
               <li class="breadcrumb-item"><a href="<?php echo $parent_page->id ?>"><?php echo $parent_page->title ?></a></li>
