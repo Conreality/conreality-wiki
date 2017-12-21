@@ -1,7 +1,7 @@
 $(function() {
   $('#edit-button').click(function() {
-    var page = window.location.pathname.substring(1);
-    window.location.href = 'https://github.com/conreality/wiki.conreality.org/edit/master/' + page + '.rst';
+    window.location.href = $(this).attr('href');
+    return false;
   });
   $('h1, h2, h3, h4, h5, h6').each(function() {
     var self = $(this);
