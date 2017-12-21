@@ -1,5 +1,5 @@
-Consensus Reality
-=================
+Conreality
+==========
 
 *"Don't panic, it's just a game."*
 

@@ -1,5 +1,3 @@
-**Conreality Wiki**
-
 -  [[Home]]
 -  **[[Installation Guide]]**
 
