@@ -100,6 +100,7 @@ class WikiContentPage extends WikiPage {
   }
 
   function get_breadcrumb() {
+    // FIXME: this got broken by the reStructuredText conversion:
     $breadcrumb = [];
     $title = preg_quote($this->title, '!');
     $lines = explode("\n", $this->parent->get_sidebar()->get_body());
