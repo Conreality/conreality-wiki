@@ -53,6 +53,10 @@ class WikiPage {
     return false;
   }
 
+  function is_virtual() {
+    return true;
+  }
+
   function get_mtime() {
     return time();
   }
@@ -85,6 +89,10 @@ class WikiContentPage extends WikiPage {
 
   function is_link() {
     return is_link($this->get_pathname());
+  }
+
+  function is_virtual() {
+    return false;
   }
 
   function get_link_target() {

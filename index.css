@@ -1,9 +1,4 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall: */
 body {
-  padding-top: 60px;
-}
-
-.footer {
-  width: 100%;
-  border-top: 1px solid #ccc;
-  padding-top: 10px;
+  padding-top: 4.5rem;
 }
