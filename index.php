@@ -115,31 +115,26 @@ header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $page->get_mtime()) . ' GMT'
     </main>
 
     <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
+      <p class="float-right">
+        <a href="http://wiki.conreality.org/License"><img alt="No copyright" src="https://conreality.org/img/pd.svg" style="height: 1rem;"/></a>
+        <a href="http://wiki.conreality.org/License">Public domain</a>
+      </p>
       <p role="list">
         <a role="listitem" href="https://conreality.org">Conreality.org</a>
+        &ni;
+        <a role="listitem" href="https://blog.conreality.org">Blog</a>
         &middot;
-        <a role="listitem" href="http://blog.conreality.org">Blog</a>
+        <a role="listitem" href="https://wiki.conreality.org"><b>Wiki</b></a>
         &middot;
-        <b><a role="listitem" href="https://wiki.conreality.org">Wiki</a></b>
+        <a role="listitem" href="https://api.conreality.org">API</a>
         &middot;
-        <a role="listitem" href="http://app.conreality.org">App</a>
+        <a role="listitem" href="https://gdk.conreality.org">GDK</a>
         &middot;
-        <a role="listitem" href="http://irc.conreality.org">IRC</a>
+        <a role="listitem" href="https://sdk.conreality.org">SDK</a>
         &middot;
-        <a role="listitem" href="http://kb.conreality.org">KB</a>
+        <a role="listitem" href="https://ddk.conreality.org">DDK</a>
         &middot;
-        <a role="listitem" href="http://api.conreality.org">API</a>
-        &middot;
-        <a role="listitem" href="http://gdk.conreality.org">GDK</a>
-        &middot;
-        <a role="listitem" href="http://sdk.conreality.org">SDK</a>
-        &middot;
-        <a role="listitem" href="http://ddk.conreality.org">DDK</a>
-        &middot;
-        <a role="listitem" href="http://ci.conreality.org">CI</a>
-        &middot;
-        <a role="listitem" href="http://git.conreality.org">Code</a>
+        <a role="listitem" href="https://git.conreality.org">Code</a>
       </p>
     </footer>
 
