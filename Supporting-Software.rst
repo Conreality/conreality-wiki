@@ -11,19 +11,11 @@ IDEs (Software Development)
 CAD/CAE (3D Mechanical Design)
 ------------------------------
 
-Desktop
-~~~~~~~
-
--  `SolidWorks <https://en.wikipedia.org/wiki/SolidWorks>`__
-
-Online
-~~~~~~
+- `Autodesk Fusion 360 <https://www.autodesk.com/products/fusion-360/overview>`__
 
 -  `SketchUp <https://en.wikipedia.org/wiki/SketchUp>`__
 
 -  `Vectary <https://vectary.com>`__
-
-.. cam-3d-printing--cnc-machining:
 
 CAM (3D Printing & CNC Machining)
 ---------------------------------
@@ -41,8 +33,7 @@ Graphic Design
 Vector
 ~~~~~~
 
--  `Adobe
-   Illustrator <https://en.wikipedia.org/wiki/Adobe_Illustrator>`__
+-  `Adobe Illustrator <https://en.wikipedia.org/wiki/Adobe_Illustrator>`__
 
 -  `Sketch <https://en.wikipedia.org/wiki/Sketch_(application)>`__ (Mac
    only)
@@ -59,8 +50,6 @@ Print
 
 Video Production
 ----------------
-
-.. desktop-1:
 
 Desktop
 ~~~~~~~
