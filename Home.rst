@@ -31,6 +31,7 @@ Development Team
 -  `@ab0032 <https://github.com/ab0032>`__
 -  `@joecoin <https://github.com/joecoin>`__
 -  `@gilcherry <https://github.com/gilcherry>`__
+-  `@samuelsarle <https://github.com/SamuelSarle>`__
 
 [[IRC Channel]]
 ---------------
