@@ -11,22 +11,36 @@ and a ground station are the following:
    and give the RPi power.
 -  To connect your RPi to WiFi you either need to use a keyboard and
    a monitor or you can connect it first by ethernet and SSH into it.::
-     ``$ sudo bash -c "wpa_passphrase SSID password >> /boot/wpa_supplicant.conf``
+
+     $ sudo bash -c "wpa_passphrase SSID password >> /boot/wpa_supplicant.conf
+
 -  Update your system by::
-     ``$ sudo apt-get update && sudo apt-get dist-upgrade``
+
+     $ sudo apt-get update && sudo apt-get dist-upgrade
+
 -  Setup your ArduPilot with::
-     ``$ sudo emlidtool ardupilot``
+
+    $ sudo emlidtool ardupilot
+
    Select the suitable vehicle, enable and start the service.
 -  To specify your ground station, you need to edit the corresponding
    file::
-     ``$ sudo vim /etc/default/arducopter``
+
+     $ sudo vim /etc/default/arducopter
+
    for the copter.
    Change TELEM1= to your ground stations IP address, with the port
    remaining as 14550.
 -  After changing the settings you need to reload using::
-     ``$ sudo systemctl daemon-reload``
+
+     $ sudo systemctl daemon-reload
 
 Connecting to a ground station
 ------------------------------
 
 -  [[Ardupilot ground stations|Ardupilot]]
+
+Useful links
+============
+
+-  `Official Navio2 documentation <https://docs.emlid.com/navio2/>`__
