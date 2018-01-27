@@ -8,10 +8,10 @@ grabs for anyone to do. Once you've actually begun on the task (*not*
 before that!), go ahead and record your intent by editing this wiki
 page.
 
-*Please do **not** add any wishlist-type fluff here--these are all
+Please do **not** add any wishlist-type fluff here--these are all
 manifestly actionable items, to be by default done by the person who
 added a specific item. Don't add anything that you're not prepared to
-step up to implement yourself.*
+step up to implement yourself.
 
 Website Infrastructure
 ----------------------
@@ -32,10 +32,10 @@ Development Infrastructure
    (@bendiken)
 -  Enhance the build system by checking that the OCaml version is
    supported. This requires use of the
-   ```AX_COMPARE_VERSION`` <https://www.gnu.org/software/autoconf-archive/ax_compare_version.html>`__
+   `AX_COMPARE_VERSION <https://www.gnu.org/software/autoconf-archive/ax_compare_version.html>`__
    macro to check ``OCAMLVERSION`` for OCaml 4.02.1+. See the example in
    OPAM's
-   ```configure.ac`` <https://github.com/ocaml/opam/blob/master/configure.ac#L17>`__.
+   `configure.ac <https://github.com/ocaml/opam/blob/master/configure.ac#L17>`__.
 -  Support builds with no system dependencies, using bundled external
    dependencies (*difficulty: expert*):
 
@@ -58,7 +58,7 @@ Target Architectures & Platforms
 
 -  Validate the build procedure on Mac OS X, FreeBSD, NetBSD, and
    OpenBSD. Amend the platform detection and support configuration in
-   ```configure.ac`` <https://github.com/conreality/conreality/blob/master/configure.ac>`__
+   `configure.ac <https://github.com/conreality/conreality/blob/master/configure.ac>`__
    accordingly. Document the findings.
 -  Work through and document cross-compilation from x86-64 to ARM. The
    Autotools-based build system in principle supports cross compilation.

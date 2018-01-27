@@ -20,8 +20,8 @@ actuator
 ADC
 '''
 
-See `*Analog-to-digital
-converter* <https://en.wikipedia.org/wiki/Analog-to-digital_converter>`__
+See `Analog-to-digital
+converter <https://en.wikipedia.org/wiki/Analog-to-digital_converter>`__
 in Wikipedia.
 
 AEG
@@ -47,7 +47,7 @@ Attitude Hold.
 airsoft
 '''''''
 
-See `*Airsoft* <https://en.wikipedia.org/wiki/Airsoft>`__ in Wikipedia.
+See `Airsoft <https://en.wikipedia.org/wiki/Airsoft>`__ in Wikipedia.
 
 .. aka-or-aka:
 
@@ -77,8 +77,8 @@ ARM
 augmented reality (AR)
 ''''''''''''''''''''''
 
-See `*Augmented
-reality* <https://en.wikipedia.org/wiki/Augmented_reality>`__ in
+See `Augmented
+reality <https://en.wikipedia.org/wiki/Augmented_reality>`__ in
 Wikipedia.
 
 autonomous
@@ -107,8 +107,8 @@ Ball bullet.
 BDU
 '''
 
-See `*Battle Dress
-Uniform* <https://en.wikipedia.org/wiki/Battle_Dress_Uniform>`__ in
+See `Battle Dress
+Uniform <https://en.wikipedia.org/wiki/Battle_Dress_Uniform>`__ in
 Wikipedia.
 
 BGC
@@ -119,8 +119,8 @@ brushless gimbal controller.
 BLDC motor
 ''''''''''
 
-See `*Brushless DC electric
-motor* <https://en.wikipedia.org/wiki/Brushless_DC_electric_motor>`__ in
+See `Brushless DC electric
+motor <https://en.wikipedia.org/wiki/Brushless_DC_electric_motor>`__ in
 Wikipedia.
 
 blowback
@@ -174,7 +174,7 @@ Communications Security.
 control theory
 ''''''''''''''
 
-See `*Control theory* <https://en.wikipedia.org/wiki/Control_theory>`__
+See `Control theory <https://en.wikipedia.org/wiki/Control_theory>`__
 in Wikipedia.
 
 CQB
@@ -240,7 +240,7 @@ Feet per Second.
 FPV
 '''
 
-See `\*First-person
+See `First-person
 view <https://en.wikipedia.org/wiki/First-person_view_(radio_control)>`__
 in Wikipedia.
 
@@ -250,7 +250,7 @@ full auto
 gamemaster
 ''''''''''
 
-See `*Gamemaster* <https://en.wikipedia.org/wiki/Gamemaster>`__ in
+See `Gamemaster <https://en.wikipedia.org/wiki/Gamemaster>`__ in
 Wikipedia.
 
 GBB
@@ -282,33 +282,33 @@ a revision control management system.
 GPS
 '''
 
-See `*Global Positioning
-System* <https://en.wikipedia.org/wiki/Global_Positioning_System>`__ in
+See `Global Positioning
+System <https://en.wikipedia.org/wiki/Global_Positioning_System>`__ in
 Wikipedia.
 
 Green Gas
 '''''''''
 
-See `*Green Gas* <https://en.wikipedia.org/wiki/Green_Gas>`__ in
+See `Green Gas <https://en.wikipedia.org/wiki/Green_Gas>`__ in
 Wikipedia.
 
 GUI
 '''
 
-See `*Graphical user
-interface* <https://en.wikipedia.org/wiki/Graphical_user_interface>`__
+See `Graphical user
+interface <https://en.wikipedia.org/wiki/Graphical_user_interface>`__
 in Wikipedia.
 
 gyro
 ''''
 
-See `*Gyroscope* <https://en.wikipedia.org/wiki/Gyroscope>`__ in
+See `Gyroscope <https://en.wikipedia.org/wiki/Gyroscope>`__ in
 Wikipedia.
 
 gyroscope
 '''''''''
 
-See `*Gyroscope* <https://en.wikipedia.org/wiki/Gyroscope>`__ in
+See `Gyroscope <https://en.wikipedia.org/wiki/Gyroscope>`__ in
 Wikipedia.
 
 hexacopter
@@ -339,14 +339,14 @@ Protocol <https://api.conreality.org/protocols/http.html>`__.
 HUD
 '''
 
-See `*Heads-up
-display* <https://en.wikipedia.org/wiki/Head-up_display>`__ in
+See `Heads-up
+display <https://en.wikipedia.org/wiki/Head-up_display>`__ in
 Wikipedia.
 
 I2C
 '''
 
-See `*I²C* <https://en.wikipedia.org/wiki/I%C2%B2C>`__ in Wikipedia.
+See `I²C <https://en.wikipedia.org/wiki/I%C2%B2C>`__ in Wikipedia.
 
 I2P
 '''
@@ -361,8 +361,8 @@ Imitation Firearm.
 IMU
 '''
 
-See `*Inertial measurement
-unit* <https://en.wikipedia.org/wiki/Inertial_measurement_unit>`__ in
+See `Inertial measurement
+unit <https://en.wikipedia.org/wiki/Inertial_measurement_unit>`__ in
 Wikipedia.
 
 IP
@@ -403,8 +403,8 @@ Keep It Simple, Stupid.
 LARP
 ''''
 
-See `*Live action role-playing
-game* <https://en.wikipedia.org/wiki/Live_action_role-playing_game>`__
+See `Live action role-playing
+game <https://en.wikipedia.org/wiki/Live_action_role-playing_game>`__
 in Wikipedia.
 
 laser
@@ -418,8 +418,8 @@ an operating system used on drones and servers.
 live-action game
 ''''''''''''''''
 
-See `*Live-action
-game* <https://en.wikipedia.org/wiki/Live-action_game>`__ in Wikipedia.
+See `Live-action
+game <https://en.wikipedia.org/wiki/Live-action_game>`__ in Wikipedia.
 
 LMDB
 ''''
@@ -434,8 +434,8 @@ Low Power Electric Guns.
 LPF
 '''
 
-See `*Low-pass
-filter* <https://en.wikipedia.org/wiki/Low-pass_filter>`__ in Wikipedia.
+See `Low-pass
+filter <https://en.wikipedia.org/wiki/Low-pass_filter>`__ in Wikipedia.
 
 mag
 '''
@@ -464,8 +464,8 @@ Military Simulation.
 mixed-reality game
 ''''''''''''''''''
 
-See `*Mixed reality
-game* <https://en.wikipedia.org/wiki/Mixed_reality_game>`__ in
+See `Mixed reality
+game <https://en.wikipedia.org/wiki/Mixed_reality_game>`__ in
 Wikipedia.
 
 MPEG
@@ -539,7 +539,7 @@ pain penalty
 paintball
 '''''''''
 
-See `*Paintball* <https://en.wikipedia.org/wiki/Paintball>`__ in
+See `Paintball <https://en.wikipedia.org/wiki/Paintball>`__ in
 Wikipedia.
 
 payload
@@ -548,13 +548,13 @@ payload
 pervasive game
 ''''''''''''''
 
-See `*Pervasive game* <https://en.wikipedia.org/wiki/Pervasive_game>`__
+See `Pervasive game <https://en.wikipedia.org/wiki/Pervasive_game>`__
 in Wikipedia.
 
 Ingress
 '''''''
 
-See `*Ingress* <https://en.wikipedia.org/wiki/Ingress_(video_game)>`__
+See `Ingress <https://en.wikipedia.org/wiki/Ingress_(video_game)>`__
 in Wikipedia.
 
 PD
@@ -570,7 +570,7 @@ Public Domain Dedication/Declaration.
 PID controller
 ''''''''''''''
 
-See `*PID controller* <https://en.wikipedia.org/wiki/PID_controller>`__
+See `PID controller <https://en.wikipedia.org/wiki/PID_controller>`__
 in Wikipedia.
 
 pitch
@@ -613,8 +613,8 @@ Programmable Real-Time Unit.
 PWM
 '''
 
-See `*Pulse-width
-modulation* <https://en.wikipedia.org/wiki/Pulse-width_modulation>`__ in
+See `Pulse-width
+modulation <https://en.wikipedia.org/wiki/Pulse-width_modulation>`__ in
 Wikipedia.
 
 PX4
@@ -717,8 +717,8 @@ Ready to Fly.
 RTLS
 ''''
 
-See `*Real time locating
-system* <https://en.wikipedia.org/wiki/Real-time_locating_system>`__.
+See `Real time locating
+system <https://en.wikipedia.org/wiki/Real-time_locating_system>`__.
 
 rqt
 '''
@@ -744,20 +744,20 @@ semi-auto
 serious game
 ''''''''''''
 
-See `*Serious game* <https://en.wikipedia.org/wiki/Serious_game>`__ in
+See `Serious game <https://en.wikipedia.org/wiki/Serious_game>`__ in
 Wikipedia.
 
 servo
 '''''
 
-See `*Servomechanism* <https://en.wikipedia.org/wiki/Servomechanism>`__
+See `Servomechanism <https://en.wikipedia.org/wiki/Servomechanism>`__
 in Wikipedia.
 
 SBC
 '''
 
-See `*Single-board
-computer* <https://en.wikipedia.org/wiki/Single-board_computer>`__ in
+See `Single-board
+computer <https://en.wikipedia.org/wiki/Single-board_computer>`__ in
 Wikipedia.
 
 SIG
@@ -834,7 +834,7 @@ an overlay network.
 TOT
 '''
 
-See `*Time on Target* <https://en.wikipedia.org/wiki/Time_On_Target>`__
+See `Time on Target <https://en.wikipedia.org/wiki/Time_On_Target>`__
 in Wikipedia.
 
 trajectory
@@ -851,15 +851,15 @@ transmit.
 UART
 ''''
 
-See `*Universal asynchronous
-receiver/transmitter* <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter>`__
+See `Universal asynchronous
+receiver/transmitter <https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter>`__
 in Wikipedia.
 
 UAV
 '''
 
 Unmanned Aerial/Autonomous Vehicle, aka a drone. See
-`*UAV* <https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle>`__ in
+`UAV <https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle>`__ in
 Wikipedia.
 
 UDP
@@ -888,7 +888,7 @@ Uniform Resource Name.
 USB
 '''
 
-See `*Universal Serial Bus* <https://en.wikipedia.org/wiki/USB>`__ in
+See `Universal Serial Bus <https://en.wikipedia.org/wiki/USB>`__ in
 Wikipedia.
 
 UUID
@@ -910,10 +910,10 @@ wargame
 '''''''
 
 See
-`*Kriegsspiel* <https://en.wikipedia.org/wiki/Kriegsspiel_(wargame)>`__,
-`*Wargaming* <https://en.wikipedia.org/wiki/Wargaming>`__, and
-`*Military
-exercise* <https://en.wikipedia.org/wiki/Military_exercise>`__ in
+`Kriegsspiel <https://en.wikipedia.org/wiki/Kriegsspiel_(wargame)>`__,
+`Wargaming <https://en.wikipedia.org/wiki/Wargaming>`__, and
+`Military
+exercise <https://en.wikipedia.org/wiki/Military_exercise>`__ in
 Wikipedia.
 
 waypoint
