@@ -38,7 +38,7 @@ and a ground station are the following:
 Connecting to a ground station
 ------------------------------
 
--  [[Ardupilot ground stations|Ardupilot]]
+-  [[ArduPilot ground stations|ArduPilot]]
 
 Useful links
 ============

@@ -2,7 +2,7 @@
 Ground stations
 ===============
 
-Choices for Ardupilot compatible ground stations go as such
+Choices for ArduPilot compatible ground stations go as such
 
 -  `Mission Planner <https://github.com/ArduPilot/MissionPlanner>`__ (Windows, MacOS)
 -  `APM Planner <https://github.com/ArduPilot/apm_planner>`__ (Windows, MacOS, Linux)
@@ -10,7 +10,7 @@ Choices for Ardupilot compatible ground stations go as such
 -  `QGroundControl <http://qgroundcontrol.com/>`__ (Windows, MacOS, Linux, Android, iOS)
 
 If for some reason you'd prefer to not user the provided emlidtool
-to manage your Ardupilot, here is how you do it manually on the RPi::
+to manage your ArduPilot, here is how you do it manually on the RPi::
 
   $ sudo arducopter -A udp:192.168.x.x:14550
 
@@ -85,9 +85,9 @@ Use the CLI options --map and --console to see more output.
 Simulations (SITL)
 ==================
 
-To run simulations without any hardware you need to install the Ardupilot
+To run simulations without any hardware you need to install the ArduPilot
 software and use it with the ground stations. Here are the steps for
-installing the Ardupilot software on a Debian based system::
+installing the ArduPilot software on a Debian based system::
 
   $ git clone git://github.com/ArduPilot/ardupilot.git
 
