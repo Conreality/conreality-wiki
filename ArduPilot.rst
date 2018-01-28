@@ -17,11 +17,43 @@ to manage your ArduPilot, here is how you do it manually on the RPi::
 With the emlidtool and the correct setup this is done automatically
 on boot.
 
+QGroundControl
+--------------
+
+`Installation <https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On Linux you can either download `the AppImage <https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage>`__ and
+use it with::
+
+  $ chmod +x ./QGroundControl.AppImage
+  $ ./QGroundControl.AppImage
+
+or you can download `the compressed archive <https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.tar.bz2>`__ and use it
+with::
+
+  $ tar jxf QGroundControl.tar.bz2
+  $ cd qgroundcontrol
+  $ ./qgroundcontrol-start.sh
+
+Running
+^^^^^^^
+
+QGroundControl listens on the right port 14550 automatically, and should
+receive the connection from the properly configured ArduPilot device.
+Boot QGroundControl up and you're ready to go. If you have previously
+fiddled with the software and are now having trouble to start it you
+can try using the --clear-settings parameter.
+
 APM Planner
 -----------
 
-Installation
-^^^^^^^^^^^^
+`Installation <http://ardupilot.org/planner2/docs/installation-for-linux.html>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For some systems like Arch it can be found in the AUR by::
+
+  $ yaourt apm_planner
 
 Running
 ^^^^^^^
@@ -29,7 +61,7 @@ Running
 APM Planner listens for UDP on port 14550, and so should instantly
 catch the connection over the network from the RPi.
 Boot up APM Planner, your copter should immediately appear in your,
-with the measuring instruments already working.
+with the measuring instruments working.
 
 MAVProxy
 --------
@@ -140,10 +172,11 @@ The following::
 
 will make the copter fly through a set of waypoints indefinitely. It
 is possible to drag'n'drop these waypoints and easily create new ones
-in APM Planner.
+in APM Planner or in QGroundControl.
 
 Useful links
 ============
 
+-  `On QGroundControl <https://docs.qgroundcontrol.com/en/>`__
 -  `On MAVProxy <http://ardupilot.github.io/MAVProxy/html/getting_started/index.html>`__
 -  `On SITL(Software In Loop -simulation) <http://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html>`__
