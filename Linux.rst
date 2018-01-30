@@ -5,7 +5,18 @@ Graphics Stack
 
 * https://en.wikipedia.org/wiki/File:The_Linux_Graphics_Stack_and_glamor.svg
 
+* https://en.wikipedia.org/wiki/Mesa_(computer_graphics)
+
+* http://doc.qt.io/qt-5/embedded-linux.html
+
+Linux Framebuffer (fbdev)
+-------------------------
+
 * https://en.wikipedia.org/wiki/Linux_framebuffer
+
+* https://developer.toradex.com/knowledge-base/framebuffer-(linux)
+
+* http://doc.qt.io/qt-5/embedded-linux.html#linuxfb
 
 Direct Rendering Manager (DRM)
 ------------------------------
@@ -35,6 +46,9 @@ DirectFB
 * https://elinux.org/DirectFB
 
 * https://www.phoronix.com/scan.php?page=news_item&px=DirectFB-2017-Dormant
+
+Wayland
+-------
 
 Graphics Drivers
 ================

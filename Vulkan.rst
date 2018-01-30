@@ -42,6 +42,8 @@ News
 
 * https://www.phoronix.com/scan.php?page=news_topic&q=Vulkan
 
+* https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-2017-Highlights
+
 * https://www.reddit.com/r/vulkan/
 
 Tutorials
@@ -56,6 +58,8 @@ Examples
 
 Future
 ======
+
+* https://www.phoronix.com/scan.php?page=news_item&px=Khronos-Post-GDC-2017
 
 * https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-20-Speculation-2018
 
