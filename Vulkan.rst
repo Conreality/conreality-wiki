@@ -10,8 +10,38 @@
 
 * https://developer.nvidia.com/getting-vulkan-ready-vr
 
+News
+====
+
+* https://www.phoronix.com/scan.php?page=news_topic&q=Vulkan
+
+* https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-2017-Highlights
+
+* https://www.reddit.com/r/vulkan/
+
+Examples
+========
+
+* https://github.com/saschaWillems/vulkan
+
+Tutorials
+=========
+
+* https://vulkan-tutorial.com/
+
+Books
+=====
+
+* https://www.amazon.com/Vulkan-Programming-Guide-Official-Learning-ebook/dp/B01MXGZR73
+
+* https://www.amazon.com/Vulkan-Cookbook-Solutions-next-graphics-ebook/dp/B01N3TV3QX
+
+* https://www.amazon.com/Learning-Vulkan-Parminder-Singh-ebook/dp/B01FSO1D2Q
+
 Implementations
 ===============
+
+* https://en.wikipedia.org/wiki/Mesa_(computer_graphics)
 
 * https://github.com/kazan-3d/kazan
 
@@ -32,29 +62,12 @@ C++
 
 * https://github.com/KhronosGroup/Vulkan-Hpp
 
+* https://github.com/GPUOpen-LibrariesAndSDKs/Anvil
+
 Drivers
 =======
 
 * https://developer.nvidia.com/vulkan-driver
-
-News
-====
-
-* https://www.phoronix.com/scan.php?page=news_topic&q=Vulkan
-
-* https://www.phoronix.com/scan.php?page=news_item&px=Vulkan-2017-Highlights
-
-* https://www.reddit.com/r/vulkan/
-
-Tutorials
-=========
-
-* https://vulkan-tutorial.com/
-
-Examples
-========
-
-* https://github.com/saschaWillems/vulkan
 
 Future
 ======

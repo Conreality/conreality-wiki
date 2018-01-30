@@ -23,6 +23,8 @@ Direct Rendering Manager (DRM)
 
 * https://en.wikipedia.org/wiki/Direct_Rendering_Manager
 
+* http://www.bitwiz.org.uk/s/how-dri-and-drm-work.html
+
 * https://dri.freedesktop.org/docs/drm/gpu/index.html
 
 * https://dri.freedesktop.org/docs/drm/gpu/drm-uapi.html
@@ -35,6 +37,8 @@ Direct Rendering Infrastructure (DRI)
 -------------------------------------
 
 * https://en.wikipedia.org/wiki/Direct_Rendering_Infrastructure
+
+* http://www.bitwiz.org.uk/s/how-dri-and-drm-work.html
 
 * https://dri.freedesktop.org/wiki/
 
