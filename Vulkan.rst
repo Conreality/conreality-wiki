@@ -4,8 +4,43 @@
 
 * https://en.wikipedia.org/wiki/OpenCL#OpenCL_2.2
 
+* https://wiki.archlinux.org/index.php/Vulkan
+
+* https://developer.nvidia.com/Vulkan
+
+* https://developer.nvidia.com/getting-vulkan-ready-vr
+
+Implementations
+===============
+
+* https://github.com/kazan-3d/kazan
+
+* https://github.com/Chabloom/VulkanOnD3D12
+
+* https://github.com/Chabloom/VulkanOnMetal
+
+Libraries
+=========
+
+C
+-
+
+* https://www.lunarg.com/vulkan-sdk/
+
+C++
+---
+
+* https://github.com/KhronosGroup/Vulkan-Hpp
+
+Drivers
+=======
+
+* https://developer.nvidia.com/vulkan-driver
+
 News
 ====
+
+* https://www.phoronix.com/scan.php?page=news_topic&q=Vulkan
 
 * https://www.reddit.com/r/vulkan/
 
