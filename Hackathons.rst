@@ -4,7 +4,7 @@
 -------------------------
 
 | **When**: November 18th to 19th, 2017
-| **Where**: `Lviv <http://ar.to/notes/lviv>`__
+| **Where**: [[Lviv]]
 | **Who**: TBD
 
 *To be written up.*
