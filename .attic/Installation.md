@@ -6,11 +6,11 @@ Install from Binary Packages
 Import the public key used to sign the distributed
 [[binary packages|Debian Packages]]:
 
-    $ curl -s https://apt.conreality.org/keys/current.asc | sudo apt-key add -
+    $ curl -s https://pkg.conreality.org/keys/current.asc | sudo apt-key add -
 
 Add the APT repository used to distribute binary packages:
 
-    $ sudo apt-add-repository -y 'deb http://apt.conreality.org/ubuntu trusty main'
+    $ sudo apt-add-repository -y 'deb http://pkg.conreality.org/ubuntu trusty main'
     $ sudo apt-get update
 
 Install the Conreality [[server daemon|Server Daemon]] and command-line tools:

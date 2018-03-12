@@ -23,9 +23,9 @@ Websites
 -  `conreality/api.conreality.org <https://github.com/conreality/api.conreality.org>`__:
    The source repository for the `Conreality Application Programming
    Interface (API) manual <https://api.conreality.org>`__.
--  `conreality/apt.conreality.org <https://github.com/conreality/apt.conreality.org>`__:
+-  `conreality/pkg.conreality.org <https://github.com/conreality/pkg.conreality.org>`__:
    The source repository for the `Conreality APT packages for
-   Debian <https://apt.conreality.org>`__.
+   Debian <https://pkg.conreality.org>`__.
 -  `conreality/ddk.conreality.org <https://github.com/conreality/ddk.conreality.org>`__:
    The source repository for the `Conreality Driver Development Kit
    (DDK) manual <https://ddk.conreality.org>`__.

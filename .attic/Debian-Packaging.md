@@ -34,8 +34,8 @@ from it:
 Publishing Packages
 -------------------
 
-    $ git clone https://github.com/conreality/apt.conreality.org.git /srv/apt.conreality.org
-    $ cd /srv/apt.conreality.org
+    $ git clone https://github.com/conreality/pkg.conreality.org.git /srv/pkg.conreality.org
+    $ cd /srv/pkg.conreality.org
 
     $ cd ubuntu
 
@@ -46,7 +46,7 @@ Publishing Packages
     $ reprepro list trusty
     $ reprepro dumpreferences | sort
 
-    $ rsync -azv ./ conreality@apt.conreality.org:sites/apt.conreality.org/ubuntu/
+    $ rsync -azv ./ conreality@pkg.conreality.org:sites/pkg.conreality.org/ubuntu/
 
 Build Configuration
 -------------------

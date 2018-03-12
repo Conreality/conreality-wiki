@@ -72,5 +72,5 @@ and/or @mikegogulski.
 Packages
 --------
 
--  `apt.conreality.org <https://apt.conreality.org>`__: Conreality
+-  `pkg.conreality.org <https://pkg.conreality.org>`__: Conreality
    APT package archive repository for Debian and Ubuntu.

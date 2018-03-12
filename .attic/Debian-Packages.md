@@ -11,18 +11,18 @@ Package Repositories
 ### Binary Packages
 
     # Debian 8.x (Jessie)
-    deb http://apt.conreality.org/debian jessie main
+    deb http://pkg.conreality.org/debian jessie main
 
     # Ubuntu 14.04 LTS (Trusty Tahr)
-    deb http://apt.conreality.org/ubuntu trusty main
+    deb http://pkg.conreality.org/ubuntu trusty main
 
 ### Source Packages
 
     # Debian 8.x (Jessie)
-    deb-src http://apt.conreality.org/debian jessie main
+    deb-src http://pkg.conreality.org/debian jessie main
 
     # Ubuntu 14.04 LTS (Trusty Tahr)
-    deb-src http://apt.conreality.org/ubuntu trusty main
+    deb-src http://pkg.conreality.org/ubuntu trusty main
 
 Package List
 ------------
