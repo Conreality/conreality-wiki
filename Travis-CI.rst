@@ -1,1 +1,1 @@
-https://travis-ci.org/conreality/conreality
+https://travis-ci.org/conreality
