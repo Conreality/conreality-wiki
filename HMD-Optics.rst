@@ -17,7 +17,7 @@ the perspective, the peripheral vision of a wide angle camera is needed.
 Lenses are cheap to change for trial-and-erroring and possible image
 problems can be compesated for software-wise.
 
-Useful links
+Useful Links
 ============
 
 * `On camera lenses <https://www.cambridgeincolour.com/tutorials/camera-lenses.htm>`__
@@ -26,8 +26,8 @@ Useful links
 * `On image sensors <https://en.wikipedia.org/wiki/Image_sensor>`__
 * `On camera calibration with OpenCV <https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html?>`__
 
-Example cameras
-====================
+Example Cameras
+===============
 
 * https://www.amazon.com/gp/product/B00LQ854AG/ref=ask_ql_qh_dp_hza
 * https://www.amazon.com/dp/B00KA7WSSU/ref=psdc_7459508011_t2_B00LQ854AG

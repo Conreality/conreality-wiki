@@ -5,7 +5,7 @@ ranging or TDOA location systems to locate assets to a precision of 10
 cm and supports data rates of up to 6.8 Mbps
 
 Reference
----------
+=========
 
 -  `Datasheet <http://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf>`__
 -  `Serial Peripheral Interface
@@ -14,25 +14,25 @@ Reference
    SPI <https://www.raspberrypi.org/documentation/hardware/raspberrypi/spi/README.md>`__
 
 Usage with Arduinos
--------------------
+===================
 
 -  https://github.com/thotro/arduino-dw1000
 
 Usage with Raspberry Pis
-------------------------
+========================
 
 -  https://github.com/nyrocron/dw1000
 -  https://github.com/nyrocron/dw1000/blob/master/dw1000.c
 -  https://github.com/nyrocron/dw1000_tools
 
 Miscellaneous
--------------
+=============
 
 -  `DecaWave DW1000 UWB Transceiver
    SDK <https://github.com/lab11/dw1000-driver>`__
 
 News
-----
+====
 
 -  `DecaWave Preps For Expansion, Next Location
    Chip <http://www.eetimes.com/document.asp?doc_id=1327644>`__

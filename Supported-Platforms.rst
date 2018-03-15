@@ -2,7 +2,7 @@ Conreality requires a main board with an ARM or x86 CPU capable of
 running Linux.
 
 Recommended Boards
-------------------
+==================
 
 We presently build ready-to-rumble firmware images for the following
 popular single-board computer (SBC) hobbyist platforms:

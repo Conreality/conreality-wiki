@@ -1,5 +1,5 @@
 Bitcoin Wallet
---------------
+==============
 
 If you would like to donate funds to the project, we accept donations in
 the digital currency `Bitcoin <http://bitcoin.org>`__. Donated funds

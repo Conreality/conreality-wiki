@@ -1,5 +1,5 @@
 Useful Protocols
-----------------
+================
 
 These are the
 `IoT <https://en.wikipedia.org/wiki/Internet_of_Things>`__/
@@ -13,7 +13,7 @@ potentially of interest to us:
 -  [[STOMP]]
 
 Rejected Protocols
-------------------
+==================
 
 These protocols are less well suited to the task at hand, based on
 significant previous experience with them:
@@ -23,7 +23,7 @@ significant previous experience with them:
 -  `XMPP <https://en.wikipedia.org/wiki/XMPP>`__
 
 Comparisons
------------
+===========
 
 -  `IoT protocols
    comparison <http://www.slideshare.net/paolopat/mqtt-iot-protocols-comparison>`__
@@ -43,6 +43,6 @@ Comparisons
    Protocols <http://blogs.cisco.com/ioe/beyond-mqtt-a-cisco-view-on-iot-protocols>`__
 
 See Also
---------
+========
 
 -  `@bendiken's notes on IoT <http://ar.to/notes/iot>`__

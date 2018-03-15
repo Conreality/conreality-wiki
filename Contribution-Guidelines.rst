@@ -13,7 +13,7 @@
    significant enough, be assured we will eventually add you in there.
 
 Requirements Analysis
----------------------
+=====================
 
 We follow `RFC 2119 <https://tools.ietf.org/html/rfc2119>`__ to indicate
 requirement levels:

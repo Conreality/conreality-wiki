@@ -1,14 +1,14 @@
 https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol
 
 Android
-~~~~~~~
+=======
 
 -  https://play.google.com/store/apps/details?id=com.bergin_it.ssdptester
 -  https://github.com/google/physical-web/blob/master/android/PhysicalWeb/app/src/main/java/org/physical_web/physicalweb/ssdp/Ssdp.java
 -  https://github.com/berndverst/android-ssdp
 
 Elixir
-~~~~~~
+======
 
 -  https://hex.pm/packages/nerves_ssdp_client
 -  https://github.com/nerves-project/nerves_ssdp_client
@@ -27,7 +27,7 @@ Example of LAN service discovery in Elixir:
         st: "urn:nerves-project-org:service:cell:1"}, ...}
 
 Ruby
-~~~~
+====
 
 -  https://rubygems.org/gems/ssdp
 -  https://github.com/daumiller/ssdp

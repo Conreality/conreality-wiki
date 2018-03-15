@@ -2,22 +2,22 @@
 -  https://stomp.github.io/
 
 Specifications
---------------
+==============
 
 -  `STOMP Protocol Specification, Version
    1.2 <https://stomp.github.io/stomp-specification-1.2.html>`__
 
 Servers
--------
+=======
 
 -  https://stomp.github.io/implementations.html#STOMP_Servers
 
 Clients
--------
+=======
 
 -  https://stomp.github.io/implementations.html#STOMP_Clients
 
 See Also
---------
+========
 
 -  `@bendiken's notes on STOMP <http://ar.to/notes/stomp>`__

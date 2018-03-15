@@ -1,5 +1,6 @@
+**********
 Conreality
-==========
+**********
 
 *"Don't panic, it's just a game."*
 
@@ -16,14 +17,14 @@ or two.
 |CPAF|
 
 Prototype Hardware
-------------------
+==================
 
 -  [[Conreality Laser Turret MkI|Laser Turret]]
 -  [[Conreality Scout Car MkI|Scout Car]]
 -  [[Conreality Recon Drone MkI|Recon Drone]]
 
 Development Team
-----------------
+================
 
 -  `@bendiken <https://github.com/bendiken>`__
 -  `@mikegogulski <https://github.com/mikegogulski>`__
@@ -34,17 +35,17 @@ Development Team
 -  `@samuelsarle <https://github.com/SamuelSarle>`__
 
 [[IRC Channel]]
----------------
+===============
 
 ``#conreality`` on Freenode.
 
 [[Mailing List]]
-----------------
+================
 
 https://groups.google.com/d/forum/conreality
 
 Elsewhere
----------
+=========
 
 Find this project at:
 `GitHub <https://github.com/conreality/conreality>`__,
@@ -61,11 +62,10 @@ CI <https://travis-ci.org/conreality/conreality>`__,
 `Reddit <https://www.reddit.com/r/Conreality/>`__.
 
 License
--------
+=======
 
 This is free and unencumbered public domain software. For more
 information, see http://unlicense.org/ or the accompanying ``UNLICENSE``
 file.
 
 .. |CPAF| image:: /images/cpaf-640x252.jpg
-

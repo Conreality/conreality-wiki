@@ -4,7 +4,7 @@ publicly hosted on `GitHub <https://github.com/conreality>`__ and
 `Bitbucket <https://bitbucket.org/conreality/>`__.
 
 Software
---------
+========
 
 -  `conreality/conreality <https://github.com/conreality/conreality>`__:
    The main source code repository for the Conreality core.
@@ -15,7 +15,7 @@ Software
    system.
 
 Websites
---------
+========
 
 -  `conreality/conreality.org <https://github.com/conreality/conreality.org>`__:
    The source repository for the `Conreality.org
@@ -40,7 +40,7 @@ Websites
    website <https://wiki.conreality.org>`__.
 
 Miscellaneous
--------------
+=============
 
 -  `conreality/provenance <https://github.com/conreality/provenance>`__:
    Indelible commit provenance for the Conreality project.
@@ -48,7 +48,7 @@ Miscellaneous
    Just for triggering GitHub webhooks for the provenance app.
 
 Third-Party Libraries
----------------------
+=====================
 
 -  `conreality/ocaml-irc-client <https://github.com/conreality/ocaml-irc-client>`__:
    The Conreality project's fork of the OCaml IRC client library.

@@ -4,7 +4,7 @@ publicly available <Source-Code>`__; submit pull requests to suggest
 changes to contents.
 
 Marketing
----------
+=========
 
 The project's main website will eventually host a nontechnical
 description of the project targeted towards potential users and
@@ -14,7 +14,7 @@ contributors.
    website <https://conreality.org>`__.
 
 Collaboration
--------------
+=============
 
 Most of the day-to-day collaboration among project developers is
 facilitated using the [[mailing list|Mailing List]] and the project
@@ -24,7 +24,7 @@ wiki.
    `Conreality Wiki website <https://wiki.conreality.org>`__.
 
 Documentation
--------------
+=============
 
 These documentation websites are generated using the
 `Sphinx <http://www.sphinx-doc.org>`__ documentation generator.
@@ -39,7 +39,7 @@ These documentation websites are generated using the
    manual <https://sdk.conreality.org>`__.
 
 Knowledge
----------
+=========
 
 Machine-readable knowledge is captured in the `knowledge
 base <Knowledge-Base>`__ (KB) and made browsable at the KB website.
@@ -48,7 +48,7 @@ base <Knowledge-Base>`__ (KB) and made browsable at the KB website.
    Knowledge Base (KB) website <https://kb.conreality.org>`__.
 
 Redirects
----------
+=========
 
 These convenience subdomains are managed directly in @mikegogulski's
 DreamHost account; direct any feedback or change requests to @bendiken
@@ -70,7 +70,7 @@ and/or @mikegogulski.
    subproject <https://github.com/conreality/provenance>`__.
 
 Packages
---------
+========
 
 -  `pkg.conreality.org <https://pkg.conreality.org>`__: Conreality
    APT package archive repository for Debian and Ubuntu.

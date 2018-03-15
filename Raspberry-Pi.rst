@@ -1,14 +1,14 @@
 https://en.wikipedia.org/wiki/Raspberry_Pi
 
 PIN Mappings
-------------
+============
 
 -  https://pinout.xyz/
 -  http://raspmap.everpi.net/
 -  http://www.panu.it/raspberry/
 
 Servo Control
--------------
+=============
 
 -  `Raspberry Pi Cookbook: Controlling Servo
    Motors <http://razzpisampler.oreilly.com/ch05.html>`__
@@ -23,10 +23,10 @@ Servo Control
    Python <http://www.toptechboy.com/raspberry-pi/raspberry-pi-lesson-28-controlling-a-servo-on-raspberry-pi-with-python/>`__
 
 Support
--------
+=======
 
 Enabling I2C
-------------
+============
 
 Procedure adapted from
 http://blog.oscarliang.net/raspberry-pi-arduino-connected-i2c/
@@ -69,6 +69,6 @@ http://blog.oscarliang.net/raspberry-pi-arduino-connected-i2c/
    https://github.com/quick2wire/quick2wire-python-api)
 
 See Also
---------
+========
 
 -  `@bendiken's notes on the Raspberry Pi <http://ar.to/notes/rpi>`__

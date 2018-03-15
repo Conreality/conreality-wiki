@@ -3,7 +3,7 @@ http://beagleboard.org/black
 |Photo of the BeagleBone Black board|
 
 Support
--------
+=======
 
 -  ``Wiki pages for the BeagleBone Black``
    `http://elinux.org/Beagleboard:BeagleBoneBlack <http://elinux.org/Beagleboard:BeagleBoneBlack>`__

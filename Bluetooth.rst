@@ -1,11 +1,11 @@
 Tutorials
----------
+=========
 
 -  `Introduction to Bluetooth Low
    Energy <https://learn.adafruit.com/introduction-to-bluetooth-low-energy?view=all>`__
 
 Books
------
+=====
 
 -  `Getting Started with Bluetooth Low Energy: Tools and Techniques for
    Low-Power
@@ -17,7 +17,7 @@ Books
    Handbook <https://www.goodreads.com/book/show/18319814-bluetooth-low-energy>`__
 
 Stacks
-------
+======
 
 Linux
 -----
@@ -31,15 +31,15 @@ Linux
       mode <https://urbanjack.wordpress.com/2014/06/05/how-to-set-bluez-into-ble-or-le-only-mode-ibeacon/>`__
 
 Libraries
----------
+=========
 
 Elixir
-~~~~~~
+------
 
 N/A presently.
 
 Python
-~~~~~~
+------
 
 -  `bluepy <https://github.com/IanHarvey/bluepy>`__ (public domain)
 
@@ -53,6 +53,6 @@ Python
       3 <http://blog.kevindoran.co/bluetooth-programming-with-python-3/>`__
 
 Unsorted
---------
+========
 
 -  http://www.elinux.org/RPi_Bluetooth_LE

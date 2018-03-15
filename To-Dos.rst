@@ -14,7 +14,7 @@ added a specific item. Don't add anything that you're not prepared to
 step up to implement yourself.
 
 Website Infrastructure
-----------------------
+======================
 
 -  Document the procedure for obtaining and installing TLS certificates
    issued by Let's Encrypt. (@bendiken)
@@ -24,7 +24,7 @@ Website Infrastructure
    account.
 
 Development Infrastructure
---------------------------
+==========================
 
 -  Finish the Debian/Ubuntu packaging based on the Autotools build
    system. (@bendiken)
@@ -54,7 +54,7 @@ Development Infrastructure
 .. target-architectures--platforms:
 
 Target Architectures & Platforms
---------------------------------
+================================
 
 -  Validate the build procedure on Mac OS X, FreeBSD, NetBSD, and
    OpenBSD. Amend the platform detection and support configuration in
@@ -69,7 +69,7 @@ Target Architectures & Platforms
    native code compiler to the RISC-V architecture.
 
 Third-Party Dependencies
-------------------------
+========================
 
 -  Add support for the ``ioctl(2)`` facility in
    `extunix <https://github.com/ygrek/extunix>`__. (Pull request
@@ -88,7 +88,7 @@ Third-Party Dependencies
    on `Stack Overflow <http://stackoverflow.com/q/6536946/320911>`__)
 
 Project Evangelism
-------------------
+==================
 
 -  Submit a mentoring organization application to `Google Summer of
    Code <https://developers.google.com/open-source/gsoc/>`__ in 2017.

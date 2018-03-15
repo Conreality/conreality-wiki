@@ -1,13 +1,13 @@
 Robotics
---------
+========
 
 -  `generationrobots <http://www.generationrobots.com/>`__
 -  `noDNA <https://nodna.de/>`__
 -  `robotshop <http://www.robotshop.com/>`__
 -  `trossenrobotics <http://www.trossenrobotics.com/>`__
 
-Electronics and other
----------------------
+Electronics & Other
+===================
 
 -  `adafruit <https://www.adafruit.com/>`__
 -  `alza <https://www.alza.sk/>`__

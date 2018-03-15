@@ -1,7 +1,7 @@
 .. ros--robotics:
 
 ROS & Robotics
---------------
+==============
 
 -  `ROS tutorials <http://wiki.ros.org/ROS/Tutorials>`__
 -  `A Gentle Introduction to ROS <https://cse.sc.edu/~jokane/agitr/>`__
@@ -14,7 +14,7 @@ ROS & Robotics
 .. semantics--linked-data:
 
 Semantics & Linked Data
------------------------
+=======================
 
 -  `What is RDF and what is it good
    for? <https://github.com/JoshData/rdfabout/blob/gh-pages/intro-to-rdf.md>`__
@@ -25,7 +25,7 @@ Semantics & Linked Data
    Overview <http://www.w3.org/TR/sparql11-overview/>`__
 
 UAV Simulation
---------------
+==============
 
 -  `Gazebo tutorials <http://gazebosim.org/tutorials>`__
 -  `Quadrotor outdoor flight

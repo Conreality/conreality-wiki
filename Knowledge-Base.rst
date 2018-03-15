@@ -1,5 +1,5 @@
 Ontologies
-----------
+==========
 
 -  `ConceptNet <https://en.wikipedia.org/wiki/Open_Mind_Common_Sense>`__
 -  `DBpedia <https://en.wikipedia.org/wiki/DBpedia>`__
@@ -13,7 +13,7 @@ Ontologies
 -  `YAGO <https://en.wikipedia.org/wiki/YAGO_(database)>`__
 
 Links
------
+=====
 
 -  `Commonsense Reasoning: Problem
    Page <http://commonsensereasoning.org/problem_page.html>`__

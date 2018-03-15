@@ -1,10 +1,10 @@
 Messaging
----------
+=========
 
 -  [[Robot Operating System (ROS)|ROS]]
 
 Simulation
-----------
+==========
 
 -  [[Gazebo]] -- Robotics simulator
 -  `ns-3 <https://www.nsnam.org/>`__ -- Network simulator

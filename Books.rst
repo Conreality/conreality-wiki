@@ -1,5 +1,5 @@
 Inspiration
------------
+===========
 
 -  **Orson Scott Card**
 
@@ -52,34 +52,34 @@ Inspiration
       support to a tactical team repelling an alien invasion in Earth
       orbit <https://www.reddit.com/r/tipofmytongue/comments/3o08bw/tomt_story_scifi_story_about_a_global_prediction/>`__
 
-Non-fiction
------------
+Non-Fiction
+===========
 
 -  `Wired for War: The Robotics Revolution and Conflict in the 21st
    Century <https://www.goodreads.com/book/show/6124823-wired-for-war>`__
 
 Networking
-----------
+==========
 
 -  `Computer
    Networks <https://www.goodreads.com/book/show/19700289-computer-networks>`__
 
 Physics
--------
+=======
 
 -  `Game Physics Engine
    Development <https://www.goodreads.com/book/show/19169920-game-physics-engine-development>`__
    (2007)
 
 Programming
------------
+===========
 
 -  `Real World
    OCaml <https://www.goodreads.com/book/show/19260108-real-world-ocaml>`__
    (`online <https://realworldocaml.org/>`__)
 
 Robotics
---------
+========
 
 -  `A Gentle Introduction to
    ROS <https://www.goodreads.com/book/show/26017473-a-gentle-introduction-to-ros>`__
@@ -92,7 +92,7 @@ Robotics
    ROS <https://www.goodreads.com/book/show/25801530-programming-robots-with-ros>`__
 
 Miscellaneous
--------------
+=============
 
 -  `@bendiken's augmented reality
    bookshelf <https://www.goodreads.com/review/list/22170557-arto-bendiken?shelf=augmented-reality>`__

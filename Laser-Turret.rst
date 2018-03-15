@@ -8,7 +8,7 @@ using an instantaneous directed-energy solution (the laser).
 |Photo of Conreality Laser Turret MkI|
 
 Components
-----------
+==========
 
 Our recommended, known-good reference configuration is the following:
 
@@ -26,12 +26,12 @@ so, adapt the firmware installation instructions that follow
 accordingly.
 
 Specifications
---------------
+==============
 
 TODO
 
 Assembly
---------
+========
 
 Expect assembly to take 2-3 hours, longer in case you don't have a
 suitable magnetized `hex key <https://en.wikipedia.org/wiki/Hex_key>`__
@@ -46,19 +46,19 @@ place.
    Guide <http://learn.robotgeek.com/getting-started/29-desktop-roboturret/45-roboturret-v3-assembly-guide-2.html>`__
 
 Installation
-------------
+============
 
 To install Conreality on the turret, follow the [[Installation Guide]],
 making sure to pay particular attention to any Raspberry Pi-specific
 instructions.
 
 Configuration
--------------
+=============
 
 TODO
 
 Discussion
-----------
+==========
 
 Some relevant discussion threads from our [[mailing list|Mailing List]]
 archives:
@@ -71,7 +71,7 @@ archives:
    efforts <https://groups.google.com/forum/#!topic/conreality/zfCe8upi_t4>`__
 
 Unsorted Links
---------------
+==============
 
 -  `Andoer/Zifon YT-260 Remote Control Motorized Pan & Tilt
    Head <https://www.aliexpress.com/item/Zifon-YT-260-Remote-Control-Motorized-Pan-Tilt-for-Extreme-Camera-Wifi-Camera-and-Smartphone/32759960387.html>`__

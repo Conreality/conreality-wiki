@@ -1,5 +1,4 @@
-
-Ground stations
+Ground Stations
 ===============
 
 Choices for ArduPilot compatible ground stations go as such
@@ -68,7 +67,6 @@ MAVProxy
 
 Installation
 ^^^^^^^^^^^^
-
 
 Install dependencies on a Debian based system::
 
@@ -174,7 +172,7 @@ will make the copter fly through a set of waypoints indefinitely. It
 is possible to drag'n'drop these waypoints and easily create new ones
 in APM Planner or in QGroundControl.
 
-Useful links
+Useful Links
 ============
 
 -  `On QGroundControl <https://docs.qgroundcontrol.com/en/>`__

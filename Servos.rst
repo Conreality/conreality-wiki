@@ -14,8 +14,8 @@ very interesting feature.
 
 .. 250hz:
 
-250Hz
------
+250 Hz
+======
 
 -  `BMS
    760DMG <http://www.hobbyking.com/hobbyking/store/__8763__BMS_760DMG_Low_Profile_Digital_Servo_Metal_Gear_5_6kg_18sec_34g.html>`__
@@ -27,8 +27,8 @@ very interesting feature.
 
 .. 560hz-760µs:
 
-560Hz 760µs
------------
+560 Hz (760µs)
+==============
 
 Sorted by price.
 
@@ -139,7 +139,7 @@ Sorted by price.
    Motor: 17mm dia coreless Servo Plug: JR type Servo Lead Length: 320mm
 
 Servo Producers
----------------
+===============
 
 -  `dongbu robot (HerkuleX) <http://www.dongburobot.com>`__
 -  `MKS <http://mks-servo.com.tw/mks46.html>`__
@@ -148,7 +148,7 @@ Servo Producers
 -  `Robotis (Dynamix) <http://en.robotis.com/index/>`__
 
 Non-PWM Serial Servos
----------------------
+=====================
 
 HerkuleX
 --------

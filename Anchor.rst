@@ -7,7 +7,7 @@ large battlespaces, anchors can act as routers to pass messages past the
 maximal range limitations (~300 meters) of a single node.
 
 Hardware
---------
+========
 
 Our current reference design for an anchor is as follows:
 
@@ -16,8 +16,8 @@ Our current reference design for an anchor is as follows:
 -  battery (2S) + 5V regulator
 -  plastic case
 
-To-do items
------------
+To-do Items
+===========
 
 -  3D design for plastic case
 -  battery selection (24+h continuous power)

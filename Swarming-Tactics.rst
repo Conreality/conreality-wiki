@@ -1,5 +1,5 @@
 Time on Target (TOT)
---------------------
+====================
 
 `TOT <https://en.wikipedia.org/wiki/Time_On_Target>`__ tactics require
 accurate, synchronized timekeeping on the drones, as well as a

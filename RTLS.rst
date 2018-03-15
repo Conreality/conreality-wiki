@@ -1,5 +1,5 @@
 Papers
-------
+======
 
 `2014 paper including an overview of the market
 then <http://trace.tennessee.edu/cgi/viewcontent.cgi?article=4358&context=utk_graddiss>`__.
@@ -16,7 +16,7 @@ slides <http://www.ieee802.org/1/files/public/docs2014/asbt-kbstanton-use-of-tim
 is needed for a precise position determination.
 
 Ultra Wide Band
----------------
+===============
 
 `UWB link collection <https://heim.ifi.uio.no/haakoh/uwb/links/>`__.
 
@@ -55,14 +55,14 @@ the PulsON 330 and 440.
 products <http://uwbs.ru/en/products/>`__
 
 Bluetooth
----------
+=========
 
 `Commercial solution for iPhone and android using
 bluetooth <http://developer.estimote.com/>`__ at $59 and up from
 `Estimote <http://estimote.com/>`__.
 
-On Github
----------
+On GitHub
+=========
 
 `Open source example app using
 WIFI <https://github.com/schollz/find#3-track-locations>`__.
@@ -72,7 +72,7 @@ WIFI <https://github.com/schollz/find#3-track-locations>`__.
 `DW1000 arduino project <https://github.com/thotro/arduino-dw1000>`__.
 
 [[DW1000]] from Decawave
-------------------------
+========================
 
 `DWM1000 from
 Semiconductorshop <http://www.semiconductorstore.com/DecaWave/>`__ and

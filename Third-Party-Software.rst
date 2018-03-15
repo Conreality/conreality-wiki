@@ -1,10 +1,10 @@
 Computer Vision
----------------
+===============
 
 -  [[OpenCV]] (C++)
 
 Machine Learning
-----------------
+================
 
 -  `Caffe <http://caffe.berkeleyvision.org/>`__ (C++)
 -  `Keras <https://keras.io/>`__ (Python)
@@ -15,12 +15,12 @@ Machine Learning
 -  `Torch <http://torch.ch/>`__ (Lua)
 
 Messaging
----------
+=========
 
 -  [[Robot Operating System (ROS)|ROS]] (C++/Python)
 
 Speech Synthesis (TTS)
-----------------------
+======================
 
 -  `eSpeak NG <https://en.wikipedia.org/wiki/ESpeakNG>`__ (C)
 -  `Festival/FestVox/Flite <https://en.wikipedia.org/wiki/Festival_Speech_Synthesis_System>`__
@@ -29,7 +29,7 @@ Speech Synthesis (TTS)
 -  `MaryTTS <http://mary.dfki.de/>`__ (Java)
 
 Speech Recognition (ASR/STT)
-----------------------------
+============================
 
 -  `CMU Sphinx <https://cmusphinx.github.io/>`__
    (`PocketSphinx <https://github.com/cmusphinx/pocketsphinx>`__ in C,
@@ -39,7 +39,7 @@ Speech Recognition (ASR/STT)
 -  `Julius <http://julius.osdn.jp/en_index.php>`__ (C)
 
 Linear Algebra
---------------
+==============
 
 -  `Eigen <http://eigen.tuxfamily.org/index.php?title=Main_Page>`__
    (C++)

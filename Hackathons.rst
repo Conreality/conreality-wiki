@@ -1,7 +1,7 @@
 .. 11th-conreality-hackathon:
 
 11th Conreality Hackathon
--------------------------
+=========================
 
 | **When**: November 18th to 19th, 2017
 | **Where**: [[Lviv]]
@@ -14,7 +14,7 @@ https://www.facebook.com/events/309023262907238/
 .. 10th-conreality-hackathon:
 
 10th Conreality Hackathon
--------------------------
+=========================
 
 | **When**: April 8th, 2017
 | **Where**: Berlin
@@ -27,7 +27,7 @@ https://www.facebook.com/events/1636582173033431/
 .. 9th-conreality-hackathon:
 
 9th Conreality Hackathon
-------------------------
+========================
 
 | **When**: October 2016
 | **Where**: Bratislava
@@ -38,7 +38,7 @@ https://www.facebook.com/events/1636582173033431/
 .. 8th-conreality-hackathon:
 
 8th Conreality Hackathon
-------------------------
+========================
 
 | **When**: July 30th to August 1st, 2016
 | **Where**: Bratislava
@@ -49,7 +49,7 @@ https://www.facebook.com/events/1636582173033431/
 .. 7th-conreality-hackathon:
 
 7th Conreality Hackathon
-------------------------
+========================
 
 | **When**: ..., 2016
 | **Where**: Bratislava
@@ -60,7 +60,7 @@ https://www.facebook.com/events/1636582173033431/
 .. 6th-conreality-hackathon:
 
 6th Conreality Hackathon
-------------------------
+========================
 
 | **When**: April 8th to April 11th, 2016
 | **Where**: Bratislava
@@ -71,7 +71,7 @@ https://www.facebook.com/events/1636582173033431/
 .. 5th-conreality-hackathon:
 
 5th Conreality Hackathon
-------------------------
+========================
 
 | **When**: February 26th to February 29th, 2016
 | **Where**: Bratislava
@@ -82,7 +82,7 @@ https://www.facebook.com/events/1636582173033431/
 .. 4th-conreality-hackathon:
 
 4th Conreality Hackathon
-------------------------
+========================
 
 | **When**: January 29th to February 4th, 2016
 | **Where**: Bratislava
@@ -148,7 +148,7 @@ hackathon. The primary outcomes of this hackathon were as follows:
 .. 3rd-conreality-hackathon:
 
 3rd Conreality Hackathon
-------------------------
+========================
 
 | **When**: December 24th to December 26th, 2015
 | **Where**: Bratislava
@@ -187,7 +187,7 @@ interfaces. The primary outcomes of this hackathon were as follows:
 .. 2nd-conreality-hackathon:
 
 2nd Conreality Hackathon
-------------------------
+========================
 
 | **When**: December 5th to December 6th, 2015
 | **Where**: Bratislava
@@ -212,7 +212,7 @@ the same room. The primary outcomes of this hackathon were as follows:
 .. 1st-conreality-hackathon:
 
 1st Conreality Hackathon
-------------------------
+========================
 
 | **When**: November 7th to November 8th, 2015
 | **Where**: Bratislava

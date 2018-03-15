@@ -3,7 +3,7 @@ operating system, aimed at Conreality gamemasters, players, and
 spectators.
 
 Conreality Player for Android
------------------------------
+=============================
 
 The player app runs on a wearable device carried by each player.
 
@@ -35,7 +35,7 @@ Bug Tracker
 https://github.com/conreality/conreality-android-player/issues
 
 Conreality Scoreboard for Android
----------------------------------
+=================================
 
 The scoreboard or spectator app presents a read-only view of an ongoing
 game for the benefit of spectators.
@@ -62,7 +62,7 @@ Bug Tracker
 https://github.com/conreality/conreality-android-scoreboard/issues
 
 Conreality Console for Android
-------------------------------
+==============================
 
 The command and control (C2) console app enables gamemasters to create
 and oversee game scenarios.

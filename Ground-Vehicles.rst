@@ -1,15 +1,15 @@
 Vehicle Concepts
-----------------
+================
 
 The [[Scout Car]] is a robotic car that runs the Conreality firmware. It
 can be used as a reconnaissance vehicle in milsim scenarios or as an
 affordable development platform for hacking on Conreality.
 
 Vehicle Kits
-------------
+============
 
 Car Kits
-~~~~~~~~
+--------
 
 These hobbyist smart car kits can potentially be modded to run
 Conreality:
@@ -24,10 +24,10 @@ Conreality:
    Kit <https://www.sparkfun.com/products/13166>`__ (based on Arduino)
 
 Vehicle Chassis
----------------
+===============
 
 Car Chassis
-~~~~~~~~~~~
+-----------
 
 These car chassis would potentially make suitable hardware frames for
 building reconnaissance vehicles:
@@ -41,7 +41,7 @@ building reconnaissance vehicles:
    (ATV) <https://www.sparkfun.com/products/12090>`__
 
 Tank Chassis
-~~~~~~~~~~~~
+------------
 
 These tank chassis would potentially make suitable hardware frames for
 building armored tanks for milsim scenarios:
