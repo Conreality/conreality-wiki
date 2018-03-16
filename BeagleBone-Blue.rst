@@ -1,12 +1,16 @@
 * http://beagleboard.org/blue
 * https://github.com/beagleboard/beaglebone-blue
 * https://github.com/beagleboard/beaglebone-blue/wiki/Frequently-Asked-Questions-(FAQ)
+* https://github.com/beagleboard/beaglebone-blue/wiki/Pinouts
+* https://github.com/beagleboard/beaglebone-blue/wiki/Accessories
 
 Specifications
 ==============
 
+* https://github.com/beagleboard/beaglebone-blue/blob/master/BeagleBone_Blue_sch.pdf
 * Dimensions: 175mm × 112mm × 40mm
 * Weight: 36g
+* GPS Connector: `6-pin JST SH with 1mm pitch <https://www.sparkfun.com/products/9123>`__
 
 Books
 =====
