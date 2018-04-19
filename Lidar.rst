@@ -34,3 +34,9 @@ Reviews
 
 * `Quanergy S3-Qi <http://quanergy.com/s3-qi/>`__
   (`tech sheet <http://sensata.com/events/iaa/media/Tech%20Sheet%20-%20LiDAR%20S3_ENGLISH.pdf>`__)
+
+Miscellaneous
+=============
+
+* `OpenSimpleLIDAR <https://github.com/iliasam/OpenSimpleLidar>`__/`OpenLIDAR <https://github.com/iliasam/OpenLIDAR/wiki>`__
+  (`@HN <https://news.ycombinator.com/item?id=16756901>`__)
