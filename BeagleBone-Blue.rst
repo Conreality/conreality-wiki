@@ -1,8 +1,9 @@
 * http://beagleboard.org/blue
 * https://github.com/beagleboard/beaglebone-blue
-* https://github.com/beagleboard/beaglebone-blue/wiki/Frequently-Asked-Questions-(FAQ)
+* `https://github.com/beagleboard/beaglebone-blue/wiki/Frequently-Asked-Questions-(FAQ)`
 * https://github.com/beagleboard/beaglebone-blue/wiki/Pinouts
 * https://github.com/beagleboard/beaglebone-blue/wiki/Accessories
+* http://wiki.seeedstudio.com/BeagleBone_Blue/
 
 Specifications
 ==============
@@ -12,9 +13,50 @@ Specifications
 * Weight: 36g
 * GPS Connector: `6-pin JST SH with 1mm pitch <https://www.sparkfun.com/products/9123>`__
 
+Usage
+=====
+
+* Connecting over USB::
+
+  Terminal:
+  $ ssh 192.168.7.2 -l debian
+
+  Browser:
+  http://192.168.7.2
+
+  Cloud9 IDE:
+  http://192.168.7.2:3000
+
+
+* Test motors::
+
+  $ sudo rc_rest_motors -c {Channel}[1 - 4] -p {Duty cycle}[-1.0 - 1.0]
+
+Libraries
+=========
+
+* Python
+
+  * https://github.com/mcdeoliveira/rcpy::
+
+    $ sudo apt update && sudo apt install autoconf-archive roboticscape
+    $ sudo apt install python3 python3-pip
+    $ sudo pip3 install rcpy
+
+  * https://github.com/mcdeoliveira/pyctrl::
+
+    $ sudo apt install python3 python3-pip python3-numpy python3-scipy
+    $ sudo pip3 install pyctrl
+
+  * https://github.com/adafruit/adafruit-beaglebone-io-python::
+
+    $ sudo apt update && sudo apt install build-essential python-dev python-pip -y
+    $ sudo pip install Adafruit_BBIO
+
 Books
 =====
 
+* http://beagleboard.org/cookbook
 * https://www.packtpub.com/hardware-and-creative/beaglebone-robotic-projects-second-edition
 * https://github.com/jadonk/BeagleBone-Robotic-Projects-Second-Edition
 
