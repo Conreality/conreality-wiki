@@ -37,18 +37,18 @@ Libraries
 
 * Python
 
-  * https://github.com/mcdeoliveira/rcpy::
+  * `https://github.com/mcdeoliveira/rcpy`__::
 
     $ sudo apt update && sudo apt install autoconf-archive roboticscape
     $ sudo apt install python3 python3-pip
     $ sudo pip3 install rcpy
 
-  * https://github.com/mcdeoliveira/pyctrl::
+  * `https://github.com/mcdeoliveira/pyctrl`__::
 
     $ sudo apt install python3 python3-pip python3-numpy python3-scipy
     $ sudo pip3 install pyctrl
 
-  * https://github.com/adafruit/adafruit-beaglebone-io-python::
+  * `https://github.com/adafruit/adafruit-beaglebone-io-python`__::
 
     $ sudo apt update && sudo apt install build-essential python-dev python-pip -y
     $ sudo pip install Adafruit_BBIO
@@ -63,6 +63,7 @@ Books
 Tutorials
 =========
 
+* https://github.com/imfatant/test
 * https://github.com/mirkix/ardupilotblue
 * https://dronerai.de/
 * https://dronerai.de/2017/04/23/getting-started-beaglebone-blue/
