@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/.php/wiki.php';
 
+
 define('IS_LOCALHOST', strpos($_SERVER['HTTP_HOST'], 'localhost') === 0);
 
 // Enforce HTTPS in production:
